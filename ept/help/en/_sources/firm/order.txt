@@ -1,0 +1,116 @@
+.. _firm-order:
+
+Firm Order
+============================================
+
+The Firm Order screen manages and maintains Firm's order transaction.
+Click the **Firm Order** in the left navigation menu 
+under Firm Transaction and a new Firm Order Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`firm-order-search`, :ref:`firm-order-search-result` 
+and :ref:`firm-order-new`.
+
+.. image:: _images/order-search.png
+   :alt: Firm Order search screen
+   
+.. _firm-order-search:
+
+Search Firm Order
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+TxnId            The unique system generated number.
+Source Ref Id    The Reference ID from other system.
+Org Unit Code    The org unit this Firm Order belongs to.
+Portfolio Code   The portfolio this order belongs to. 
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Transaction Type The Transaction Type: buy or sell.
+Order Date       The order date.
+Status Code      The status of the transaction; eg active, cancel, etc.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _firm-order-search-result:
+
+Search Result Firm Order
+----------------------------
+
+.. image:: _images/order-search-result.png
+   :alt: Firm Order search result screen
+
+The top part is the table which shows the list of the Firm Order that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _firm-order-update:
+
+Update/Delete Firm Order
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Firm Order" will be added, as shown below.
+
+.. image:: _images/order-update.png
+   :alt: Firm Order update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Firm Order and save and switch back to "Search result Firm Order" Tab. 
+  Some of the fields in this form are read only, like Txn Id, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search result Firm Order" Tab.
+* **Delete:**-- Delete this entry and then switch back to the "Search result Firm Order" Tab. 
+
+.. _firm-order-new:
+
+Create New Firm Order
+----------------------------
+
+Select the "Create New Firm Order" Tab to create a new entry.
+
+.. image:: _images/order-new.png
+   :alt: Firm Order create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+TxnId            The unique system generated number.
+Org Unit Code    The org unit this Firm Order belongs to.
+Portfolio Code   The portfolio this order belongs to. 
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Source Ref Id    The Reference ID from other system.
+Order Date       The order date.
+Number of shares The number of shares traded.
+Transaction Type The Transaction Type: buy or sell.
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Firm Order entry and switch to the "Search result Firm Order" Tab. 
+  Portfolio Code, symbol, number of share and order date, transaction type are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result Firm Order" Tab.
+
+.. note:: 
+
+   The status code for newly created firm order transaction is active. 
+
+   

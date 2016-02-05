@@ -1,0 +1,23 @@
+.. _detection-index:
+
+Detection Builder
+============================================
+
+The Detection Builder Module creates detection models, which include queries and rules. 
+The system admin and compliance officer can create separate model(s) for different Org units. 
+An access person's transactions will run against those rules within the detection model(s) within the same org units.  
+
+.. note:: 
+
+   All the data in the SimpleEPT are assigned to an Organization Unit. Users are authorized by combining the Organization
+   Unit code with permission and roles. Users may be able to have full access to transaction in Organization Unit A, but have no access 
+   or limited access to the transaction in Organization Unit B. (Please see User security section :ref:`admin-index` for details). 
+
+   
+.. toctree::
+   :maxdepth: 1
+
+   query.rst
+   rule.rst
+   
+   

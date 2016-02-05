@@ -1,0 +1,114 @@
+.. _res-dropdown:
+
+Drop-downs
+==============
+
+Drop-downs define key/value pair used within the system. 
+Click the **Drop-downs** in the left navigation menu under Resource, a new **Drop-downs** Tab folder will be created 
+in the right panel.
+ 
+
+There are 3 sub-Tab folders: :ref:`res-dropdown-search`, :ref:`res-dropdown-search-result` and :ref:`res-dropdown-new`.
+
+
+.. image:: _images/dropdown-search.png
+   :alt: Drop-downs search screen
+
+   
+.. _res-dropdown-search:
+
+Search Drop-downs
+-------------------------------
+
+**Search Criteria**
+=============== ===================================================================================
+Field Name      Description
+=============== ===================================================================================
+DD_Num          Dropdown unique record identifier.
+DD_Value        The value of the dropdown list. 
+DD_Resouce      Type of the dropdown. 
+Description     Short description.  
+DD_Label        The Lable of the dropdown list. 
+CreatedByDate	Date and Time when this entry was created.
+CreatedByUser	User who created this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either of the criteria is met.
+=============== ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _res-dropdown-search-result:
+
+Search Result Drop-downs
+------------------------------------
+
+.. image:: _images/dropdown-search-result.png
+   :alt: Drop-downs search result screen
+
+The top part is the table which shows the list of the Drop-downs that meet the search criteria. 
+The bottom part is the details of the selected entry
+
+
+.. _res-dropdown_update:
+
+Update/Delete Drop-downs
+----------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder **Update/Delete Drop-downs** will be added, as shown below.
+
+.. image:: _images/dropdown-update.png
+   :alt: Drop-downs update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Drop-downs and save and switch back to "Search result Drop-downs" Tab. 
+  Some of the fields in this form are read only, like dd_num, created/modified user and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Drop-downs" Tab.
+* **Delete:**-- Delete this entry and switch back to "Search result Drop-downs" Tab.
+
+
+
+.. _res-dropdown-new:
+
+Create New Drop-downs
+-------------------------------
+
+Select the "Create New Drop-downs" Tab to create a new entry.
+
+.. image:: _images/dropdown-new.png
+   :alt: Drop-downs create new screen
+
+================= ====================================================================================
+Field Name        Description
+================= ====================================================================================
+DD_Num            Dropdown unique record identifier.
+DD_Value          The value of the dropdown list. 
+DD_Resouce        Type of the dropdown. 
+Description       Short description.  
+DD_Label          The Lable of the dropdown list. 
+CreatedByDate	  Date and Time when the entry was created. It is a read only field.
+CreatedByUser	  User who created this entry. It is a read only field.
+ModifiedByDate	  Last modified date and time; It is a read only field.
+ModifiedByUser	  Last modified user; It is a read only field.
+================= ====================================================================================
+
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Create:** --  Click the Create button to create a new dropdown and switch to "Search result Drop-downs" Tab. 
+  dd-value is a mandatory field, if it is empty, an error message will be shown.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Drop-downs" Tab.
+   

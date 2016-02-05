@@ -1,0 +1,123 @@
+.. _policy-security:
+
+Security
+============================================
+
+The Security screen allows the system admin or compliance officer to add and maintain securities.
+Click the **Security** in the left navigation menu 
+under Firm policy and a new Security Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`policy-security-search`, :ref:`policy-security-search-result` and :ref:`policy-security-new`.
+
+.. image:: _images/security-search.png
+   :alt: Security search screen
+
+   
+.. _policy-security-search:
+
+Search Security
+------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+Symbol	        The symbol of the security.
+Security Name   The name  of the security.
+Cusip	        The Cusip of the security.
+Sedol	        The Sedol of the security.
+Isin	        The Isin of the security.
+Ric	            The Ric of the security.
+Exchange	    The exchange where the security trades; eg. NYSE, NASDAQ etc.
+Capital Type    Large, Medium, Small or unknown
+CreatedByDate	Date and Time when this entry is created.
+CreatedByUser	User who create this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+AND    	        Select AND radio box if you want those criteria added together. 
+OR              Select OR radio box if you want to get the result if either of the criteria are met.
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _policy-security-search-result:
+
+Search Result Security
+----------------------------
+
+.. image:: _images/security-search-result.png
+   :alt: Security search result screen
+
+The top part is the table which shows the list of the security that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _policy-security-update:
+
+Update/Delete Security
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder "Update/Delete Security" will be added, as shown below.
+
+.. image:: _images/security-update.png
+   :alt: Security update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  make changes on the security entry and save and switch back to the "Search result Security" Tab. 
+  Some of the fields in this form are read only, like symbol, created/modified user, and date.
+* **Reset:**--  reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search result Security" Tab.
+* **Delete:**-- Delete this entry; Then switch back to the "Search result Security" Tab.
+
+
+
+.. _policy-security-new:
+
+Create New Security
+----------------------------
+
+Select the "Create New Security" Tab to create a new entry.
+
+.. image:: _images/security-new.png
+   :alt: Security create new screen
+
+=============== ====================================================================================
+Field Name      Description
+=============== ====================================================================================
+Symbol	        The symbol of the security.
+Security Name   The name  of the security.
+Cusip	        The Cusip of the security.
+Sedol	        The Sedol of the security.
+Isin	        The Isin of the security.
+Ric	            The Ric of the security.
+Security Type   Type of the secuirty; eg Equity, EFT, etc.
+Exchange	    The exchange where the security trades; eg. NYSE, NASDAQ, etc.
+Issuer          The issuer.
+Industry        The industry that this security belongs to.
+Issue Country   The country of the issuer.
+Capital Type    Large, Medium, Small, or unknown.
+Security Class  The security class.
+CreatedByDate	Date and Time when this list entry is created. It is a read only field.
+CreatedByUser	User who create this this list entry. It is a read only field.
+ModifiedByDate	Last modified date and time; It is a read only field.
+ModifiedByUser	Last modified user; It is a read only field.
+=============== ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new list entry and switch to "Search result Security" Tab. 
+  Symbol and Security Name are mandatory fields; if any of them is empty, an error message will be shown.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result Security" Tab.
+   

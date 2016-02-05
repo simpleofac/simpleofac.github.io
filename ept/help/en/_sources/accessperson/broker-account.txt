@@ -1,0 +1,124 @@
+.. _accessperson-brokeraccount:
+
+Broker Account
+============================================
+
+The Broker Account screen manages and maintains access person's broker account information.
+Click the **Broker Account** in the left navigation menu 
+under Access Person and a new Broker Account Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`accessperson-brokeraccount-search`, :ref:`accessperson-brokeraccount-search-result` 
+and :ref:`accessperson-brokeraccount-new`.
+
+.. image:: _images/brokeraccount-search.png
+   :alt: Broker Account search screen
+   
+.. _accessperson-brokeraccount-search:
+
+Search Broker Account
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+Account Number   The account number with the brokerage.
+Access Person    The access person that account belongs to.
+Account Name     The account name.
+Broker           The broker name   
+Established Date The date when the access person opened the account with the brokerage. 
+Closed Date      The date when the account is closed. 
+Account Type     The type of the account
+Org Unit Code    The org unit this Broker Account belongs to.
+CreatedByDate	 Date and Time when this entry was created
+CreatedByUser	 User who created this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met.
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _accessperson-brokeraccount-search-result:
+
+Search Result Broker Account
+----------------------------
+
+.. image:: _images/brokeraccount-search-result.png
+   :alt: Broker Account search result screen
+
+The top part is the table which shows the list of the Broker Account that meet the search criteria. 
+The bottom part is the details and Related person of the selected entry. 
+Each entry can have 0 to many related persons. 
+
+
+.. _accessperson-brokeraccount-update:
+
+Update/Delete Broker Account
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Broker Account" will be added, as shown below.
+
+.. image:: _images/brokeraccount-update.png
+   :alt: Broker Account update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Broker Account and save and switch back to "Search result Broker Account" Tab. 
+  Some of the fields in this form are read only, like broker account, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Broker Account" Tab.
+* **Delete:**-- Delete this entry; then switch back to "Search result Broker Account" Tab. If the Broker Account has been assigned to users
+                and the user has submitted the Broker Account, the Broker Account cannot be deleted. 
+* **Related AP:**--   Open a popup window to assign/un-assign the Broker Account to another access person. 
+
+
+.. _accessperson-brokeraccount-new:
+
+Create New Broker Account
+----------------------------
+
+Select the "Create New Broker Account" Tab to create a new entry.
+
+.. image:: _images/brokeraccount-new.png
+   :alt: Broker Account create new screen
+
+================ ======================================================================================================================
+Field Name       Description
+================ ======================================================================================================================
+Account Number   The account number with the brokerage.
+Access Person    The access person that account belongs to.
+Account Name     The account name.
+Broker           The broker name.   
+Established Date The date when access person open the account with the brokerage. 
+Closed Date      The date when the account is closed. 
+Account Type     The type of the account.
+Org Unit Code    The org unit this Broker Account belongs to.
+Comments         Add comments. 
+Broker Contact   Broker contact information.
+407 Req Letter   407 Request letter to ask broker to send duplicate confirmation transaction.
+CreatedByDate	 Date and Time when this Broker Account entry was created. It is a read only field.
+CreatedByUser	 User who created this this Broker Account entry. It is a read only field.
+ModifiedByDate	 Last modified date and time; It is a read only field.
+ModifiedByUser	 Last modified user; It is a read only field.
+================ ======================================================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Broker Account entry and switch to the "Search result Broker Account" Tab. 
+  account number, account name, access person, broker, and org unit code are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel the operation and switch back to the "Search result Broker Account" Tab.
+   

@@ -1,0 +1,111 @@
+.. _admin-orgunits:
+
+Organization Units
+=========================
+
+Organization Units are lines of business within the organization. Like sanction lists must be assigned to an Origin, 
+alerts and customers and other entities within the system must be assigned to a particular Organization Unit. 
+This enables the data to be split into different business areas that can be acted upon by specific users and groups of users, 
+who also have roles that are assigned to specific Organization Units.
+
+Click the **Org-Units** in the left navigation menu under Administration, a new **Org-Units** Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders:  :ref:`admin-orgunit-search`, :ref:`admin-orgunit-search-result` and :ref:`admin-orgunit-new`.
+
+.. image:: _images/orgunit-search.png
+   :alt: OrgUnits search screen
+
+   
+.. _admin-orgunit-search:
+
+Search Organization Units
+---------------------------
+
+**Search Criteria**
+
+=============== ===================================================================================
+Field Name      Description
+=============== ===================================================================================
+OrgUnit Code    Unique record identifier. 
+OrgUnit Name    Name of this OrgUnit.
+Parent OrgUnit  Parent orgunit code.
+Description     Description of this OrgUnit.
+CreatedByDate	Date and Time when this entry was created.
+CreatedByUser	User who created this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either of the criteria is met.
+=============== ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _admin-orgunit-search-result:
+
+Search Result Organization Units
+----------------------------------
+
+.. image:: _images/orgunit-search-result.png
+   :alt: orgunit search result screen
+
+The top part is the table which shows the list of the OrgUnits that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _admin-orgunit-update:
+
+Update/Delete Organization Units
+-------------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Org-Units" will be added, as shown below.
+
+.. image:: _images/orgunit-update.png
+   :alt: Organization Units update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the orgunits and save and switch back to "Search result Org-Units" Tab. 
+  Some of the fields in this form are read only, like OrgUnit Code, created/modified user and date.
+* **Reset:**--  reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Org-Units" Tab.
+* **Delete:**-- Delete this entry and switch back to "Search result Org-Units" Tab.
+
+
+.. _admin-orgunit-new:
+
+Create New Organization Units
+--------------------------------
+
+Select the "Create New Org-Units" Tab to create a new entry.
+
+.. image:: _images/orgunit-new.png
+   :alt: Organization Units create new screen
+
+================= ====================================================================================
+Field Name        Description
+================= ====================================================================================
+OrgUnit Code      Unique record identifier. 
+OrgUnit Name      Name of this OrgUnit.
+Parent OrgUnit    Parent orgunit code, select from the dropdown list.
+Description       Description of this OrgUnit.
+CreatedByDate	  Date and Time when this entry was created. It is a read only field.
+CreatedByUser	  User who created this this entry. It is a read only field.
+ModifiedByDate	  Last modified date and time; It is a read only field.
+ModifiedByUser	  Last modified user; It is a read only field.
+================= ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new group entry and switch to "Search result Org-Units" Tab. 
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Org-Units" Tab.
+   

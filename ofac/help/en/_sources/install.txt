@@ -1,0 +1,48 @@
+.. _install:
+
+Installation
+=============
+
+SimpleOFAC Suite™ compliance software is a pure-Java server-side web application. 
+It runs on any platform (Windows, Unix, Linux ) and supports most Relational Databases (HSQLDB, Oracle, MYSQL, Microsoft SQL).
+
+
+Requirement
+--------------
+
+In order to install SimpleOFAC Suite, you'll need a server environment that meets the following requirements:
+
+* A servlet engine with at least JSP 1.2 and Servlet 2.4 support.
+* JDK 1.6.x or later.
+* A supported database with a JDBC 2.0 compliant driver.
+
+We bundle with Apache Tomcat 6.0.35 and HSQL DB 2.2.8 with the distributed zip/gz file.
+
+Installation
+--------------
+
+Please follow the steps below to deploy the application ::
+
+    1. un-pack the zip/gz file in a folder, eg. app
+
+    2. open a command console, set the JRE HOME if JRE HOME is not set yet
+     for example, in window: 
+         set JRE_HOME=C:\Program Files\Java\jdk1.6.0_20
+     in unix/linux:
+        export JAVA_HOME=/usr/lib/jvm/java-1.6.0-sun
+
+    3. go to the unpacked folder (eg.app). 
+     then cd to tomcat bin folder, run the startup command
+     cd freetrial\tomcat6\bin
+
+     startup.bat (window)
+     ./startup.sh (unix/linux)
+
+    4. you should be ready to go. 
+
+     open a broswer (ie,firefox,chrome)
+     http://servername:8080/simpleofac/Main.html
+
+     change the server name with your server name or ip address,
+      or localhost if it is in the same machine
+     eg. http://localhost:8080/simpleofac/Main.html

@@ -1,0 +1,355 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Firm Order &mdash; SimpleEPT  1.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleEPT  1.0.1 documentation" href="../index.html" />
+    <link rel="up" title="Firm Transaction" href="index.html" />
+    <link rel="next" title="Firm Holding" href="holding.html" />
+    <link rel="prev" title="Firm Trade" href="trade.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleEPT </a>
+        <span class="navbar-text pull-left"><b>1.0.1</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Employee Personal Trade Monitoring overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login an logout the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-the-system">Login the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-the-system">Logout the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policy/index.html">Firm Policy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policy/certification.html">Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/document.html">Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/ap-certification.html">AP Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/security.html">Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/restricted-security.html">Restricted Security</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../accessperson/index.html">Access Person</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-account.html">Broker Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/pre-clearance.html">PreClearance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-confirm.html">Broker Confirm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/initial-holding.html">Initial Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/holdings-position.html">Holdings &amp; Position</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-position.html">Broker Position</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Firm Transaction</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="trade.html">Firm Trade</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Firm Order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="holding.html">Firm Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recommendation.html">Firm Recommendation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../detection/index.html">Detection Builder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../detection/query.html">Query Builder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../detection/rule.html">Rule Builder</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Firm Order</a><ul>
+<li><a class="reference internal" href="#search-firm-order">Search Firm Order</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-firm-order">Search Result Firm Order</a></li>
+<li><a class="reference internal" href="#update-delete-firm-order">Update/Delete Firm Order</a><ul>
+<li><a class="reference internal" href="#id2">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-new-firm-order">Create New Firm Order</a><ul>
+<li><a class="reference internal" href="#id3">Functional buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="trade.html"
+         title="previous chapter">&laquo; Firm Trade</a></li>
+  <li><a href="holding.html"
+         title="next chapter">Firm Holding &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li><a href="http://www.simplecompli.com/ofac/help/en">SimpleOFAC Suite</a></li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="firm-order">
+<span id="id1"></span><h1>Firm Order<a class="headerlink" href="#firm-order" title="Permalink to this headline">¶</a></h1>
+<p>The Firm Order screen manages and maintains Firm&#8217;s order transaction.
+Click the <strong>Firm Order</strong> in the left navigation menu
+under Firm Transaction and a new Firm Order Tab folder will be created in the right panel.
+There are 3 sub-Tab folders: <a class="reference internal" href="#firm-order-search"><em>Search Firm Order</em></a>, <a class="reference internal" href="#firm-order-search-result"><em>Search Result Firm Order</em></a>
+and <a class="reference internal" href="#firm-order-new"><em>Create New Firm Order</em></a>.</p>
+<img alt="Firm Order search screen" src="../_images/order-search.png" />
+<div class="section" id="search-firm-order">
+<span id="firm-order-search"></span><h2>Search Firm Order<a class="headerlink" href="#search-firm-order" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>TxnId</td>
+<td>The unique system generated number.</td>
+</tr>
+<tr class="row-odd"><td>Source Ref Id</td>
+<td>The Reference ID from other system.</td>
+</tr>
+<tr class="row-even"><td>Org Unit Code</td>
+<td>The org unit this Firm Order belongs to.</td>
+</tr>
+<tr class="row-odd"><td>Portfolio Code</td>
+<td>The portfolio this order belongs to.</td>
+</tr>
+<tr class="row-even"><td>Symbol</td>
+<td>The symbol of the security.</td>
+</tr>
+<tr class="row-odd"><td>Security Name</td>
+<td>The name of the security.</td>
+</tr>
+<tr class="row-even"><td>Transaction Type</td>
+<td>The Transaction Type: buy or sell.</td>
+</tr>
+<tr class="row-odd"><td>Order Date</td>
+<td>The order date.</td>
+</tr>
+<tr class="row-even"><td>Status Code</td>
+<td>The status of the transaction; eg active, cancel, etc.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria added together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either of the criteria is met</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click the Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click the Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-firm-order">
+<span id="firm-order-search-result"></span><h2>Search Result Firm Order<a class="headerlink" href="#search-result-firm-order" title="Permalink to this headline">¶</a></h2>
+<img alt="Firm Order search result screen" src="../_images/order-search-result.png" />
+<p>The top part is the table which shows the list of the Firm Order that meet the search criteria.
+The bottom part is the details of the selected entry.</p>
+</div>
+<div class="section" id="update-delete-firm-order">
+<span id="firm-order-update"></span><h2>Update/Delete Firm Order<a class="headerlink" href="#update-delete-firm-order" title="Permalink to this headline">¶</a></h2>
+<p><strong>Double Click</strong> the selected record in the table to modify this entry.
+A new tab folder &#8220;Update/Delete Firm Order&#8221; will be added, as shown below.</p>
+<img alt="Firm Order update/delete screen" src="../_images/order-update.png" />
+<div class="section" id="id2">
+<h3>Functional buttons<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Update:</strong> &#8211;  Make changes on the Firm Order and save and switch back to &#8220;Search result Firm Order&#8221; Tab.
+Some of the fields in this form are read only, like Txn Id, created/modified user, and date.</li>
+<li><strong>Reset:</strong>&#8211;  Reset the data to its initial value and discard all the changes.</li>
+<li><strong>Cancel:</strong>&#8211; Cancel this change and switch back to the &#8220;Search result Firm Order&#8221; Tab.</li>
+<li><strong>Delete:</strong>&#8211; Delete this entry and then switch back to the &#8220;Search result Firm Order&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="create-new-firm-order">
+<span id="firm-order-new"></span><h2>Create New Firm Order<a class="headerlink" href="#create-new-firm-order" title="Permalink to this headline">¶</a></h2>
+<p>Select the &#8220;Create New Firm Order&#8221; Tab to create a new entry.</p>
+<img alt="Firm Order create new screen" src="../_images/order-new.png" />
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>TxnId</td>
+<td>The unique system generated number.</td>
+</tr>
+<tr class="row-odd"><td>Org Unit Code</td>
+<td>The org unit this Firm Order belongs to.</td>
+</tr>
+<tr class="row-even"><td>Portfolio Code</td>
+<td>The portfolio this order belongs to.</td>
+</tr>
+<tr class="row-odd"><td>Symbol</td>
+<td>The symbol of the security.</td>
+</tr>
+<tr class="row-even"><td>Security Name</td>
+<td>The name of the security.</td>
+</tr>
+<tr class="row-odd"><td>Source Ref Id</td>
+<td>The Reference ID from other system.</td>
+</tr>
+<tr class="row-even"><td>Order Date</td>
+<td>The order date.</td>
+</tr>
+<tr class="row-odd"><td>Number of shares</td>
+<td>The number of shares traded.</td>
+</tr>
+<tr class="row-even"><td>Transaction Type</td>
+<td>The Transaction Type: buy or sell.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id3">
+<h3>Functional buttons<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Create:</strong> &#8211;  Click the Create button to create a new Firm Order entry and switch to the &#8220;Search result Firm Order&#8221; Tab.
+Portfolio Code, symbol, number of share and order date, transaction type are mandatory fields; if any of them is empty,
+an error message will show.</li>
+<li><strong>Clear:</strong>&#8211;  Click the Clear button to clear all the fields</li>
+<li><strong>Cancel:</strong>&#8211; Click the Cancel button to cancel operation and switch back to the &#8220;Search result Firm Order&#8221; Tab.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">The status code for newly created firm order transaction is active.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2013, SimpleEPT Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

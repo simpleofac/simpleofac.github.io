@@ -1,0 +1,108 @@
+.. _firm-holding:
+
+Firm Holding
+============================================
+
+The Firm Holding screens, manages, and maintains Firm's holdings.
+Click the **Firm Holding** in the left navigation menu 
+under Firm Transaction and a new Firm Holding Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`firm-holding-search`, :ref:`firm-holding-search-result` 
+and :ref:`firm-holding-new`.
+
+.. image:: _images/holding-search.png
+   :alt: Firm Holding search screen
+   
+.. _firm-holding-search:
+
+Search Firm Holding
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+TxnId            The unique system generated number.
+AsofDate         Last update on the position.
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Org Unit Code    The org unit this Firm Holding belongs to.
+Portfolio Code   The portfolio this holding belongs to. 
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _firm-holding-search-result:
+
+Search Result Firm Holding
+----------------------------
+
+.. image:: _images/holding-search-result.png
+   :alt: Firm Holding search result screen
+
+The top part is the table which shows the list of the Firm Holding that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _firm-holding-update:
+
+Update/Delete Firm Holding
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Firm Holding" will be added, as shown below.
+
+.. image:: _images/holding-update.png
+   :alt: Firm Holding update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Firm Holding and save and switch back to the "Search result Firm Holding" Tab. 
+  Some of the fields in this form are read only, like Txn Id, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Firm Holding" Tab.
+* **Delete:**-- Delete this entry and then switch back to "Search result Firm Holding" Tab. 
+
+.. _firm-holding-new:
+
+Create New Firm Holding
+----------------------------
+
+Select the "Create New Firm Holding" Tab to create a new entry.
+
+.. image:: _images/holding-new.png
+   :alt: Firm Holding create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+TxnId            The unique system generated number.
+Org Unit Code    The org unit this Firm Holding belongs to.
+Portfolio Code   The portfolio this holding belongs to. 
+Symbol           The symbol of the security.
+Security Name    The name of the security; autom-populated when the symbol is input.
+AsofDate         Last update on the position.
+Number of shares The number of shares traded.
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Firm Holding entry and switch to the "Search result Firm Holding" Tab. 
+  Portfolio Code , symbol, number of share and holding date, transaction type are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result Firm Holding" Tab.
+
+
+   

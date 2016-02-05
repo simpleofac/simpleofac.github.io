@@ -1,0 +1,119 @@
+.. _detection-rule:
+
+Rule Builder
+============================================
+
+The Rule Builder screens, manage,s and maintains rule.
+The compliance officer can use all the elements in the transaction and decide what kind of transactions need to be monitored;
+eg. pre-clearance transaction, broker confirm transaction, transaction with certain activity type, 
+like Short, Sell/Close, etc. 
+
+Click the **Rule Builder** in the left navigation menu 
+under Detection Builder and a new Rule Builder Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`detection-rule-search`, :ref:`detection-rule-search-result` 
+and :ref:`detection-rule-new`.
+
+.. image:: _images/rule-search.png
+   :alt: Rule Builder search screen
+   
+.. _detection-rule-search:
+
+Search Rule Builder
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+Rule Name        The unique name with the system.
+Rule Type        Type of the rules, eg Transaction, Daily, Weekly, Monthly, etc.
+Apply to Query   Query used in this rule; eg what kind of transaction will apply to this rule. 
+Description      Short description on what is the purpose of this rule. 
+Active           Check box, if checked, it will only show active rule
+Is Valid         Check box, if checked, it will only show valid rule
+Org Unit Code    The org unit this Rule Builder belongs to.
+CreatedByDate	 Date and Time when this entry was created.
+CreatedByUser	 User who created this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _detection-rule-search-result:
+
+Search Result Rule Builder
+----------------------------
+
+.. image:: _images/rule-search-result.png
+   :alt: Rule Builder search result screen
+
+The top part is the table which shows the list of the Rule Builder that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _detection-rule-update:
+
+Update/Delete Rule Builder
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Rule Builder" will be added, as shown below.
+
+.. image:: _images/rule-update.png
+   :alt: Rule Builder update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Rule Builder and save and switch back to the "Search result Rule Builder" Tab. 
+  Some of the fields in this form are read only, like rule name, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Rule Builder" Tab.
+* **Delete:**-- Delete this entry and then switch back to "Search result Rule Builder" Tab. 
+
+.. _detection-rule-new:
+
+Create New Rule Builder
+----------------------------
+
+Select the "Create New Rule Builder" Tab to create a new entry.
+
+.. image:: _images/rule-new.png
+   :alt: Rule Builder create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+Rule Name        The unique name with the system.
+Rule Type        Type of the rules; eg Transaction, Daily, Weekly, Monthly, etc.
+Definition       The definition of the rule, using script syntax. 
+Alert Explain    The explanation on rule validation.    
+Apply to Query   Query used in this rule; eg what kind of transaction will apply to this rule. 
+Alert Score      Used to return the pass and fail status code.
+Description      Short description on what is the purpose of this rule. 
+Active           Check box, if checked, it will be active.
+Org Unit Code    The org unit this Rule Builder belongs to.
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Rule Builder entry and switch to the "Search result Rule Builder" Tab. 
+  Portfolio Code , symbol, number of shares and order date, and transaction type are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result Rule Builder" Tab.
+
+
+   

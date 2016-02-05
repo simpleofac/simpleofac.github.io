@@ -1,0 +1,417 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright SimpleOFAC.com . 2004-2009" />
+<meta content="public" name="security" />
+<meta content="index,follow" name="Robots" />
+<link href="./css/base.css" type="text/css" rel="stylesheet" />
+<link href="./css/doc.css" type="text/css" rel="stylesheet" />
+<link href="./css/print.css" type="text/css" rel="stylesheet" media=print />
+<STYLE type=text/css>#footer .text {
+	PADDING-TOP: 5px
+}
+.documentation {
+	MARGIN-LEFT: 0.25in
+}
+.documentation H1 {
+	MARGIN-LEFT: -0.25in
+}
+.documentation H2 {
+	MARGIN-TOP: 1.5em; MARGIN-LEFT: -0.25in
+}
+.documentation H3 {
+	MARGIN-LEFT: -0.125in
+}
+.documentation UL.toc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.demo {
+	PADDING-RIGHT: 3px; BACKGROUND-POSITION: left center; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(./images/newwindow.gif); PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat
+}
+</STYLE>
+
+<STYLE type=text/css>OL.instructions {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.instructions .header {
+	FONT-WEIGHT: bold
+}
+.instructions LI {
+	MARGIN-BOTTOM: 1em
+}
+DIV .screenshot {
+	MARGIN: 1em; TEXT-ALIGN: left
+}
+</STYLE>
+
+
+<title>SimpleOFAC SAR/CTR/E-Filing&trade; User Guide - E-Filing</title>
+</head>
+
+<body>
+<DIV id=preline>&nbsp;</DIV>
+<DIV id=header>
+<DIV id=logo><A href="http://www.simpleofac.com/"><IMG alt="SimpleOFAC Enterprise Compliance SAR/CTR/E-Filing" 
+src="./images/cpLogo_54.png"></A> </DIV>
+
+<DIV id=title>SimpleOFAC SAR/CTR/E-Filing&trade; User Guide</DIV>
+
+
+<DIV id=breadcrumbs>
+<DIV id=nextprev><NOBR><A 
+href="ctr.html">&laquo; 
+prev</A></NOBR>
+<!-- <NOBR><A 
+href="ctr.html">next 
+&raquo;</A></NOBR>  -->
+</DIV>
+
+<SPAN class=item><A 
+href="overview.html">User Guide</A></SPAN> &gt; 
+<SPAN class="item selected"><A 
+href="efiling.html" 
+xmlns="">E-Filing</A></SPAN> </DIV>
+
+</DIV>
+
+
+<DIV id=side>
+<DIV id=menu>
+<DIV class="header item"><A href="./index.html">SimpleOFAC SAR/CTR/E-Filing&trade; User Guide</A> </DIV>
+<DIV class=group>
+<DIV class="item"><A 
+href="./index.html">Overview</A> 
+</DIV>
+<!--
+<DIV class="item"><A 
+href="./features.html">Features 
+</A> </DIV>
+-->
+<DIV class=item><A 
+href="./installation.html">Installation
+Guide</A> </DIV>
+
+<DIV class=item><A 
+href="./loginout.html">Login & Logout The System
+</A> </DIV>
+</DIV>
+
+
+<DIV class=group>
+<DIV class="item"><A href="./sar-ctr.html">SAR,CTR and E-Filing  </A> </DIV>
+
+<DIV class=group>
+ <DIV class="item"><A href="./sar.html">SAR </A> </DIV>
+ <DIV class="item"><A href="./ctr.html">CTR</A> </DIV>
+ <DIV class="item selected"><A href="./efiling.html">E-Filing</A> </DIV>
+  
+ </DIV></DIV>
+
+ 
+
+</DIV>
+</DIV>
+
+<DIV id=body>
+<DIV class=documentation>
+<H1>E-Filing</H1>
+
+
+<p>
+E-Filing manages the E-File list. It bundles a list of CTRs or SARs, then generates 
+batch file of FinCEN's new CTR and SAR format for upload or transmission to the BSA E-Filing System.
+<br/>  
+Click the <b>E-File</b> in the left navigation menu 
+under SAR & CTR, 
+a new <b>E-Filing</b> Tab folder will appear in the right panel. 
+There are 3 sub-Tab folders: Search E-File, 
+Search result E-File and Create New E-File.
+
+</p>
+
+<DIV class=screenshot><IMG alt="Screenshot" src="./images/efile_search.png"></DIV>
+
+ <ul class=item type="a">
+	 <li><a href="#search">Search E-File</a></li>
+	 <li><a href="#searchresult">Search Result E-File</a></li>
+	 <li><a href="#update">Update E-File</a></li>	
+	 <li><a href="#new">Create New E-File</a></li>
+	
+	 </ul>
+	 <a name=search></a>
+<H3>a)	Search E-File</H3>
+<H4>Search Criteria </H4>
+
+<table border="1">
+  <tr>
+  <td nowrap>E-File Id</td> 
+  <td>This is the system generated unique number for E-File entry in the system.</td>
+  </tr>
+  <tr>
+  <td nowrap>E-File Type</td> 
+  <td>Type of the E-File, SAR or CTR</td>
+  </tr>
+  <tr>
+  <td nowrap>Org unit Code</td> 
+  <td>The org unit this E-File belongs to. It is used to control access</td>
+  </tr>
+
+  <tr>
+  <td nowrap>Transmitter Name</td> 
+  <td>Name of the transmitter</td>
+  </tr>
+
+  <tr>
+  <td nowrap>Address</td> 
+  <td>Address of the transmitter</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>City</td> 
+  <td>City of the transmitter</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>State</td> 
+  <td>State of the transmitter</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>Zip</td> 
+  <td>Zip code of the transmitter</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>Country</td> 
+  <td>Country of the transmitter</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>Phone</td> 
+  <td>Phone of the transmitter</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>Contact</td> 
+  <td>Contact of the transmitter</td>
+  </tr>
+
+  <tr>
+  <td nowrap>Coverage Beginning Date</td> 
+  <td>The Beginning Date of the SAR/CTR covered</td>
+  </tr>
+  
+   <tr>
+  <td nowrap>Coverage Ending Date</td> 
+  <td>The Ending Date of the SAR/CTR covered</td>
+  </tr>
+  
+    <tr>
+  <td nowrap>Address</td> 
+  <td>Address of the transmitter</td>
+  </tr>
+  
+ 
+  <tr>
+  <td nowrap>Created By</td> 
+  <td>User who the E-File</td>
+  </tr>
+  <tr>
+  <td nowrap>Created Date</td> 
+  <td>The date when the E-File is created</td>
+  </tr>
+  <tr>
+  </tr>
+  <tr>
+  <td nowrap>AND and OR</td> 
+  <td>Select AND radio box if you want those criteria add together. <br/>
+Select OR radio box if you want to get the result of either criteria meet
+  </td>
+  </tr>
+</table>
+<H3>Functional buttons</H3>
+
+<OL class=instructions>
+  <LI>
+  <DIV class=header>Find:</DIV>
+  <DIV class=details>click Find button to search.
+	</DIV>
+	 
+   </LI>
+
+  <LI>
+    <DIV class=header>Clear:</DIV>
+    <DIV class=details>click Clear button to clear all the criteria.
+    </DIV> 
+   </LI>
+ 
+</OL>
+
+<a name=searchresult></a>
+<H3>b)	Search Result E-File</H3>
+<DIV class=screenshot><IMG alt="Screenshot" src="./images/efile_search_result-1.png"></DIV>
+<p>
+The top part is the table which shows the list of the E-Files that meet the search criteria.  
+The bottom part are the details. 
+There are <b>Details, SAR/CTR, and Action Log </b>Tabs, 
+<br></br>
+In the <b>Details Tab</b>, there are <b>E-File - General and Transmitter(1A)</b> sub Tabs 
+
+<br/>
+Each E-File can have 1 to SAR or CTR records.
+</p>
+
+<a name=update></a>
+<H3>c)	Update E-File</H3>
+<p>
+<b>Double Click</b> the selected record in the table to modify this entry. A new Tab folder "Update E-File" will be added, as show below.  
+</p>
+
+<DIV class=screenshot><IMG alt="Screenshot" src="./images/efile_update-1.png"></DIV>
+
+<H3>Action Options</H3>
+
+
+<OL class=instructions>
+  <LI>
+  <DIV class=header>E-File Action:</DIV>
+  <DIV class=details>  Select an action to perform. 
+  The action allowed to perform is configured via the workflow along with the user permission.  
+
+	</DIV>
+	 
+   </LI>
+
+  <LI>
+    <DIV class=header>Action Reason:</DIV>
+    <DIV class=details>Select a pre-defined action reason in the dropdown menu.
+    </DIV> 
+   </LI>
+  <LI>
+    <DIV class=header>Comments:</DIV>
+    <DIV class=details>Add comments in the comments text area. 
+    </DIV> 
+   </LI>
+
+</OL>
+
+<H3>Functional buttons</H3>
+
+
+<OL class=instructions>
+  <LI>
+  <DIV class=header>Submit:</DIV>
+  <DIV class=details>Depends on the action user selected. 
+  Some actions will open a pop-up window 
+  or open a new Tab to allow user to input more data.    
+  <p>
+  To add a CTR and SAR, select the Add SAR or Add CTR action. 
+  Only the CTRs/SARs with status code equal to "Ready to File" will be allowed to be added for efile. 
+  </p>
+  
+	</DIV>
+	 
+   </LI>
+
+  <LI>
+    <DIV class=header>Reset:</DIV>
+    <DIV class=details>reset the data to its initial value, discard all the changes.
+    </DIV> 
+   </LI>
+  <LI>
+    <DIV class=header>Close:</DIV>
+    <DIV class=details>Discard this change(if any) and switch back to "Search result E-File" Tab.
+    </DIV> 
+   </LI>
+  
+</OL>
+
+
+<a name=new></a>
+<H3>d)	Create New E-File:</H3>
+<p>
+Select the "Create New E-File" Tab to create a new entry. The mandatory fields in all tabs must be filled. 
+<br/>
+The easy way to create a new E-File is by copying from another One. 
+
+</p>
+<DIV class=screenshot><IMG alt="Screenshot" src="./images/efile_new-1.png"></DIV>
+<DIV class=screenshot><IMG alt="Screenshot" src="./images/efile_new-2.png"></DIV>
+<table border="1">
+<tr>
+  <th nowrap>Field Name</th> 
+  <th>Descriptions.</th>
+  </tr>
+
+  <tr>
+  <td nowrap>E-File Id</td> 
+  <td>This is the system generated unique number for E-File entry in the system.</td>
+  </tr>
+  <tr>
+  <td nowrap>E-File Type</td> 
+  <td>Type of E-File, CTR or SAR.</td>
+  </tr>
+  <tr>
+  <td nowrap>Assign To</td> 
+  <td>Assign to an individual<br>
+  Each E-File has a status and can assign to an individual or a group.</td>
+  </tr>
+  <tr>
+  <td nowrap>Assign To Group</td> 
+  <td>Assign to a Group</td>
+  </tr>
+  <tr>
+  <td nowrap>Org unit Code</td> 
+  <td>The org unit this E-File belongs to. It is used to control access</td>
+  </tr>
+  <tr>
+  <td nowrap>E-File Explain</td> 
+  <td>Explain why we need to create this E-File</td>
+  </tr>
+  <tr>
+  <td nowrap>Action Reason</td> 
+  <td>Select a pre-defined action reason in the dropdown menu. </td>
+  </tr>
+  <tr>
+  <td nowrap>Comments</td> 
+  <td>Add comments on creating the E-File</td>
+  </tr>
+  
+  </table>
+
+<H3>Functional buttons</H3>
+
+
+<OL class=instructions>
+  <LI>
+  <DIV class=header>Create:</DIV>
+  <DIV class=details>Click the Create button to create a new E-File  and switch to "Search result E-File" Tab. 
+  Some fields are mandatory, an error pop-up window will show if the data does not pass the validation.
+
+	</DIV>
+	 
+   </LI>
+
+  <LI>
+    <DIV class=header>Reset:</DIV>
+    <DIV class=details>Click the Reset button to reset all the fields to initial value.
+    </DIV> 
+   </LI>
+  <LI>
+    <DIV class=header>Close:</DIV>
+    <DIV class=details>Click the Close button to cancel operation and switch to "Search result E-File" Tab.
+
+    </DIV> 
+   </LI>
+  </OL>
+</DIV>
+</DIV>
+
+
+
+<DIV id=footer>Copyright &copy;
+         2009-2012 <a href="http://www.simpleofac.com/">SimpleOFAC</a> ALL RIGHT RESERVED
+</DIV>
+
+</BODY></HTML>

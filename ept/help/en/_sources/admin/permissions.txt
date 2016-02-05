@@ -1,0 +1,123 @@
+.. _admin-permissions:
+
+Permissions
+==================
+
+Permissions govern access to functions within the system including the menu items and workflow actions. Permissions provide access to
+functional areas of the system. It combines with Organization Units and sanction lists’ Origin to govern access to the data.
+
+.. note:: 
+   
+   System level permissions that govern access to the menu items are defined by the system and should not be modified. 
+   User should only manages the user defined permissions; those are permissions on workflow actions and origins of sanction lists. 
+   
+
+Click the **Permissions** in the left navigation menu under Administration and a new **Permissions** Tab folder will be created  
+in the right panel. 
+There are 3 sub-Tab folders:  :ref:`admin-permission-search`, :ref:`admin-permission-search-result` and :ref:`admin-permission-new`.
+
+.. image:: _images/permission-search.png
+   :alt: Permission search screen
+
+   
+.. _admin-permission-search:
+
+Search Permissions
+------------------------
+
+**Search Criteria**
+
+================ ================================================================================
+Field Name       Description
+================ ================================================================================
+Permission ID    Unique record identifier 
+Permission Name  Name of this permission
+Description      Description of this permission
+CreatedByDate	 Date and Time when this entry is created
+CreatedByUser	 User who create this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+AND    	         Select AND radio box if you want those criteria add together. 
+OR               Select OR radio box if you want to get the result if either criteria meet
+================ ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _admin-permission-search-result:
+
+Search Result Permissions
+----------------------------
+
+.. image:: _images/permission-search-result.png
+   :alt: Permission search result screen
+
+The top part is the table which shows the list of the permissions that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _admin-permission-update:
+
+Update/Delete Permissions
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder "Update/Delete Permissions" will be added, as show below.
+
+.. image:: _images/permission-update.png
+   :alt: Permissions update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  make changes on the permissions, and save and switch back to "Search result permissions" Tab. 
+  Some of the fields in this form are read only, like permission Id, created/modified user and date.
+* **Reset:**--  reset the data to its initial value, discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result permissions" Tab.
+* **Delete:**-- Delete this entry and switch back to "Search result permissions" Tab.
+
+
+.. _admin-permission-new:
+
+Create New Permissions
+----------------------------
+
+Select the "Create New Permissions" Tab to create a new entry.
+
+.. image:: _images/permission-new.png
+   :alt: Permissions create new screen
+
+================= ====================================================================================
+Field Name        Description
+================= ====================================================================================
+Permission ID     Unique record identifier 
+Permission Name   Name of this permission
+Description       Description of this permission
+CreatedByDate	  Date and Time when this permissions entry is created. It is a read only field.
+CreatedByUser	  User who create this this permissions entry. It is a read only field.
+ModifiedByDate	  Last modified date and time; It is a read only field.
+ModifiedByUser	  Last modified user; It is a read only field.
+================= ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new permissions entry and switch to the "Search result Permissions" Tab. 
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result permissions" Tab.
+
+.. note:: 
+
+      For permission on workflow actions, use the following name convention::
+   
+         workflow name + .action. + status name + action name.
+         For example, wla.action.new.assigntoperson is a permission for watch list alert(wla) workflow. 
+         It allows the user to assign the alert to a Person when the alert is at the New status.
+           
+         

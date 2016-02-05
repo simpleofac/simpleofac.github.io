@@ -1,0 +1,64 @@
+.. _list-list-history:
+
+Sanction List History
+============================================
+
+For every change (add/delete/modify) to the Sanction List entry, Alt. Name or Exceptions will create a record in the sanction history table. 
+This not only serves as an audit purpose but it also can be used to restore the data to any [ast point in time.
+
+This function is used to search sanction list history. 
+Click the **Sanction List History** in the left navigation menu under List management and a new **Sanction List History** Tab folder
+will be created in the right panel.  
+
+There are 2 sub-Tab folders: :ref:`list-list-history-search` and :ref:`list-list-history-search-result`.
+
+.. note:: 
+
+   There is no Create New or Update/Delete function on sanction list history.
+
+
+.. image:: _images/list-history-search.png
+   :alt: Sanction List History search screen
+
+   
+.. _list-list-history-search:
+
+Search Sanction List History
+-------------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+HistoryId	    Unique record identifier.
+entNum	        Link to sanction list unique record identifier.
+GG_ALT_ID	    Link to Alt. Name or Exception record identifier; If the change is on sanction list table, this field will be empty
+Filed Name	    Name of Field.
+New Value	    The new value of this field
+ChangeDate	    Date and time that changes occurred.
+Changer	User    who made the change.
+Table Name	    Sanction, Alt. Name or GoodGuy.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either criteria meet
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _list-list-history-search-result:
+
+Search Result  Sanction List History
+---------------------------------------
+
+.. image:: _images/list-history-search-result.png
+   :alt:  Sanction List History search result screen
+
+The top part is the table which shows the list of the Sanction List History that meet the search criteria. 
+The bottom part is the details of the selected entry. There is no create/update/delete function in Sanction List History.
+

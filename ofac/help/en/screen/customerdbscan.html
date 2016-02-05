@@ -1,0 +1,363 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Customer DBScan &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="../index.html" />
+    <link rel="up" title="Screening Management" href="index.html" />
+    <link rel="next" title="Integration with Screening Engine" href="integration.html" />
+    <link rel="prev" title="File Scan" href="filescan.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../list/index.html">List Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../list/listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listhistory.html">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Screening Management</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="filescan.html">File Scan</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Customer DBScan</a><ul>
+<li><a class="reference internal" href="#search-customer-dbscan">Search Customer DBScan</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-customer-dbscan">Search Result Customer DBScan</a></li>
+<li><a class="reference internal" href="#update-delete-customer-dbscan">Update/Delete Customer DBScan</a><ul>
+<li><a class="reference internal" href="#id1">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-new-customer-dbscan">Create New Customer DBScan</a><ul>
+<li><a class="reference internal" href="#id2">Functional buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="filescan.html"
+         title="previous chapter">&laquo; File Scan</a></li>
+  <li><a href="integration.html"
+         title="next chapter">Integration with Screening Engine &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="customer-dbscan">
+<span id="screen-customer-dbscan"></span><h1>Customer DBScan<a class="headerlink" href="#customer-dbscan" title="Permalink to this headline">¶</a></h1>
+<p>Customer DBScan allows the user to scan customer data in the customer table. The customer table can reside in the same database
+as SimpleOFAC database or any other database of your choice. If the customer table resides outside the SimpleOFAC database, The
+datasource of the customer database need to be created during the installation.</p>
+<p>Click the <strong>Customer DBScan</strong> in the left navigation menu under Screening management,
+a new <strong>Customer DBScan</strong> Tab folder will be created in the right panel.</p>
+<p>There are 3 sub-Tab folders: <a class="reference internal" href="#screen-customer-dbscan-search"><em>Search Customer DBScan</em></a>, <a class="reference internal" href="#screen-customer-dbscan-search-result"><em>Search Result Customer DBScan</em></a> and <a class="reference internal" href="#screen-customer-dbscan-new"><em>Create New Customer DBScan</em></a>.</p>
+<img alt="Customer dbscan search screen" src="../_images/screen-customer-dbscan-search.png" />
+<div class="section" id="search-customer-dbscan">
+<span id="screen-customer-dbscan-search"></span><h2>Search Customer DBScan<a class="headerlink" href="#search-customer-dbscan" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Id</td>
+<td>unique record identifier</td>
+</tr>
+<tr class="row-odd"><td>Name</td>
+<td>Name of this entry</td>
+</tr>
+<tr class="row-even"><td>File Format</td>
+<td>The format of the file; Select a value from the dropdown list.</td>
+</tr>
+<tr class="row-odd"><td></td>
+<td>Please see <a class="reference internal" href="../resource/fileformat.html#res-fileformat"><em>File Format</em></a> for details.</td>
+</tr>
+<tr class="row-even"><td>OrgUnit Code</td>
+<td>select a value from the orgunit dropdown list.</td>
+</tr>
+<tr class="row-odd"><td>Description</td>
+<td>Description of this entry</td>
+</tr>
+<tr class="row-even"><td>DataSource</td>
+<td>The database where the customer tables reside.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this entry is created</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who create this entry.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria add together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either criteria meet</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-customer-dbscan">
+<span id="screen-customer-dbscan-search-result"></span><h2>Search Result Customer DBScan<a class="headerlink" href="#search-result-customer-dbscan" title="Permalink to this headline">¶</a></h2>
+<img alt="Customer DBScan search result screen" src="../_images/screen-customer-dbscan-search-result.png" />
+<p>The top part is the table which shows the list of the customer DBScan that meet the search criteria.
+The bottom part is the details of the selected entry.</p>
+</div>
+<div class="section" id="update-delete-customer-dbscan">
+<span id="screen-customer-dbscan-update"></span><h2>Update/Delete Customer DBScan<a class="headerlink" href="#update-delete-customer-dbscan" title="Permalink to this headline">¶</a></h2>
+<p><strong>Double Click</strong> the selected record in the table to modify this entry.
+A new Tab folder &#8220;Update/Delete Customer DBScan&#8221; will be added, as show below:</p>
+<img alt="Customer DBScan update/delete screen" src="../_images/screen-customer-dbscan-update.png" />
+<div class="section" id="id1">
+<h3>Functional buttons<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Update:</strong> &#8211;  make changes on the entry, and save and switch back to &#8220;Search result customer dbscan&#8221; Tab.
+Some of the fields in this form are read only, like Id, Name, created/modified user and date.</li>
+<li><strong>Reset:</strong>&#8211;  reset the data to its initial value, discard all the changes.</li>
+<li><strong>Cancel:</strong>&#8211; Cancel this change and switch back to &#8220;Search result customer dbscan&#8221; Tab.</li>
+<li><strong>Delete:</strong>&#8211; Delete this entry and switch back to &#8220;Search result customer dbscan&#8221; Tab.</li>
+<li><strong>Scan Customer</strong> &#8211; Click this button to scan the customers using the SQL Query from the datasource.
+If there are any alerts, it will be saved in the Watch list alert tables under Case Management.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="create-new-customer-dbscan">
+<span id="screen-customer-dbscan-new"></span><h2>Create New Customer DBScan<a class="headerlink" href="#create-new-customer-dbscan" title="Permalink to this headline">¶</a></h2>
+<p>Select the &#8220;Create New Customer DBScan&#8221; Tab to create a new entry.</p>
+<img alt="Customer DBScan create new screen" src="../_images/screen-customer-dbscan-new.png" />
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Id</td>
+<td>unique record identifier</td>
+</tr>
+<tr class="row-odd"><td>Name</td>
+<td>Name of this entry</td>
+</tr>
+<tr class="row-even"><td>File Format</td>
+<td>The format of the file; Select a value from the dropdown list.
+This is a mandatory field. Please see <a class="reference internal" href="../resource/fileformat.html#res-fileformat"><em>File Format</em></a> for details.</td>
+</tr>
+<tr class="row-odd"><td>OrgUnit Code</td>
+<td>The Orgunit the watch list alert will be saved to.
+select a value from the orgunit dropdown list. This is a mandatory field.</td>
+</tr>
+<tr class="row-even"><td>Description</td>
+<td>Description of this entry</td>
+</tr>
+<tr class="row-odd"><td>DataSourc</td>
+<td>The database where the customer tables reside.</td>
+</tr>
+<tr class="row-even"><td>SQL Query</td>
+<td>The sql script to query customer data.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this entry is created. It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who create this this entry. It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time; It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user; It is a read only field.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id2">
+<h3>Functional buttons<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Create:</strong> &#8211;  Click the Create button to create a new customer dbscan entry and switch to &#8220;Search result Customer DBScan&#8221; Tab.
+Name, File Format, OrgUnit Code, Datasource and SQL Query are mandatory fields;
+if any of them is empty, an error message will be shown.</li>
+<li><strong>Clear:</strong>&#8211;  Click the Clear button to clear all the fields</li>
+<li><strong>Cancel:</strong>&#8211; Click the Cancel button to cancel operation and switch back to &#8220;Search result Screening Instance&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

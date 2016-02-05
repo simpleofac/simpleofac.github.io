@@ -1,0 +1,247 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>List Management &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="../index.html" />
+    <link rel="next" title="Sanction List Entry" href="listentry.html" />
+    <link rel="prev" title="Login and logout of the system" href="../loginout.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="current reference internal" href="">List Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listhistory.html">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screen/index.html">Screening Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../screen/screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/filescan.html">File Scan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/customerdbscan.html">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">List Management</a><ul>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="../loginout.html"
+         title="previous chapter">&laquo; Login and logout of the system</a></li>
+  <li><a href="listentry.html"
+         title="next chapter">Sanction List Entry &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="list-management">
+<span id="list-index"></span><h1>List Management<a class="headerlink" href="#list-management" title="Permalink to this headline">¶</a></h1>
+<p>SimpleOFAC Suite List Management manages and maintenances the sanction entity list.
+The data model of the list management is modeled after the OFAC SDN list
+XML format. For details on the XML schema,
+please see links <a class="reference external" href="http://www.treasury.gov/resource-center/sanctions/SDN-List/Documents/sdn.xsd">http://www.treasury.gov/resource-center/sanctions/SDN-List/Documents/sdn.xsd</a>,
+The List Management has built-in support for OFAC SDN list. New lists can be easily supported by creating a new plugin.
+It supports XML and CSV format.</p>
+<p>The following sanction lists are supported and can be loaded via list load function:</p>
+<ul class="simple">
+<li>BIS-DPL</li>
+<li>BIS-UNVENRIFIED</li>
+<li>CIA WORLD LEADER</li>
+<li>EU,</li>
+<li>HUD-LDP</li>
+<li>NS-PLC</li>
+<li>OCC UNAUTHORIZED BANK LIST</li>
+<li>OFAC SDN</li>
+<li>Canada OFSI ENTITY</li>
+<li>Canada OFSI INDIVIDUAL</li>
+<li>Sanction countries</li>
+<li>STATE-DEBAR</li>
+<li>UK-HM.</li>
+</ul>
+<p>Each sanction list is assigned to an “ORIGIN”.  For example, the origin of OFAC LIST will be assigned to origin OFAC.
+Each line of business can also create its own <strong>local</strong> ORIGIN to manage its own list.</p>
+<p>Authorized Users can search entries, manually add a new entry, update/delete an entry, or bulk add/update by uploading a whole list.
+Access is controlled using role based security.</p>
+<p>ORIGIN is also used as access control to the sanction list.
+For example, users can have full access to OFAC list, but may have no access to OCC list (see use access section for more information).</p>
+<p>There are a few options to update a sanction list. Let us use OFAC SDN list as an example.</p>
+<blockquote>
+<div><ul class="simple">
+<li>Option one:
+Subscribe to OCC mail list service and receive an email update whenever there is an update on the SDN list.
+Then you can manually upload the list via our upload list web interface.
+It will show the comparison report (added, updated, deleted entries)</li>
+<li>Option two:
+Schedule a job via Cron Job, Control M or any schedule tool to run our list update program once a day or once every few hours.
+It will download the SDN list and do the comparison with the current one. If there are any changes, then either:<ul>
+<li>Automatically upload the list and update the OFAC List.</li>
+<li>Create a comparison report, showing what is added, updated,  deleted, and notify users by email.</li>
+</ul>
+</li>
+</ul>
+</div></blockquote>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l1"><a class="reference internal" href="alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="listhistory.html">Sanction List History</a></li>
+<li class="toctree-l1"><a class="reference internal" href="listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l1"><a class="reference internal" href="listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l1"><a class="reference internal" href="listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

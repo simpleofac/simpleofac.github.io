@@ -1,0 +1,470 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Users &mdash; SimpleEPT  1.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleEPT  1.0.1 documentation" href="../index.html" />
+    <link rel="up" title="Administration" href="index.html" />
+    <link rel="next" title="Roles" href="roles.html" />
+    <link rel="prev" title="Administration" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleEPT </a>
+        <span class="navbar-text pull-left"><b>1.0.1</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Employee Personal Trade Monitoring overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login an logout the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-the-system">Login the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-the-system">Logout the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policy/index.html">Firm Policy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policy/certification.html">Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/document.html">Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/ap-certification.html">AP Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/security.html">Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/restricted-security.html">Restricted Security</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../accessperson/index.html">Access Person</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-account.html">Broker Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/pre-clearance.html">PreClearance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-confirm.html">Broker Confirm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/initial-holding.html">Initial Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/holdings-position.html">Holdings &amp; Position</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-position.html">Broker Position</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../firm/index.html">Firm Transaction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../firm/trade.html">Firm Trade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../firm/order.html">Firm Order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../firm/holding.html">Firm Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../firm/recommendation.html">Firm Recommendation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../detection/index.html">Detection Builder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../detection/query.html">Query Builder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../detection/rule.html">Rule Builder</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Users</a><ul>
+<li><a class="reference internal" href="#search-users">Search Users</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-users">Search Result Users</a></li>
+<li><a class="reference internal" href="#update-delete-users">Update/Delete Users</a><ul>
+<li><a class="reference internal" href="#id1">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-new-users">Create New Users</a><ul>
+<li><a class="reference internal" href="#id2">Functional buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="index.html"
+         title="previous chapter">&laquo; Administration</a></li>
+  <li><a href="roles.html"
+         title="next chapter">Roles &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li><a href="http://www.simplecompli.com/ofac/help/en">SimpleOFAC Suite</a></li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="users">
+<span id="admin-users"></span><h1>Users<a class="headerlink" href="#users" title="Permalink to this headline">¶</a></h1>
+<p>The Users function manages the users in the system. There is only one user, <strong>admin</strong>, who is created when the system is first initiated.</p>
+<p>Users are the individual members of the organization who are allowed to log in to the SimpleEPT to perform their required tasks.
+This includes compliance officers, administrators, etc. The administrator controls the levels of functionality and
+the data that users can access by assigning them to Groups or by granting roles directly to each user.</p>
+<p>Click the <strong>Users</strong> Tab in the left navigation menu under Administration and a new <strong>Users</strong> Tab folder will be created in the right panel.
+There are 3 sub-Tab folders:  <a class="reference internal" href="#admin-user-search"><em>Search Users</em></a>, <a class="reference internal" href="#admin-user-search-result"><em>Search Result Users</em></a> and <a class="reference internal" href="#admin-user-new"><em>Create New Users</em></a>.</p>
+<img alt="User search screen" src="../_images/user-search.png" />
+<div class="section" id="search-users">
+<span id="admin-user-search"></span><h2>Search Users<a class="headerlink" href="#search-users" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>User/Login ID</td>
+<td>Login Id.</td>
+</tr>
+<tr class="row-odd"><td>First Name</td>
+<td>User&#8217;s first name.</td>
+</tr>
+<tr class="row-even"><td>Middle Name</td>
+<td>User&#8217;s middle name.</td>
+</tr>
+<tr class="row-odd"><td>Last Name</td>
+<td>User&#8217;s last name.</td>
+</tr>
+<tr class="row-even"><td>Title</td>
+<td>The title of the user.</td>
+</tr>
+<tr class="row-odd"><td>Email</td>
+<td>The email of the user.</td>
+</tr>
+<tr class="row-even"><td>Phone</td>
+<td>The phone number of the user.</td>
+</tr>
+<tr class="row-odd"><td>Mobile</td>
+<td>The mobile phone number of the user.</td>
+</tr>
+<tr class="row-even"><td>Company</td>
+<td>The company user works for.</td>
+</tr>
+<tr class="row-odd"><td>Address</td>
+<td>User&#8217;s address.</td>
+</tr>
+<tr class="row-even"><td>City</td>
+<td>User&#8217;s city.</td>
+</tr>
+<tr class="row-odd"><td>State/Province</td>
+<td>User&#8217;s state.</td>
+</tr>
+<tr class="row-even"><td>Country</td>
+<td>User&#8217;s country.</td>
+</tr>
+<tr class="row-odd"><td>zip/postcode</td>
+<td>User&#8217;s postal code.</td>
+</tr>
+<tr class="row-even"><td>Fax</td>
+<td>User&#8217;s fax number.</td>
+</tr>
+<tr class="row-odd"><td>Deleted</td>
+<td>Check this box if only show deleted users.</td>
+</tr>
+<tr class="row-even"><td>Disabled</td>
+<td>Check this box if only show disabled users.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this entry was created</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who created this entry.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria added together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either of the criteria is met.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click the Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click the Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-users">
+<span id="admin-user-search-result"></span><h2>Search Result Users<a class="headerlink" href="#search-result-users" title="Permalink to this headline">¶</a></h2>
+<img alt="User search result screen" src="../_images/user-search-result.png" />
+<p>The top part is the table which shows the list of the users that meet the search criteria.
+The bottom parts are the details, roles, groups, and combined permissions of the selected entry.
+Each entry can have 0 to many roles, groups, and permissions. (see <a class="reference internal" href="roles.html#admin-roles"><em>Roles</em></a>, <a class="reference internal" href="groups.html#admin-groups"><em>Groups</em></a>,
+and <a class="reference internal" href="permissions.html#admin-permissions"><em>Permissions</em></a> for details on Roles, Groups and Permissions)</p>
+</div>
+<div class="section" id="update-delete-users">
+<span id="admin-user-update"></span><h2>Update/Delete Users<a class="headerlink" href="#update-delete-users" title="Permalink to this headline">¶</a></h2>
+<p><strong>Double Click</strong> the selected record in the table to modify this entry.
+A new tab folder &#8220;Update/Delete Users&#8221; will be added, as shown below.</p>
+<img alt="Users update/delete screen" src="../_images/user-update.png" />
+<div class="section" id="id1">
+<h3>Functional buttons<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Update:</strong> &#8211;  Make changes on the users and save and switch back to the &#8220;Search result users&#8221; Tab.
+Some of the fields in this form are read only, like User ID, created/modified user, and date.</li>
+<li><strong>Reset:</strong>&#8211;  Reset the data to its initial value and discard all the changes.</li>
+<li><strong>Cancel:</strong>&#8211; Cancel this change and switch back to the &#8220;Search result users&#8221; Tab.</li>
+<li><strong>Roles:</strong>&#8211; Assign roles to the user. Clicking this button will open a popup window, as follows;</li>
+</ul>
+<img alt="User Roles update/delete screen" src="../_images/user-update-role.png" />
+<p>When a role is assigned to an user(s) or group(s), it must also specify an Organizational Unit. A user can have a role A
+in Organization Unit X and role B in Organization Unit Y.</p>
+<p>First select an orgunit from the orgunit drop down list and then grant or revoke the user&#8217;s roles
+by checking or not checking the check box beside each role.</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Update</strong> &#8211; Click the Update button to update the changes and close the pop window.</li>
+<li><strong>Reset</strong> &#8211; Reset the data to its initial value and discard all the changes.</li>
+<li><strong>Cancel</strong> &#8211;Cancel this change and close the pop window.</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><strong>Groups:</strong>&#8211; Assign groups to the user. Clicking this button will open a popup window, as shown below:</li>
+</ul>
+<img alt="User Groups update/delete screen" src="../_images/user-update-group.png" />
+<p>Grant or revoke the group to the user
+by checking or not checking the check box besides each group.</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Update</strong> &#8211; Click the Update button to update the changes and close the popup window.</li>
+<li><strong>Reset</strong> &#8211; Reset the data to its initial value and discard all the changes.</li>
+<li><strong>Cancel</strong> &#8211;Cancel this change and close the popup window.</li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="create-new-users">
+<span id="admin-user-new"></span><h2>Create New Users<a class="headerlink" href="#create-new-users" title="Permalink to this headline">¶</a></h2>
+<p>Select the &#8220;Create New Users&#8221; Tab to create a new entry.</p>
+<img alt="Users create new screen" src="../_images/user-new.png" />
+<table border="1" class="docutils">
+<colgroup>
+<col width="18%" />
+<col width="82%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>User/Login ID</td>
+<td>Login ID; it must be unique within the system.</td>
+</tr>
+<tr class="row-odd"><td>First Name</td>
+<td>User&#8217;s first name.</td>
+</tr>
+<tr class="row-even"><td>Middle Name</td>
+<td>User&#8217;s middle name.</td>
+</tr>
+<tr class="row-odd"><td>Last Name</td>
+<td>User&#8217;s last name.</td>
+</tr>
+<tr class="row-even"><td>Title</td>
+<td>The title of the user.</td>
+</tr>
+<tr class="row-odd"><td>Email</td>
+<td>The email of the user.</td>
+</tr>
+<tr class="row-even"><td>password(new)</td>
+<td>User&#8217;s initial password; it can not be empty.</td>
+</tr>
+<tr class="row-odd"><td>password(confrim)</td>
+<td>User&#8217;s initial password; it must be the same as password(new).</td>
+</tr>
+<tr class="row-even"><td>Phone</td>
+<td>The phone number of the user.</td>
+</tr>
+<tr class="row-odd"><td>Mobile</td>
+<td>The mobile phone number of the user.</td>
+</tr>
+<tr class="row-even"><td>Company</td>
+<td>The company the user works for.</td>
+</tr>
+<tr class="row-odd"><td>Address</td>
+<td>User&#8217;s address.</td>
+</tr>
+<tr class="row-even"><td>City</td>
+<td>User&#8217;s city.</td>
+</tr>
+<tr class="row-odd"><td>State/Province</td>
+<td>User&#8217;s state.</td>
+</tr>
+<tr class="row-even"><td>Country</td>
+<td>User&#8217;s country.</td>
+</tr>
+<tr class="row-odd"><td>zip/postcode</td>
+<td>User&#8217;s postal code.</td>
+</tr>
+<tr class="row-even"><td>Fax</td>
+<td>User&#8217;s fax number.</td>
+</tr>
+<tr class="row-odd"><td>Deleted</td>
+<td>Check this box to mark this user as deleted.</td>
+</tr>
+<tr class="row-even"><td>Disabled</td>
+<td>Check this box to mark this user as disabled.</td>
+</tr>
+<tr class="row-odd"><td>Force Change Pass</td>
+<td>Check this box to force user to change password when log in for the first time.</td>
+</tr>
+<tr class="row-even"><td>Password Expire</td>
+<td>When the password will be expire. Interval in days.</td>
+</tr>
+<tr class="row-odd"><td>Password ExpireDate</td>
+<td>The date the password will be expired.</td>
+</tr>
+<tr class="row-even"><td>Failed LoginCount</td>
+<td>Number of times the user login failed.</td>
+</tr>
+<tr class="row-odd"><td>Last Login Date</td>
+<td>Last date the user log in successfully.</td>
+</tr>
+<tr class="row-even"><td>CreatedByDate</td>
+<td>Date and Time when this entry was created. It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByUser</td>
+<td>User who created this this entry. It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByDate</td>
+<td>Last modified date and time; It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByUser</td>
+<td>Last modified user; It is a read only field.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id2">
+<h3>Functional buttons<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Create:</strong> &#8211;  Click the Create button to create a new user and switch to the &#8220;Search result Users&#8221; Tab.</li>
+<li><strong>Clear:</strong>&#8211;  Click the Clear button to clear all the fields.</li>
+<li><strong>Cancel:</strong>&#8211; Click the Cancel button to cancel the operation and switch back to the &#8220;Search result users&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2013, SimpleEPT Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

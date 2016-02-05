@@ -1,0 +1,65 @@
+.. _screen-file-scan:
+
+File Scan
+============
+
+File Scan allows the user to scan large volumes of data together. 
+The format of the file can be csv or xml file. 
+It has a build-in algorithm to check the unique of each record if the record itself does not have a unique Id. 
+The scan result will be loaded into Watch List Alert database for review.
+
+Click the **File Scan** in the left navigation menu under Screening management, 
+a new **File Scan** Tab folder will be created in the right panel. 
+T
+
+.. image:: _images/screen-filescan-w1.png
+   :alt: File scan wizard one screen
+
+
+Click on Next button to go to file upload page.
+   
+.. image:: _images/screen-filescan-w2.png
+   :alt: File scan wizard two screen
+   
+
+Click the Browse.. Button to open a window. Then select a file to be uploaded. 
+The file will be saved temporarily in the server. 
+The user can check the "append timestamp" checkbox to append the current timestamp into the file name. 
+If the same file name exists in the server, it will be automatically renamed by adding _v# in the end of the file, 
+where # can be 1, 2, 3, etc. 
+For example, if the file name is customer_data_file.csv, it will be renamed to customer_data_file_v1.csv. 
+
+Click the Submit Button to upload the file into server. Depending on the size of the file, it may take a couple of minutes to upload.
+
+.. image:: _images/screen-filescan-w3.png
+   :alt: File scan wizard three screen
+
+Click OK to close this popup window; then click Next Button.
+
+.. image:: _images/screen-filescan-w4.png
+   :alt: File scan wizard four screen
+
+=============== ========================================================================================================
+Field Name      Description
+=============== ========================================================================================================
+OrgUnit Code    The Orgunit the watch list alert will be saved to. 
+                select a value from the orgunit dropdown list. This is a mandatory field. 
+File Fame	    Preset from the previous page. This is the file just uploaded.
+File Format     The format of this file just uploaded; Select a value from the dropdown list. 
+                This is a mandatory field.
+Full File Scan  If this checkbox is checked, the watch list alerts for this ORGUNIT that are not in this file 
+                will be deleted from the database.              
+=============== ========================================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+* **Load the File:** --  click this button to load the file into watch list alert database. 
+  A popup window will show the total number of records in the file, and the number of added, deleted, updated and unchanged records.
+
+.. note:: 
+
+   Users need to define a batch scan file format. Each client list (Organization Unit) can have different file formats or/and screening engine service
+   parameters, based on its risks. Please see :ref:`res-fileformat` for details. 
+   
+   
+   

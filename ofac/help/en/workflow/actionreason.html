@@ -1,0 +1,336 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Action Reason Map &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="../index.html" />
+    <link rel="up" title="Workflow" href="index.html" />
+    <link rel="next" title="Report" href="../report/index.html" />
+    <link rel="prev" title="Action Rules" href="actionrule.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../list/index.html">List Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../list/listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listhistory.html">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screen/index.html">Screening Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../screen/screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/filescan.html">File Scan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/customerdbscan.html">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Workflow</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="actionrule.html">Action Rules</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Action Reason Map</a><ul>
+<li><a class="reference internal" href="#search-action-reason-map">Search Action Reason Map</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-action-reason-map">Search Result Action Reason Map</a></li>
+<li><a class="reference internal" href="#update-delete-action-reason-map">Update/Delete Action Reason Map</a><ul>
+<li><a class="reference internal" href="#id1">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-new-action-reason-map">Create New Action Reason Map</a><ul>
+<li><a class="reference internal" href="#id2">Functional buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="actionrule.html"
+         title="previous chapter">&laquo; Action Rules</a></li>
+  <li><a href="../report/index.html"
+         title="next chapter">Report &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="action-reason-map">
+<span id="workflow-action-reason"></span><h1>Action Reason Map<a class="headerlink" href="#action-reason-map" title="Permalink to this headline">¶</a></h1>
+<p>Users define the <a class="reference internal" href="actionrule.html#workflow-action-rule"><em>Action Rules</em></a> and Reason Code. The Reason code is defined via Resources &#8211;&gt;dropdown <a class="reference internal" href="../resource/dropdown.html#res-dropdown"><em>Drop-downs</em></a></p>
+<p>Action Reason Map is used to map the Reason Code to the Action Code. One reason code can be mapped to none to many action codes,
+while one action code can have many reason codes.</p>
+<p>Click the <strong>Action Reason Map</strong> Tab in the left navigation menu under Workflow and a new <strong>Action Reason Map</strong> Tab folder will be created
+in the right panel.</p>
+<p>There are 3 sub-Tab folders: <a class="reference internal" href="#workflow-action-reason-search"><em>Search Action Reason Map</em></a>, <a class="reference internal" href="#workflow-action-reason-search-result"><em>Search Result Action Reason Map</em></a> and <a class="reference internal" href="#workflow-action-reason-new"><em>Create New Action Reason Map</em></a>.</p>
+<img alt="Action Reason Map search screen" src="../_images/action-reason-search.png" />
+<div class="section" id="search-action-reason-map">
+<span id="workflow-action-reason-search"></span><h2>Search Action Reason Map<a class="headerlink" href="#search-action-reason-map" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Action Code/Name</td>
+<td>The Action Code and Name.</td>
+</tr>
+<tr class="row-odd"><td>Reason Code/Name</td>
+<td>The Reason Code and Name.</td>
+</tr>
+<tr class="row-even"><td>Display Order</td>
+<td>The order it will be displayed.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this entry is created</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who create this entry.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria add together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either of the criteria is met.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click the Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click the Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-action-reason-map">
+<span id="workflow-action-reason-search-result"></span><h2>Search Result Action Reason Map<a class="headerlink" href="#search-result-action-reason-map" title="Permalink to this headline">¶</a></h2>
+<img alt="Action Reason Map search result screen" src="../_images/action-reason-search-result.png" />
+<p>The top part is the table which shows the list of the Action Reason Map that meet the search criteria.
+The bottom part is the details of the selected entry.</p>
+</div>
+<div class="section" id="update-delete-action-reason-map">
+<span id="workflow-action-reason-update"></span><h2>Update/Delete Action Reason Map<a class="headerlink" href="#update-delete-action-reason-map" title="Permalink to this headline">¶</a></h2>
+<p><strong>Double Click</strong> the selected record in the table to modify this entry.
+A new Tab folder <strong>Update/Delete Action Reason Map</strong> will be added, as shown below.</p>
+<img alt="Action Reason Map update/delete screen" src="../_images/action-reason-update.png" />
+<div class="section" id="id1">
+<h3>Functional buttons<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Update:</strong> &#8211; Make changes on the Action Reason Map and save and switch back to the &#8220;Search result Action Reason Map&#8221; Tab.
+Some of the fields in this form are read only, like created/modified user and date.</li>
+<li><strong>Reset:</strong>&#8211;  Reset the data to its initial value and discard all the changes.</li>
+<li><strong>Cancel:</strong>&#8211; Cancel this change and switch back to the &#8220;Search result Action Reason Map&#8221; Tab.</li>
+<li><strong>Delete:</strong>&#8211; Delete this entry and switch back to the &#8220;Search result Action Reason Map&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="create-new-action-reason-map">
+<span id="workflow-action-reason-new"></span><h2>Create New Action Reason Map<a class="headerlink" href="#create-new-action-reason-map" title="Permalink to this headline">¶</a></h2>
+<p>Select the &#8220;Create New Action Reason Map&#8221; Tab to create a new entry.</p>
+<img alt="Action Reason Map create new screen" src="../_images/action-reason-new.png" />
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Id</td>
+<td>Action Reason Map unique record identifier.</td>
+</tr>
+<tr class="row-odd"><td>Action Code/Name</td>
+<td>The Action Code and Name.</td>
+</tr>
+<tr class="row-even"><td>Reason Code/Name</td>
+<td>The Reason Code and Name.</td>
+</tr>
+<tr class="row-odd"><td>Display Order</td>
+<td>The order it will be displayed.</td>
+</tr>
+<tr class="row-even"><td>CreatedByDate</td>
+<td>Date and Time when the entry is created. It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByUser</td>
+<td>User who create this entry. It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByDate</td>
+<td>Last modified date and time; It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByUser</td>
+<td>Last modified user; It is a read only field.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id2">
+<h3>Functional buttons<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Create:</strong> &#8211;  Click the Create button to create a new Action Reason Map and switch to the &#8220;Search result Action Reason Map&#8221; Tab.</li>
+<li><strong>Clear:</strong>&#8211;  Click the Clear button to clear all the fields.</li>
+<li><strong>Cancel:</strong>&#8211; Click the Cancel button to cancel the operation and switch back to the &#8220;Search result Action Reason Map&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

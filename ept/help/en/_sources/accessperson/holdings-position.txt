@@ -1,0 +1,64 @@
+.. _accessperson-holdings-position:
+
+Holdings & Position
+============================================
+
+The compliance officer can view both the access person holdings and broker position, 
+while the access person can only view his/her own holdings. 
+Holdings and broker position must match for each security held by access person.
+If not, the compliance officer or access person can use the 
+:ref:`accessperson-preclearance-new` to input holding adjustment transactions.   
+
+ 
+Click the **Holdings & Position** in the left navigation menu 
+under Access Person and a new Holdings & Position Tab folder will be created in the right panel. 
+There are 2 sub-Tab folders: :ref:`accessperson-holdings-position-search`, 
+and :ref:`accessperson-holdings-position-search-result` 
+
+
+.. image:: _images/holdingposition-search.png
+   :alt: Holdings & Position search screen
+
+   
+.. _accessperson-holdings-position-search:
+
+Search Holdings & Position
+----------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+User ID          The Access person ID.
+Broker Account   The broker account number. 
+Symbol           The Symbol of the security.
+Account Name     The access person's broker account number. 
+Broker Name      The name of the broker. 
+Org Unit Code    The org unit this holding transaction belongs to.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _accessperson-holdings-position-search-result:
+
+Search Result Holdings & Position
+-----------------------------------
+
+.. image:: _images/holdingposition-search-result.png
+   :alt: Holdings & Position search result screen
+
+The top part is the table  which shows the list of the Holdings & Position that meet the search criteria. 
+The bottom part is the details and the list of detail transactions of the selected entry. 
+
+.. note:: 
+
+   There is no Create New or Update/Delete function on Holdings & Position.

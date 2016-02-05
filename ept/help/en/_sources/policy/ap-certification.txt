@@ -1,0 +1,89 @@
+.. _policy-apcertification:
+
+AP Certification
+============================================
+
+The compliance officer or system admin create certifications and assign access to person. 
+Accessed persons can submit the required certification via the AP Certification menu.
+  
+Click the **AP Certification** in the left navigation menu under Firm Policy and a new **AP Certification** Tab folder will be created 
+in the right panel.
+ 
+There are 2 sub-Tab folders: :ref:`policy-apcertification-search` and :ref:`policy-apcertification-search-result`
+
+.. image:: _images/apcertification-search.png
+   :alt: AP Certification search screen
+
+   
+.. _policy-apcertification-search:
+
+Search AP Certification
+-------------------------------
+
+**Search Criteria**
+
+============= ================================================================================
+Field Name    Description
+============= ================================================================================
+Cert Id	      This is the unique number for the certification entry in the system.
+Name	      Name of this certification entry.
+Start Date	  The start date when access person can start submit certification.
+End Date	  The end date when access person can start submit certification.
+Cert Type     The type of the certification; can be Holding, Broker Account, Transaction, Custom, etc.
+Status code   The status code. eg: New, Assigned, Submit, etc.
+AssignTo      Access person that this certification is assigned to.
+AssignToGroup The user group that this certification is assigned to.
+AND    	      Select AND radio box if you want those criteria added together. 
+OR            Select OR radio box if you want to get the result if either of the criteria is met.
+============= ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _policy-apcertification-search-result:
+
+Search Result AP Certification
+------------------------------------
+
+.. image:: _images/apcertification-search-result.png
+   :alt: AP Certification search result screen
+
+The top part is the table which shows the list of the AP Certification that meet the search criteria. 
+The bottom part is the details, Documents, Emails, and Audit Logs of the selected entry. Depending on the certification type, 
+they may have the Broker Account, Holdings or Transaction tab. 
+
+
+.. _policy-apcertification_update:
+
+Update/Delete AP Certification
+----------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder **Update/Delete Alt. Name** will be added, as shown below:
+
+.. image:: _images/apcertification-update.png
+   :alt: AP Certification update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Action Dropdown list:** --  Depends on the current certification status and user’s permission. 
+  It will show a list of action that the user is allowed to perform. Select one of the actions from the dropdown list.  
+  Typically, Users can add a comment, add document, submit certification, etc. Those actions are configured via the workflow. 
+  Please see :ref:`workflow-index` section for details.
+* **Action Reason Dropdown list :**--  Select one of the action reasons from the dropdown list.
+* **Comments:**-- A free text box to allows users to input the comments of this action. Comments will show in the action logs. 
+* **Submit:**--  A pop down will show success or failure after performing this action. 
+  Depending on the action performed, it may change the action status. 
+  It will stay on this page to allow the user to perform another actions.   
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Close:**--  Cancel this change(if any) and close this page and switch back to "Search result AP Certification" Tab.
+
+.. note:: 
+
+   Creating a new certification is a system admin or compliance officer task. it is via :ref:`policy-certification` menu.

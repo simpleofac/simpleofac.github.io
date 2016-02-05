@@ -1,0 +1,53 @@
+.. _admin-index:
+
+Administration
+============================================
+
+
+SimpleOFAC Suite has a flexible security system which allows you to configure who can access 
+and what they can do/see within the system. It supports the concepts of users, groups, permissions, roles, 
+and organization units.
+
+a) **Users** are the individual members of the organization who are allowed to log in to the SimpleOFAC 
+   to perform their required tasks. Those include investigators, compliance officers, administrators etc. 
+   The administrator controls the levels of functionality and the data that users can access by
+   assigning them to Groups or by granting roles directly to each user.
+   
+b) **Groups** are collections of users. Users that carry out common functions are grouped together in order that 
+   roles (and therefore permissions) can be granted to the group as a whole instead of to each individual user. 
+   This is possible as all members of the group inherit the security permissions that are assigned to users through 
+   group roles. You can add as many users as you want to a particular group.
+   
+c) **Permissions** govern access to functions within the system including the menu items and workflow actions. 
+   Permissions provide access to functional areas of the SimpleOFAC suite. It combines with Organization Units and 
+   sanction lists’ Origin to govern access to the data.
+   
+d) **Roles** are collections of one or more permissions. A role determines the functionality a user can access 
+   in the system. The administrator may grant several roles to users or to user groups. An administrator defines 
+   and maintains the security roles within the system and the permissions associated with each role. A role may be 
+   thought of as a job function that one of the users of the system may use. For example, Alert Investigator,
+   Supervisor, List administrator, and so on. When role is assigned to users or groups, it must also specify an 
+   Organizational Unit. A User can have a role in Organization Unit X and a role B in Organization Unit Y.
+
+e) **Organization Units** are lines of business within the organization. Like sanction lists must be assigned to an Origin, 
+   alert and customers and other entities within the SimpleOFAC must be assigned to a particular Organization Unit. 
+   This enables the data to be split into different business areas that can be acted upon by specific users and groups 
+   of users, who also have roles that are assigned to specific Organization Units.
+   
+SimpleOFAC suite uses its internal tables for authentication and authorization. It also can integrate with 
+LDAP for authentication. If internal tables are used for authentication, system administrator can configure 
+the password strength rules (via regular expression), password expire interval, maximum allowed failed login count, etc.
+
+.. toctree::
+   :maxdepth: 1
+
+   users.rst
+   roles.rst
+   permissions.rst
+   groups.rst
+   orgunits.rst
+   adminhistory.rst
+   recordlocks.rst
+   
+
+

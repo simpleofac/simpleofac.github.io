@@ -1,0 +1,211 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright SimpleOFAC.com . 2004-2009" />
+<meta content="public" name="security" />
+<meta content="index,follow" name="Robots" />
+<link href="../css/base.css" type="text/css" rel="stylesheet" />
+<link href="../css/doc.css" type="text/css" rel="stylesheet" />
+<link href="../css/print.css" type="text/css" rel="stylesheet" media=print />
+<STYLE type=text/css>#footer .text {
+	PADDING-TOP: 5px
+}
+.documentation {
+	MARGIN-LEFT: 0.25in
+}
+.documentation H1 {
+	MARGIN-LEFT: -0.25in
+}
+.documentation H2 {
+	MARGIN-TOP: 1.5em; MARGIN-LEFT: -0.25in
+}
+.documentation H3 {
+	MARGIN-LEFT: -0.125in
+}
+.documentation UL.toc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.demo {
+	PADDING-RIGHT: 3px; BACKGROUND-POSITION: left center; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(./images/newwindow.gif); PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat
+}
+</STYLE>
+
+<STYLE type=text/css>OL.instructions {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.instructions .header {
+	FONT-WEIGHT: bold
+}
+.instructions LI {
+	MARGIN-BOTTOM: 1em
+}
+DIV .screenshot {
+	MARGIN: 1em; TEXT-ALIGN: left
+}
+</STYLE>
+
+
+<title>How the alerts are generated</title>
+</head>
+
+<body>
+<DIV id=preline>&nbsp;</DIV>
+<DIV id=header>
+<DIV id=logo><A href="http://www.simpleofac.com/"><IMG alt="SimpleOFAC Enterprise Compliance Suite" 
+src="../images/cpLogo_54.png"></A> </DIV>
+
+<DIV id=title>SimpleOFAC Suite&trade; Tips of the Day</DIV>
+
+<DIV id=breadcrumbs>
+
+<DIV id=nextprev> 
+<NOBR><A 
+href="index.html">&laquo; 
+prev</A></NOBR>  
+<!-- 
+<NOBR><A 
+href="alertgene.html">next 
+&raquo;</A></NOBR> 
+ -->
+</DIV>
+<SPAN class=item><A 
+href="index.html">Tips Of The day</A></SPAN> &gt; 
+<SPAN class="item selected"><A 
+href="alertgene.html" 
+xmlns="">How the alerts are generated</A></SPAN> </DIV>
+
+
+</DIV>
+
+
+<DIV id=side>
+<DIV id=menu>
+<DIV class="header item"><A href="./index.html">SimpleOFAC Suite&trade; Tips of the Day</A> </DIV>
+<DIV class=group>
+<DIV class="item"><A 
+href="./index.html">Navigation Tips</A> 
+</DIV>
+
+<DIV class="item selected"><A 
+href="./alertgene.html">How the alerts are generated
+</A> </DIV>
+
+
+<DIV class=item><A 
+href="./search.html">How the search works
+</A> </DIV>
+
+	 
+
+</DIV>
+</DIV>
+</DIV>
+
+<DIV id=body>
+<DIV class=documentation>
+<H1>How the alerts are generated</H1>
+
+<p>
+There are quite a few factors that affect how the alerts are generated: 
+</p> 
+<UL class=instructions>
+  <LI>
+   Sanction list 
+  </LI>
+  <LI>
+   Scan mode 
+  </LI>  
+  <LI>
+   Threshold 
+  </LI>
+ </UL> 
+ <p>
+By default, the transaction(such as ACH, SWIFT messages etc) and customer information (such as CIF etc)
+ are scan against the name and alternate name (alt.) of the sanction lists.  The sanction lists we maintain are
+</p>  
+<OL class=instructions>
+  <LI>
+   Treasury Dept. OFAC Specially Designated Nationals (SDN) and Blocked Persons (OFAC SDN) 
+
+  </LI>
+  <LI>
+   Treasury Dept. Non-SDN Palestinian Legislative Council [NS-PLC]
+  </LI>  
+  <LI>
+   Treasury Dept. OFAC Country Sanctions
+  </LI>  
+  
+   
+  <LI>
+   OFSI - CANADIAN LIST 
+  </LI>
+ </OL> 
+
+<p>
+
+<b>Threshold</b> is a matching percentage that must be exceeded to allow the result as an alert. 
+Default is 30% or above match will be considered as an alert.
+<br>
+The a matching percentage is called score.  
+For individual, both first and last name should have kind of match, in order to produce an alert.
+For example, <b>BREDENKAMP, John</b> in the sdn list, and we do not want to produce a alert for any first name is John.
+In other word, if you type only <b>John</b>, the filter will produce no alerts. <br>
+If you type only <b>BREDENKAMP</b>, the filter will produce no alerts either. 
+
+
+</p>
+<p>
+<b>Scan mode</b> is how Filter engine uses to do the name match.
+Currently there are three scan modes, Loose, Medium and Strict. The default mode is Medium.
+</p>
+
+
+<h3>Exceptions (Good Guys) in the sanction list</h3>
+<p>
+Filter engine scans the customer data or financial transaction against the sanction list, 
+produces alert or no alert results. 
+Some alerts are true alerts, while others are false alerts. 
+There are some entries in the sanction list, 
+produces large volume of false alerts. 
+Exceptions, also called Good Guys are used to eliminate those false alerts.  
+Each Sanction List entry can have 0 to many Exceptions. 
+If the customer data match the sanction list name, at the same time, 
+the customer data also 100% match the exception name, 
+the filter engine will ignore the alert and produce no alert result. 
+
+</p>
+
+<h3>Notes</h3>
+<p>
+The presence of a country's name on this index does not necessarily mean that
+the entire country is sanctioned. 
+Each sanctions program is unique because each is designed to achieve specific foreign policy goals. 
+Some programs may be very comprehensive, 
+while others may be limited, involving only certain individuals. 
+Many are somewhere in between. 
+Because they vary widely, a compliance officer typically reviews each program for its requirements. 
+<p>
+
+<p>
+ You should take appropriate due diligence steps 
+ to make certain that a match is valid. 
+ Even if you obtain a match that appears to be a close match,
+ additional research is needed to decide whether you have a true match or false positive. 
+ In some cases, the name you enter will be similar to (or the same as) a target's name, 
+ but the rest of the information provided differs from that of the true entity on the sanction list
+</p>
+<br/>
+Please contact us at <A href="mailto:info@simpleofac.com">info@simpleofac.com</A>
+if you need more advance features, such as manage sanction lists, include Exceptions (Good guys) and filter instance to reduce false positive alerts. 
+</p>
+ 
+</DIV>
+</DIV>
+
+
+<DIV id=footer>Copyright &copy;
+         2004-2009 <a href="http://www.simpleofac.com/">SimpleOFAC</a> ALL RIGHT RESERVED
+</DIV>
+
+</BODY></HTML>

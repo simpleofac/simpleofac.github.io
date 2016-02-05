@@ -1,0 +1,20 @@
+.. _workflow-index:
+
+Workflow
+============================================
+
+
+Each access person pre-clearance/broker-confirm transaction has a status code; for example: Pass, Failed, Approved, Denied, etc. 
+Users can define any status code as needed via Resources->dropdown :ref:`res-dropdown` .
+
+Workflow rules define actions that the current alert can perform. Each action rule has an action code, action name, from status, to status, 
+permission key, etc. These are the rules to move alerts from one status to another. It can be very simple, 
+from New to Approved. It also can be more complicated, like add comments, add documents, escalate to compliance officer, etc. 
+It is easily configurable to suit your business needs without vendor involvement.
+
+
+.. toctree::
+   :maxdepth: 1
+
+   actionrule.rst
+   actionreason.rst

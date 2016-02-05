@@ -1,0 +1,121 @@
+.. _policy-document:
+
+Document
+============================================
+
+Document is the main place to hold firm policy, such as code of ethics, announcement, etc.  
+Click the **Document** in the left navigation menu under Firm Policy and a new **Document** Tab folder will be created 
+in the right panel. 
+
+There are 3 sub-Tab folders: :ref:`policy-document-search`, :ref:`policy-document-search-result` and :ref:`policy-document-new`.
+
+.. image:: _images/document-search.png
+   :alt: Document search screen
+
+   
+.. _policy-document-search:
+
+Search Document
+---------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+Doc Id	        Document unique record identifier.
+Title	        Document title.
+CreatedByDate	Date and Time when this entry is created.
+CreatedByUser	User who create this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+Org Unit Code   The org unit this document belongs to.
+Status code     Status code can be active or inactive or any status set up by the system admin.
+Short Desc      Short description.
+AND    	        Select AND radio box if you want those criteria added together. 
+OR              Select OR radio box if you want to get the result if either of criteria is met
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _policy-document-search-result:
+
+Search Result Document
+----------------------------
+
+.. image:: _images/document-search-result.png
+   :alt: Document search result screen
+
+The top part is the table which shows the list of the Document that meet the search criteria. 
+The bottom part is the details, attached files, emails and audit logs of the selected entry. 
+Each document can have many attached files.  
+
+.. image:: _images/document-search-result-attached.png
+   :alt: Document search result screen with attachment
+
+
+
+.. _policy-document-update:
+
+Update/Delete Document
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Document" will be added, as shown below.
+
+.. image:: _images/document-update.png
+   :alt: Document update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Action Dropdown list:** --  Depends on the current document status and user’s permission. 
+  It will show a list of action the user is allowed to perform. Select one of the actions from the dropdown list.  
+  Typically, Users can add a comment, add document, etc. Those actions are configured via the workflow. 
+  Please see :ref:`workflow-index` section for details.
+* **Action Reason Dropdown list :**--  Select one of the action reasons from the dropdown list.
+* **Comments:**-- A free text box will allow user to input the comments of this action. Comments will show in the action logs. 
+* **Submit:**-- Perform this action, the pop down will show, indicating success or failure. 
+  Depending on the action performed, it may change the action status. 
+  It will stay in this page to allow users to perform another actions   
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Close:**--  Cancel this change(if any) and close this page and switch back to "Search result Document" Tab.
+
+
+.. _policy-document-new:
+
+Create New Document
+----------------------------
+
+Select the "Create New Document" Tab to create a new entry.
+
+.. image:: _images/document-new.png
+   :alt: Document create new screen
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+Doc Id	        Document unique record identifier.
+Title	        Document title
+Org Unit Code   The org unit this document belongs to.
+Short Desc      Short description.
+Action Reason   The reason code for creating this new document
+Comments        Comments; those will be shown in the audit log, along with action reason 
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Create:** --  Click the Create button to create a new document entry and switch to the "Search result Document" Tab. 
+  Title is a mandatory field; if it is empty, an error will be shown.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel the operation and switch back to the "Search result Document" Tab.
+
+After the document is created, use the workflow in the :ref:`policy-document-update` to add attached files. 
+   

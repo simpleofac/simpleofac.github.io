@@ -1,0 +1,36 @@
+.. _accessperson-index:
+
+Access Person
+============================================
+
+The Access Person Module manages and maintenances access person broker accounts, pre-clearance requests, broker confirm transactions,
+access person holdings, and broker positions.  
+
+We category each transaction with an event type, as shown below.
+
+================ ================================================================================
+Menu             Event Type for transaction
+================ ================================================================================
+Preclearance     Pre-clearance request, Gift and Holding Adjustment.
+Broker Confirm   Broker Confirm and Broker Action.
+Initial Holding  Initial Holding.
+================ ================================================================================
+ 
+.. note:: 
+
+   All the data in the SimpleEPT is assigned to an Organization Unit. Users are authorized by combining the Organization
+   Unit code with permission and roles. Users may be able to have full access to transaction in Organization Unit A, but have no access 
+   or limited access to the transaction in Organization Unit B. (Please see User security section :ref:`admin-index` for details). 
+
+
+
+.. toctree::
+   :maxdepth: 1
+
+   broker-account.rst
+   pre-clearance.rst
+   broker-confirm.rst
+   initial-holding.rst
+   holdings-position.rst
+   broker-position.rst
+   

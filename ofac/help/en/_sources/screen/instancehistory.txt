@@ -1,0 +1,67 @@
+.. _screen-instance-history:
+
+Screening Engine History
+============================================
+
+Every change (add/delete/modify) to the Screening Engine will create a record in the Screening Engine history table. 
+This not only services as audit purpose but can also be used to restore the data to past point in time.
+
+
+This function is used to search the filter history. Click the "Filter History" in the left navigation menu under Filter management and a new "Filter History" Tab folder will be created in the right panel. There are 2 sub-Tab folders: Search Filter Instance History and Search result Filter Instance History.
+
+
+
+This function is used to search the screening instance history. 
+Click the **Instance History** in the left navigation menu under Screening management and a new **Instance History** Tab folder
+will be created in the right panel.  
+
+There are 2 sub-Tab folders: :ref:`screen-instance-history-search` and :ref:`screen-instance-history-search-result`.
+
+.. note:: 
+
+   There is no Create New or Update/Delete function in instance history.
+
+
+.. image:: _images/screen-history-search.png
+   :alt: Screening Instance History search screen
+
+   
+.. _screen-instance-history-search:
+
+Search Screening Instance History
+-----------------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+HistoryId	    Unique record identifier.
+InstanceId	    Link to Screening Instance.
+Filed Name	    Name of Field.
+New Value	    The new value of this field
+ChangeDate	    Date and time that changes occurred.
+Changer         who made the change.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either criteria meet
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _screen-instance-history-search-result:
+
+Search Result Screening Instance History
+-----------------------------------------
+
+.. image:: _images/screen-history-search-result.png
+   :alt:  Screening Instance History search result screen
+
+The top part is the table which shows the list of the Screening Instance History that meet the search criteria. 
+The bottom part is the details of the selected entry. There is no create/update/delete function in Screening Instance History.
+

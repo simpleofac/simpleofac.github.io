@@ -1,0 +1,385 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Report &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="../index.html" />
+    <link rel="up" title="Report" href="index.html" />
+    <link rel="next" title="Administration" href="../admin/index.html" />
+    <link rel="prev" title="Report" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../list/index.html">List Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../list/listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listhistory.html">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screen/index.html">Screening Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../screen/screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/filescan.html">File Scan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/customerdbscan.html">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Report</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Report</a><ul>
+<li><a class="reference internal" href="#search-reports">Search Reports</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-reports">Search Result Reports</a></li>
+<li><a class="reference internal" href="#update-delete-reports">Update/Delete Reports</a><ul>
+<li><a class="reference internal" href="#id2">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-new-reports">Create New Reports</a><ul>
+<li><a class="reference internal" href="#id3">Functional buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="index.html"
+         title="previous chapter">&laquo; Report</a></li>
+  <li><a href="../admin/index.html"
+         title="next chapter">Administration &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="report">
+<span id="id1"></span><h1>Report<a class="headerlink" href="#report" title="Permalink to this headline">¶</a></h1>
+<p>SimpleOFAC Suite uses the popular java reporting library <strong>jasperreports</strong>; It has the following built-in reports.</p>
+<ol class="arabic simple">
+<li>Compliance list alert detail report (WL alert).</li>
+<li>WL alert by Status.</li>
+<li>WL alert by Assigned To.</li>
+<li>WL alert by Organization Unit.</li>
+<li>WL alert by Hit Origin.</li>
+<li>SQL Query report.</li>
+<li>US regulatory reports, such as CTR, SAR and EFile.</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">SQL query type report will run the SQLscript and export the result either as Excel or PDF file.
+It requires some knowledge on our internal tables.</p>
+</div>
+<p>Click the <strong>Reports</strong> Tab in the left navigation menu under Report Admin,
+a new <strong>Reports</strong> Tab folder will be created in the right panel.
+There are 3 sub-Tab folders, <a class="reference internal" href="#report-search"><em>Search Reports</em></a>, <a class="reference internal" href="#report-search-result"><em>Search Result Reports</em></a> and <a class="reference internal" href="#report-new"><em>Create New Reports</em></a>.</p>
+<img alt="Reports search screen" src="../_images/report-search.png" />
+<div class="section" id="search-reports">
+<span id="report-search"></span><h2>Search Reports<a class="headerlink" href="#search-reports" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Report Id</td>
+<td>This is the unique number for the Reports entry in the system .</td>
+</tr>
+<tr class="row-odd"><td>Report Name</td>
+<td>Name of the Reports.</td>
+</tr>
+<tr class="row-even"><td>Report Type</td>
+<td>Select report type(s) in the drop down list.</td>
+</tr>
+<tr class="row-odd"><td>Org Unit Code</td>
+<td>Select values from the drop down list.</td>
+</tr>
+<tr class="row-even"><td>Description</td>
+<td>The description of this report</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this entry is created</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who create this entry.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria add together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either criteria meet</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click the Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click the Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-reports">
+<span id="report-search-result"></span><h2>Search Result Reports<a class="headerlink" href="#search-result-reports" title="Permalink to this headline">¶</a></h2>
+<img alt="Reports search result screen" src="../_images/report-search-result.png" />
+<p>The top part is the table which shows the list of the reports that meet the search criteria.
+The bottom part is the details of the selected entry.</p>
+</div>
+<div class="section" id="update-delete-reports">
+<span id="report-update"></span><h2>Update/Delete Reports<a class="headerlink" href="#update-delete-reports" title="Permalink to this headline">¶</a></h2>
+<p><strong>Double Click</strong> the selected record in the table to modify this entry.
+A new Tab folder <strong>Update/Delete Reports</strong> will be added, as shown below.</p>
+<img alt="Reports update/delete screen" src="../_images/report-update.png" />
+<div class="section" id="id2">
+<h3>Functional buttons<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Update:</strong> &#8211;  make changes on the report, and save and switch back to the &#8220;Search result Reports&#8221; Tab.
+Some of the fields in this form are read only,  like Report Id, created/modified user and date.
+The Configuration Data field is read only also, it can be modified via the Re-Configure button.</li>
+<li><strong>Reset:</strong>&#8211;  reset the data to its initial value and discard all the changes.</li>
+<li><strong>Cancel:</strong>&#8211; Cancel this change and switch back to the &#8220;Search result Reports&#8221; Tab.</li>
+<li><strong>Delete:</strong>&#8211; Delete this entry. Then switch back to the &#8220;Search result Reports&#8221; Tab.</li>
+<li><strong>Re-Configure</strong> &#8211; Click this button to open a configure wizard to set up the configuration data, as shown below:</li>
+</ul>
+<img alt="Reports configuration wizard step one" src="../_images/report-config-w1.png" />
+<p>Click the Next Button to go to wizard step 2</p>
+<img alt="Reports configuration wizard step two - search" src="../_images/report-config-w2.png" />
+<p>It will show screens corresponding to the type of the report. For example, if the report type is WLA report, then it will show
+a watchList alert search <a class="reference internal" href="../case/wla.html#case-wla-search"><em>Search WatchList Alert</em></a> panel, allowing the user to select the watchList alerts to be included
+in this report. It is pre-populated with the data in the Configuration Data field.</p>
+<p>Set search criteria; then clicking the Find Button will get a list of watchList alerts that meet the search criteria.</p>
+<img alt="Reports configuration wizard step two - search result" src="../_images/report-config-w2-2.png" />
+<p>Click the Next button to go to wizard step 3: Save the configuration</p>
+<img alt="Reports configuration wizard step Three" src="../_images/report-config-w3.png" />
+<ul class="simple">
+<li>Clicking the <strong>Finish</strong> button will save the configuration into the Configuration Data field.</li>
+<li>Click the <strong>Cancel</strong> button to discard those changes.</li>
+<li><strong>Get Report</strong> &#8211; Click this button to download the report file, if it exists, otherwise it will generate the
+report first.</li>
+<li><strong>Run/Rerun Report</strong> &#8211; Click this button to generate the report first, then download it.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="create-new-reports">
+<span id="report-new"></span><h2>Create New Reports<a class="headerlink" href="#create-new-reports" title="Permalink to this headline">¶</a></h2>
+<p>Select the &#8220;Create New Reports&#8221; Tab to create a new entry.</p>
+<img alt="Reports create new screen" src="../_images/report-new.png" />
+<table border="1" class="docutils">
+<colgroup>
+<col width="15%" />
+<col width="85%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Report Id</td>
+<td>This is the unique number for the Reports entry in the system .</td>
+</tr>
+<tr class="row-odd"><td>Report Name</td>
+<td>Name of the Reports.</td>
+</tr>
+<tr class="row-even"><td>Report Type</td>
+<td>Select report type(s) in the drop down list.</td>
+</tr>
+<tr class="row-odd"><td>Org Unit Code</td>
+<td>Select values from the drop down list.</td>
+</tr>
+<tr class="row-even"><td>Description</td>
+<td>The description of this report</td>
+</tr>
+<tr class="row-odd"><td>Data</td>
+<td>Configuration data to define what watchList alerts should be included in the report.
+User has to set the data value via Configure button.</td>
+</tr>
+<tr class="row-even"><td>CreatedByDate</td>
+<td>Date and Time when this Reports entry is created. It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByUser</td>
+<td>User who create this Reports entry. It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByDate</td>
+<td>Last modified date and time; It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByUser</td>
+<td>Last modified user; It is a read only field.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id3">
+<h3>Functional buttons<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Create:</strong> &#8211;  Click the Create button to create a new Reports entry and switch to the &#8220;Search result Reports&#8221; Tab.
+Report type and name are a mandatory field, if any one of them is empty, an error message will show.
+The Data field must be set via Configure Button.
+If the Data field is empty, all the watchList alerts will be included when the report is generated.</li>
+<li><strong>Clear:</strong>&#8211;  Click the Clear button to clear all the fields</li>
+<li><strong>Cancel:</strong>&#8211; Click the Cancel button to cancel operation and switch back to the &#8220;Search result Reports&#8221; Tab.</li>
+<li><strong>Configure</strong> &#8211;Click the Configure button to open a configure wizard to set up the configuration data.
+(see Re-Configure in Update/Delete Reports section <a class="reference internal" href="#report-update"><em>Update/Delete Reports</em></a>).</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

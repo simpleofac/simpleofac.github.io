@@ -1,0 +1,54 @@
+.. _overview:
+
+Employee Personal Trade Monitoring overview
+=============================================
+
+SimpleEPT is a browser-based Java enterprise application that automates employee personal trade monitoring.
+It uses the advanced rule engine and the latest Web 2.0 (AJAX), providing user friendly interface, high performance and quality.
+
+SimpleEPT spans all areas of employee personal trading, from pre-clearance request authorization
+to post-trade reconciliation, certification and reporting; ensures comprehensive, documented 
+compliance for any firms subject to personal trading regulations and mandates. 
+It greatly improves visibility into access employee personal trading; 
+simplifies compliance process and reduces paperwork; streamlines workflow and comprehensive monitoring to 
+avoid SEC-imposed fines. 
+
+SimpleEPT Suite™ consists of the following major modules:
+
+#. :ref:`policy-index`.
+
+   Compliance manager can set up firm policy document, firm certification, master security and firm restricted security. 
+   Access person can read firm policy document, submit certification and search on master security.  
+    
+#. :ref:`accessperson-index`.
+
+   Access person can disclose broker accounts, submit pre-trade request, and view his/her own holdings.
+   Compliance manager can also input broker confirmation transaction and broker position.    
+   
+#. :ref:`firm-index`.
+
+   Compliance manager or system admin can input or load firm trade, firm order, firm holding and firm Recommendation. 
+
+#. :ref:`detection-index`.
+
+   Compliance manager or system admin can build rules on pre-clearance and/or post-trade  to comply SEC rules, 
+   ICI recommendations, and firm’s code of ethics.
+
+#. :ref:`workflow-index`.
+
+   It has build-in configurable workflow for pre-clearance/post trade transaction. firm certification etc.   
+
+#. :ref:`report-index`.
+
+   It has various build-in reports. Adding a new report is easy by simply adding a new jasperreport template.   
+   
+#. :ref:`admin-index`.
+
+   Compliance manager or system admin can manager users(access person) with role, group and org unit code. 
+
+#. :ref:`resource-index`.
+
+   Resource is the center place to manage some entities that used within the system. Those are File Format and Drop-downs.
+
+
+The :ref:`glossary` contains common terms used in this document.

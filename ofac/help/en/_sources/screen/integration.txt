@@ -1,0 +1,31 @@
+.. _screening-integration:
+
+Integration with Screening Engine
+============================================
+
+The Screening Engine is the central piece of SimpleOFAC OFAC Suite. The Screening Engine is a service that 
+screens customer name or payment transaction against the sanction list and gives an alert or no alert result.
+It can be used to scan customers in the batch mode or scan payment transactions in real time. 
+It supports direct API call, Http request, IBM Websphere MQ, or Java Message Service interface.
+
+Take http request as an example; the following are the list(s) of name parameters can be used::
+  
+  1. q -- Text to scan: accept any text
+  2. min_score -- Threshold: must be a float (number); otherwise will use default, which is set in a configuration file
+  3. rows-- Maximum Alerts Returned: must be a integer, default is 50
+  4. spell_check -- Enable Fuzzy, Y or N, default N
+  5. scan_mode --Scan mode ; accept 0, 1, or 2 0 = medium mode (default) 1 = loose mode, and 2 = strict mode. 
+  6. wt -- response format; txt, hitnum, xml or any format you like.
+      
+      a) txt -- will return in txt format similar to what you see in the screen
+      b) hitnum - number of hits, if 0 means no hit. >0 means has hits need to be reviewed.
+      c) XML  xml format
+  
+   7. origins --list of origin to return; default is return all. Origins are delimited by comma (,) eg. OFAC, OFSI, EU.
+   8. gg -- apply the exception list, Y/N, default is Y. see sanction list management --> :ref:`list-gg`
+      for the details of exceptions.
+
+The default values of those parameters are set in a configuration file.
+
+See Alt name section :ref:`list-alt-search-result` for details.
+

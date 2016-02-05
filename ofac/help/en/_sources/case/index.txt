@@ -1,0 +1,23 @@
+.. _case-index:
+
+Case Management
+============================================
+
+
+WatchList alerts and AML alerts can be loaded into the Case Management for review. 
+It has a configurable workflow, build-in document support, email notification, and audit log.
+
+.. note:: 
+
+   All the data in the Case Management are assigned to an Organization Unit. Users are authorized by combining the Organization
+   Unit code with permissions and roles. Users may be able to have full access to alerts in Organization Unit A, but have no access 
+   or limited access to the alerts in Organization Unit B. (Please see User security section :ref:`admin-index` for details). 
+   
+.. toctree::
+   :maxdepth: 1
+
+   wla.rst
+  
+   
+   
+   

@@ -1,0 +1,57 @@
+.. _list-list-analysis:
+
+Sanction List Analysis
+============================================
+
+The List Analysis gives users the ability to view the changes on the sanction list between day one and day two.
+
+Click the **List Analysis** in the left navigation menu under List management and a new **List Analysis** Tab folder will be created 
+in the right panel.
+ 
+
+There are 2 sub-Tab folders: :ref:`list-list-analysis-search` and :ref:`list-list-analysis-search-result`.
+
+
+.. image:: _images/list-analysis-search.png
+   :alt: Sanction List Analysis search screen
+
+   
+.. _list-list-analysis-search:
+
+Search Sanction List Analysis
+-------------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+From Date	    The start date; it must be in mm/dd/yyyy HH:MM:SS or mm/dd/yyyy format. This is required.
+To Date	        The end date; it must be in mm/dd/yyyy HH:MM:SS or mm/dd/yyyy format.
+                Leave this field empty will bring the latest data, the same as current date.
+EntNum	        Link to sanction list entry unique record identifier.
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _list-list-analysis-search-result:
+
+Search Result Sanction List Analysis
+---------------------------------------
+
+.. image:: _images/list-analysis-search-result.png
+   :alt: Sanction List Analysis search result screen
+
+The left side result list shows the list of the sanction list that has been changed (add/delete/update) between from-date to to-date. 
+The right top part is the Details - Old which show the select entry at the From-Date point of time. 
+The right bottom part is the Details - New which shows the selected entry at the To-Date point of time. 
+
+If at From-Date, the select entry does not exist yet, the name, type, program, etc. fields will be empty. 
+If the select entry is deleted, ****DELETE*** will be added in front of the name.
+

@@ -1,0 +1,63 @@
+.. _list-index:
+
+List Management
+============================================
+
+SimpleOFAC Suite List Management manages and maintenances the sanction entity list. 
+The data model of the list management is modeled after the OFAC SDN list 
+XML format. For details on the XML schema, 
+please see links http://www.treasury.gov/resource-center/sanctions/SDN-List/Documents/sdn.xsd, 
+The List Management has built-in support for OFAC SDN list. New lists can be easily supported by creating a new plugin. 
+It supports XML and CSV format. 
+
+The following sanction lists are supported and can be loaded via list load function:
+
+* BIS-DPL
+* BIS-UNVENRIFIED
+* CIA WORLD LEADER
+* EU, 
+* HUD-LDP
+* NS-PLC
+* OCC UNAUTHORIZED BANK LIST 
+* OFAC SDN 
+* Canada OFSI ENTITY
+* Canada OFSI INDIVIDUAL 
+* Sanction countries
+* STATE-DEBAR
+* UK-HM.
+
+Each sanction list is assigned to an “ORIGIN”.  For example, the origin of OFAC LIST will be assigned to origin OFAC. 
+Each line of business can also create its own **local** ORIGIN to manage its own list.
+ 
+Authorized Users can search entries, manually add a new entry, update/delete an entry, or bulk add/update by uploading a whole list. 
+Access is controlled using role based security. 
+
+ORIGIN is also used as access control to the sanction list. 
+For example, users can have full access to OFAC list, but may have no access to OCC list (see use access section for more information). 
+
+There are a few options to update a sanction list. Let us use OFAC SDN list as an example.
+ 
+  * Option one:   
+    Subscribe to OCC mail list service and receive an email update whenever there is an update on the SDN list. 
+    Then you can manually upload the list via our upload list web interface. 
+    It will show the comparison report (added, updated, deleted entries)
+  
+  * Option two:  
+    Schedule a job via Cron Job, Control M or any schedule tool to run our list update program once a day or once every few hours. 
+    It will download the SDN list and do the comparison with the current one. If there are any changes, then either:
+  
+    * Automatically upload the list and update the OFAC List.
+    * Create a comparison report, showing what is added, updated,  deleted, and notify users by email. 
+
+
+.. toctree::
+   :maxdepth: 1
+
+   listentry.rst
+   alt.rst
+   gg.rst
+   listhistory.rst
+   listanalysis.rst
+   listupload.rst
+   listuploadhistory.rst
+   

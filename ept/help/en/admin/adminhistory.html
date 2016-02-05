@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Administration History &mdash; SimpleEPT  1.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleEPT  1.0.1 documentation" href="../index.html" />
+    <link rel="up" title="Administration" href="index.html" />
+    <link rel="next" title="Record Locks" href="recordlocks.html" />
+    <link rel="prev" title="Organization Units" href="orgunits.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleEPT </a>
+        <span class="navbar-text pull-left"><b>1.0.1</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">Employee Personal Trade Monitoring overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login an logout the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-the-system">Login the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-the-system">Logout the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../policy/index.html">Firm Policy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../policy/certification.html">Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/document.html">Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/ap-certification.html">AP Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/security.html">Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../policy/restricted-security.html">Restricted Security</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../accessperson/index.html">Access Person</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-account.html">Broker Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/pre-clearance.html">PreClearance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-confirm.html">Broker Confirm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/initial-holding.html">Initial Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/holdings-position.html">Holdings &amp; Position</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accessperson/broker-position.html">Broker Position</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../firm/index.html">Firm Transaction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../firm/trade.html">Firm Trade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../firm/order.html">Firm Order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../firm/holding.html">Firm Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../firm/recommendation.html">Firm Recommendation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../detection/index.html">Detection Builder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../detection/query.html">Query Builder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../detection/rule.html">Rule Builder</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="orgunits.html">Organization Units</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Administration History</a><ul>
+<li><a class="reference internal" href="#search-admin-history">Search Admin History</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-admin-history">Search Result  Admin History</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="orgunits.html"
+         title="previous chapter">&laquo; Organization Units</a></li>
+  <li><a href="recordlocks.html"
+         title="next chapter">Record Locks &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li><a href="http://www.simplecompli.com/ofac/help/en">SimpleOFAC Suite</a></li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="administration-history">
+<span id="admin-admin-history"></span><h1>Administration History<a class="headerlink" href="#administration-history" title="Permalink to this headline">¶</a></h1>
+<p>Every change (add/delete/modify) to the Users, Groups, Roles, Permissions or Organization Units will create a record
+in the admin history table. This not only services as audit purpose, but can also be used to restore the data to past point in time.
+This function is used to search admin history.
+Click the <strong>Admin History</strong> in the left navigation menu under Administration, a new <strong>Admin History</strong> tab folder
+will be created in the right panel.</p>
+<p>There are 2 sub-Tab folders: <a class="reference internal" href="#admin-admin-history-search"><em>Search Admin History</em></a> and <a class="reference internal" href="#admin-admin-history-search-result"><em>Search Result  Admin History</em></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">There is no Create New or Update/Delete function on Admin History.</p>
+</div>
+<img alt="Admin History search screen" src="../_images/admin-admin-history-search.png" />
+<div class="section" id="search-admin-history">
+<span id="admin-admin-history-search"></span><h2>Search Admin History<a class="headerlink" href="#search-admin-history" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="16%" />
+<col width="84%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>HistoryId</td>
+<td>Unique record identifier.</td>
+</tr>
+<tr class="row-odd"><td>EntityID</td>
+<td>It will be UserId , RoleId, permissionId, GroupId and Orgunit Id.</td>
+</tr>
+<tr class="row-even"><td>Filed Name</td>
+<td>Name of Field.</td>
+</tr>
+<tr class="row-odd"><td>New Value</td>
+<td>The new value of this field</td>
+</tr>
+<tr class="row-even"><td>ChangeDate</td>
+<td>Date and time that changes occurred.</td>
+</tr>
+<tr class="row-odd"><td>Changer User</td>
+<td>who made the change.</td>
+</tr>
+<tr class="row-even"><td>Table Name</td>
+<td>User, Role, Group, Permission or Orgunit.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria add together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either of the criteria is met.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-admin-history">
+<span id="admin-admin-history-search-result"></span><h2>Search Result  Admin History<a class="headerlink" href="#search-result-admin-history" title="Permalink to this headline">¶</a></h2>
+<img alt="Admin History search result screen" src="../_images/admin-admin-history-search-result.png" />
+<p>The top part is the table which shows the list of the Admin History that meet the search criteria.
+The bottom part is the details of the selected entry. There is no create/update/delete function in Admin History.</p>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2013, SimpleEPT Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

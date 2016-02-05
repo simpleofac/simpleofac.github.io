@@ -1,0 +1,233 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>SimpleOFAC Suite Solution overview &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="index.html" />
+    <link rel="next" title="Installation" href="install.html" />
+    <link rel="prev" title="SimpleOFAC Suite’s User Guide" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="list/index.html">List Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="list/listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list/alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list/gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list/listhistory.html">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list/listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list/listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="list/listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="screen/index.html">Screening Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="screen/screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen/instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen/freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen/filescan.html">File Scan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen/customerdbscan.html">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen/integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="screen/batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">SimpleOFAC Suite Solution overview</a></li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="index.html"
+         title="previous chapter">&laquo; SimpleOFAC Suite&#8217;s User Guide</a></li>
+  <li><a href="install.html"
+         title="next chapter">Installation &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="simpleofac-suite-solution-overview">
+<span id="overview"></span><h1>SimpleOFAC Suite Solution overview<a class="headerlink" href="#simpleofac-suite-solution-overview" title="Permalink to this headline">¶</a></h1>
+<p>Simple OFAC Suite™ is built on the idea that OFAC compliance tools can be more intuitive, efficient, and useful.
+It uses the latest Web 2.0 (AJAX) and innovative indexing and search technology, providing user friendly interface,
+high performance, and quality. It is an open and extensible platform and it supports various API and web services interface.
+It can be easily integrated with your existing system or customized to match to your business processes.</p>
+<p>SimpleOFAC Suite™ Compliance Software consists of the following major components:</p>
+<ol class="arabic">
+<li><p class="first"><a class="reference internal" href="list/index.html#list-index"><em>List Management</em></a>.</p>
+<p>Manage sanction list. It supports the list upload. The following lists are supported, and a new plugin can be added easily
+to support a new list:
+BIS-DPL, BIS-UNVENRIFIED, CIA WORLD LEADER, EU, HUD-LDP, NS-PLC, OCC UNAUTHORIZED BANK LIST, OFAC SDN, OFSI ENTITY,
+OFSI INDIVIDUAL, STATE-DEBAR, and UK-HM.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="screen/index.html#screening-index"><em>Screening Management</em></a>.</p>
+<p>Manage screening engines. The screening engine scans texts/messages against the sanction lists and gives alert or no alert results.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="case/index.html#case-index"><em>Case Management</em></a>.</p>
+<p>The alert results can be loaded into Case Management for review. It has a build-in algorithm to detect duplicated texts/messages.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="workflow/index.html#workflow-index"><em>Workflow</em></a>.</p>
+<p>It has a build-in configurable workflow for watch list alerts and cases.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="report/index.html#report-index"><em>Report</em></a>.</p>
+<p>It has various build-in reports. Adding a new report is easy by simply adding a new Jasperreport template.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="admin/index.html#admin-index"><em>Administration</em></a>.</p>
+<p>The compliance manager or system admin can manage users(access person) with role, group, and org unit code.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="resource/index.html#resource-index"><em>Resources</em></a>.</p>
+<p>Resource is the center place to manage some entities that are used within the system. Those are File Format and Drop-downs.</p>
+</li>
+<li><p class="first">Analysis tools</p>
+<ul class="simple">
+<li>Free Text Lookup:  It is a very useful browse-based tool used to scan any text or message using the screening engine service.</li>
+<li>SimpleOFAC Client: It is a Java utility and runs on the user’s desktop. It takes a customer file as input and scans the file
+against the screening engine service and generates statistics, such as the number of alerts, hits, and their match term that
+each sanction list entry receives.</li>
+</ul>
+<p>Both of them can be used as a test tool to test screening engine service and the sanction lists. This helps users to do
+the tuning of the sanction list itself (create Exception (good guy), or exclude AKA)
+and/or on the parameter settings on screening engine service (setting threshold, scan mode, etc.).</p>
+</li>
+</ol>
+<p>The <a class="reference internal" href="glossary.html#glossary"><em>Glossary</em></a> contains common terms used in this document.</p>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

@@ -1,0 +1,60 @@
+.. _list-list-upload-history:
+
+Sanction List Upload History
+============================================
+
+Every sanction list upload will create a record in the list upload history table. 
+Like Sanction List History, it can be used for audit purpose.
+
+This function is used to search the list upload history. Click the **Upload History** in the left navigation menu under List management and 
+a new **Upload History** Tab folder will created in the right panel. 
+
+
+There are 2 sub-Tab folders: :ref:`list-list-upload-history-search` and :ref:`list-list-upload-history-search-result`.
+
+.. note:: 
+
+   There is no Create New or Update/Delete function on sanction list upload history.
+
+
+.. image:: _images/list-upload-history-search.png
+   :alt: Sanction List Upload History search screen
+
+   
+.. _list-list-upload-history-search:
+
+Search Sanction List Upload History
+--------------------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+Pub Date	    The date list published.
+Load Date	    The date that this file is loaded.
+Load By User	who upload this file.
+File Name	    The name of the file.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either criteria meet
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _list-list-upload-history-search-result:
+
+Search Result  Sanction List Upload History
+--------------------------------------------
+
+.. image:: _images/list-upload-history-search-result.png
+   :alt:  Sanction List Upload History search result screen
+
+The top part is the table which shows the list of the Sanction List Upload History that meet the search criteria. 
+The bottom part is the details of the selected entry. There is no create/update/delete function in List Upload History.
+

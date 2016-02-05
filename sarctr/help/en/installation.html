@@ -1,0 +1,181 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright SimpleOFAC.com . 2004-2009" />
+<meta content="public" name="security" />
+<meta content="index,follow" name="Robots" />
+<link href="./css/base.css" type="text/css" rel="stylesheet" />
+<link href="./css/doc.css" type="text/css" rel="stylesheet" />
+<link href="./css/print.css" type="text/css" rel="stylesheet" media=print />
+<STYLE type=text/css>#footer .text {
+	PADDING-TOP: 5px
+}
+.documentation {
+	MARGIN-LEFT: 0.25in
+}
+.documentation H1 {
+	MARGIN-LEFT: -0.25in
+}
+.documentation H2 {
+	MARGIN-TOP: 1.5em; MARGIN-LEFT: -0.25in
+}
+.documentation H3 {
+	MARGIN-LEFT: -0.125in
+}
+.documentation UL.toc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.demo {
+	PADDING-RIGHT: 3px; BACKGROUND-POSITION: left center; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(./images/newwindow.gif); PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat
+}
+</STYLE>
+
+<STYLE type=text/css>OL.instructions {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.instructions .header {
+	FONT-WEIGHT: bold
+}
+.instructions LI {
+	MARGIN-BOTTOM: 1em
+}
+DIV.screenshot {
+	MARGIN: 1em; TEXT-ALIGN: left
+}
+</STYLE>
+
+
+<title>SimpleOFAC SAR/CTR/E-Filing&trade; User Guide - Installation</title>
+</head>
+
+<body>
+<DIV id=preline>&nbsp;</DIV>
+<DIV id=header>
+<DIV id=logo><A href="http://www.simpleofac.com/"><IMG alt="SimpleOFAC Enterprise Compliance Suite" 
+src="./images/cpLogo_54.png"></A> </DIV>
+
+<DIV id=title>SimpleOFAC SAR/CTR/E-Filing&trade; User Guide</DIV>
+
+
+<DIV id=breadcrumbs>
+<DIV id=nextprev><NOBR><A 
+href="index.html">&laquo; 
+prev</A></NOBR>
+<NOBR><A 
+href="loginout.html">next 
+&raquo;</A></NOBR> </DIV>
+<SPAN class=item><A 
+href="overview.html">User Guide</A></SPAN> &gt; 
+<SPAN class="item selected"><A 
+href="installtion.html" 
+xmlns="">Installation</A></SPAN> </DIV>
+
+</DIV>
+
+
+<DIV id=side>
+<DIV id=menu>
+<DIV class="header item"><A href="./index.html">SimpleOFAC SAR/CTR/E-Filing&trade; User Guide</A> </DIV>
+<DIV class=group>
+<DIV class="item"><A 
+href="./index.html">Overview</A> 
+</DIV>
+<!--
+<DIV class="item"><A 
+href="./features.html">Features 
+</A> </DIV>
+-->
+<DIV class="item  selected"><A 
+href="./installation.html">Installation
+Guide</A> </DIV>
+
+<DIV class=item><A 
+href="./loginout.html">Login & Logout The System
+</A> </DIV>
+</DIV>
+
+
+<DIV class=group>
+<DIV class="item"><A href="./sar-ctr.html">SAR,CTR and E-Filing  </A> </DIV>
+
+<DIV class=group>
+ <DIV class="item"><A href="./sar.html">SAR </A> </DIV>
+ <DIV class=item><A href="./ctr.html">CTR</A> </DIV>
+ <DIV class="item"><A href="./efiling.html">E-Filing</A> </DIV>
+  
+ </DIV></DIV>
+
+ 
+
+</DIV>
+</DIV>
+
+<DIV id=body>
+<DIV class=documentation>
+<H1>Installation</H1>
+
+
+<p>
+SimpleOFAC SAR/CTR/E-Filing&trade; compliance software is a pure-Java server-side web application. 
+It runs on any platform (Windows, Unix, Linux ) and supports most Relational Databases (HSQLDB, DB2, Oracle, MYSQL, Mircosoft SQL). 
+</p>
+<h3>Requirement</h3>
+
+<p>
+In order to install SimpleOFAC SAR/CTR/E-Filing, you'll need a server environment that meets the following requirements: 
+</p>
+<ul>
+<li>A servlet engine with at least JSP 1.2 and Servlet 2.4 support.  </li>
+<li>JDK 1.6.x or later. </li>
+<li>A supported database with a JDBC 2.0 compliant driver.</li>
+</ul>
+
+<p>
+We bundle with Apache Tomcat 6.0.35 and HSQL DB 2.2.8. 
+</p>
+
+<h3>Installation</h3>
+
+
+<pre>
+1. un-pack the zip/gz file in a folder, eg. app
+
+2. open a command console, set the JRE HOME if JRE HOME is not set yet
+   for example, in window: 
+       set JRE_HOME=C:\Program Files\Java\jdk1.6.0_20
+   in unix/linux
+      export JAVA_HOME=/usr/lib/jvm/java-1.6.0-sun
+
+
+3. go to the unpacked folder (eg.app). 
+   then cd to tomcat bin folder, run the startup command
+   cd freetrial\tomcat6\bin
+   
+   startup.bat (window)
+   ./startup.sh (unix/linux)
+   
+4. you should be ready to go. 
+   
+   open a broswer (ie,firefox,chrome)
+   http://servername:8080/simpleofac/Main.html
+   
+   change the server name with your server name or ip address,
+    or localhost if it is in the same machine
+ eg
+
+  http://localhost:8080/simpleofac/Main.html
+
+</pre>
+
+
+
+</DIV>
+</DIV>
+
+
+<DIV id=footer>Copyright &copy;
+         2004-2009 <a href="http://www.simpleofac.com/">SimpleOFAC</a> ALL RIGHT RESERVED
+</DIV>
+
+</BODY></HTML>

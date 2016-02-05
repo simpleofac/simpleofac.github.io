@@ -1,0 +1,115 @@
+.. _firm-recommendation:
+
+Firm Recommendation
+============================================
+
+The Firm Recommendation screen manages and maintains the Firm's analyst recommendation.
+Click the **Firm Recommendation** in the left navigation menu 
+under Firm Transaction and a new Firm Recommendation Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`firm-recommendation-search`, :ref:`firm-recommendation-search-result` 
+and :ref:`firm-recommendation-new`.
+
+.. image:: _images/recommendation-search.png
+   :alt: Firm Recommendation search screen
+   
+.. _firm-recommendation-search:
+
+Search Firm Recommendation
+-----------------------------
+
+**Search Criteria**
+
+================ ================================================================================
+Field Name       Description
+================ ================================================================================
+TxnId            The unique system generated number.
+Source Ref Id    The reference Id from other system.
+Org Unit Code    The org unit this Firm Recommendation belongs to.
+Portfolio Code   The portfolio this recommendation belongs to. 
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Recommend Type   The Transaction Type: buy or sell.
+Recommend Date   The recommendation date.
+Status Code      The status of the recommendation; eg active, cancel, etc.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of criteria is met.
+================ ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _firm-recommendation-search-result:
+
+Search Result Firm Recommendation
+------------------------------------
+
+.. image:: _images/recommendation-search-result.png
+   :alt: Firm Recommendation search result screen
+
+The top part is the table which shows the list of the Firm Recommendation that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _firm-recommendation-update:
+
+Update/Delete Firm Recommendation
+----------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Firm Recommendation" will be added, as shown below.
+
+.. image:: _images/recommendation-update.png
+   :alt: Firm Recommendation update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Firm Recommendation and save and switch back to "Search result Firm Recommendation" Tab. 
+  Some of the fields in this form are read only, like Txn Id, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Firm Recommendation" Tab.
+* **Delete:**-- Delete this entry and then switch back to "Search result Firm Recommendation" Tab. 
+
+.. _firm-recommendation-new:
+
+Create New Firm Recommendation
+---------------------------------
+
+Select the "Create New Firm Recommendation" Tab to create a new entry.
+
+.. image:: _images/recommendation-new.png
+   :alt: Firm Recommendation create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+TxnId            The unique system generated number.
+Org Unit Code    The org unit this Firm Recommendation belongs to.
+Portfolio Code   The portfolio this recommendation belongs to. 
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Source Ref Id    The Reference ID from other system.s
+Recommend Date   The recommendation date.
+Recommend Type   The Transaction Type: buy or sell
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Firm Recommendation entry and switch to "Search result Firm Recommendation" Tab. 
+  Portfolio Code , symbol, recommend type,  and recommend date are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel the operation and switch back to the "Search result Firm Recommendation" Tab.
+
+.. note:: 
+
+   The status code for newly created firm recommendation is active. 
+
+   

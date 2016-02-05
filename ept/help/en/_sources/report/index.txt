@@ -1,0 +1,17 @@
+.. _report-index:
+
+Report
+============================================
+
+
+Report is the main place to generate various built-in and user created reports. 
+SimpleEPT™ uses the popular Java reporting library **JasperReports**. Adding a new user defined report is simple by adding a new 
+JasperReport template.  
+
+
+.. toctree::
+   :maxdepth: 1
+
+   report.rst
+
+   

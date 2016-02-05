@@ -1,0 +1,269 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Sanction List History &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="../index.html" />
+    <link rel="up" title="List Management" href="index.html" />
+    <link rel="next" title="Sanction List Analysis" href="listanalysis.html" />
+    <link rel="prev" title="Exception(Good Guy)" href="gg.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">List Management</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screen/index.html">Screening Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../screen/screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/filescan.html">File Scan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/customerdbscan.html">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Sanction List History</a><ul>
+<li><a class="reference internal" href="#search-sanction-list-history">Search Sanction List History</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-sanction-list-history">Search Result  Sanction List History</a></li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="gg.html"
+         title="previous chapter">&laquo; Exception(Good Guy)</a></li>
+  <li><a href="listanalysis.html"
+         title="next chapter">Sanction List Analysis &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="sanction-list-history">
+<span id="list-list-history"></span><h1>Sanction List History<a class="headerlink" href="#sanction-list-history" title="Permalink to this headline">¶</a></h1>
+<p>For every change (add/delete/modify) to the Sanction List entry, Alt. Name or Exceptions will create a record in the sanction history table.
+This not only serves as an audit purpose but it also can be used to restore the data to any [ast point in time.</p>
+<p>This function is used to search sanction list history.
+Click the <strong>Sanction List History</strong> in the left navigation menu under List management and a new <strong>Sanction List History</strong> Tab folder
+will be created in the right panel.</p>
+<p>There are 2 sub-Tab folders: <a class="reference internal" href="#list-list-history-search"><em>Search Sanction List History</em></a> and <a class="reference internal" href="#list-list-history-search-result"><em>Search Result  Sanction List History</em></a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">There is no Create New or Update/Delete function on sanction list history.</p>
+</div>
+<img alt="Sanction List History search screen" src="../_images/list-history-search.png" />
+<div class="section" id="search-sanction-list-history">
+<span id="list-list-history-search"></span><h2>Search Sanction List History<a class="headerlink" href="#search-sanction-list-history" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="11%" />
+<col width="89%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>HistoryId</td>
+<td>Unique record identifier.</td>
+</tr>
+<tr class="row-odd"><td>entNum</td>
+<td>Link to sanction list unique record identifier.</td>
+</tr>
+<tr class="row-even"><td>GG_ALT_ID</td>
+<td>Link to Alt. Name or Exception record identifier; If the change is on sanction list table, this field will be empty</td>
+</tr>
+<tr class="row-odd"><td>Filed Name</td>
+<td>Name of Field.</td>
+</tr>
+<tr class="row-even"><td>New Value</td>
+<td>The new value of this field</td>
+</tr>
+<tr class="row-odd"><td>ChangeDate</td>
+<td>Date and time that changes occurred.</td>
+</tr>
+<tr class="row-even"><td>Changer User</td>
+<td>who made the change.</td>
+</tr>
+<tr class="row-odd"><td>Table Name</td>
+<td>Sanction, Alt. Name or GoodGuy.</td>
+</tr>
+<tr class="row-even"><td>AND</td>
+<td>Select AND radio box if you want those criteria add together.</td>
+</tr>
+<tr class="row-odd"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either criteria meet</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-sanction-list-history">
+<span id="list-list-history-search-result"></span><h2>Search Result  Sanction List History<a class="headerlink" href="#search-result-sanction-list-history" title="Permalink to this headline">¶</a></h2>
+<img alt="Sanction List History search result screen" src="../_images/list-history-search-result.png" />
+<p>The top part is the table which shows the list of the Sanction List History that meet the search criteria.
+The bottom part is the details of the selected entry. There is no create/update/delete function in Sanction List History.</p>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

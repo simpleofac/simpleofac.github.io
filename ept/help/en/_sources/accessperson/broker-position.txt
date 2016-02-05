@@ -1,0 +1,109 @@
+.. _accessperson-brokerposition:
+
+Broker Position
+============================================
+
+The Broker Position screen manages and maintains access person's broker position information.
+Click the **Broker Position** in the left navigation menu 
+under Access Person and a new Broker Position Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`accessperson-brokerposition-search`, :ref:`accessperson-brokerposition-search-result` 
+and :ref:`accessperson-brokerposition-new`.
+
+.. image:: _images/brokerposition-search.png
+   :alt: Broker Position search screen
+   
+.. _accessperson-brokerposition-search:
+
+Search Broker Position
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+Broker Posi Id   The unique system generated number.
+Access Person    The access person that account belongs to.
+Broker Account   The account number.
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Org Unit Code    The org unit this Broker Position belongs to.
+CreatedByDate	 Date and Time when this entry was created.
+CreatedByUser	 User who created this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met.
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _accessperson-brokerposition-search-result:
+
+Search Result Broker Position
+----------------------------------
+
+.. image:: _images/brokerposition-search-result.png
+   :alt: Broker position search result screen
+
+The top part is the table which shows the list of the Broker Position that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _accessperson-brokerposition-update:
+
+Update/Delete Broker Position
+---------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Broker Position" will be added, as shown below.
+
+.. image:: _images/brokerposition-update.png
+   :alt: Broker Position update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Broker Position and save and switch back to the "Search result Broker Position" Tab. 
+  Some of the fields in this form are read only, like broker position Id, created/modified user and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search result Broker Position" Tab.
+* **Delete:**-- Delete this entry; then switch back to the "Search result Broker Position" Tab. 
+
+.. _accessperson-brokerposition-new:
+
+Create New Broker Position
+----------------------------
+
+Select the "Create New Broker Position" Tab to create a new entry.
+
+.. image:: _images/brokerposition-new.png
+   :alt: Broker Position create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+Access Person    The access person that account belongs to.
+Broker Account   The account number.
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Number of Share  The number of share access person holds.
+AsofDate         last update on the position. 
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Broker Position entry and switch to the "Search result Broker Position" Tab. 
+  Access person, broker account, symbol, number of share and as-of-date are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Broker Position" Tab.
+   

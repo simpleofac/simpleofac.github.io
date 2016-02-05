@@ -1,0 +1,17 @@
+.. _report-index:
+
+Report
+============================================
+
+
+Report is the center place to generate various built-in user created reports. 
+SimpleOFAC Suite uses the popular java reporting library **Jasper Reports**; adding a new user defined report is quite simple by adding a new 
+Jasper Report template.  
+
+
+.. toctree::
+   :maxdepth: 1
+
+   report.rst
+
+   

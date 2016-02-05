@@ -1,0 +1,114 @@
+.. _workflow-action-reason:
+
+Action Reason Map
+============================================
+
+Users define the :ref:`workflow-action-rule` and Reason Code. The Reason code is defined via Resources -->dropdown :ref:`res-dropdown`
+
+Action Reason Map is used to map the Reason Code to the Action Code. One reason code can be mapped to none to many action codes, 
+while one action code can have many reason codes. 
+
+Click the **Action Reason Map** Tab in the left navigation menu under Workflow and a new **Action Reason Map** Tab folder will be created 
+in the right panel.
+ 
+There are 3 sub-Tab folders: :ref:`workflow-action-reason-search`, :ref:`workflow-action-reason-search-result` and :ref:`workflow-action-reason-new`.
+
+
+.. image:: _images/action-reason-search.png
+   :alt: Action Reason Map search screen
+
+   
+.. _workflow-action-reason-search:
+
+Search Action Reason Map
+-------------------------------
+
+**Search Criteria**
+
+================= ===================================================================================
+Field Name        Description
+================= ===================================================================================
+Action Code/Name  The Action Code and Name.	
+Reason Code/Name  The Reason Code and Name.
+Display Order     The order it will be displayed.
+CreatedByDate	  Date and Time when this entry is created
+CreatedByUser	  User who create this entry.
+ModifiedByDate	  Last modified date and time.
+ModifiedByUser	  Last modified user.
+AND    	          Select AND radio box if you want those criteria add together. 
+OR                Select OR radio box if you want to get the result if either of the criteria is met.
+================= ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _workflow-action-reason-search-result:
+
+Search Result Action Reason Map
+------------------------------------
+
+.. image:: _images/action-reason-search-result.png
+   :alt: Action Reason Map search result screen
+
+The top part is the table which shows the list of the Action Reason Map that meet the search criteria. 
+The bottom part is the details of the selected entry.
+
+
+.. _workflow-action-reason_update:
+
+Update/Delete Action Reason Map
+----------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder **Update/Delete Action Reason Map** will be added, as shown below.
+
+.. image:: _images/action-reason-update.png
+   :alt: Action Reason Map update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** -- Make changes on the Action Reason Map and save and switch back to the "Search result Action Reason Map" Tab. 
+  Some of the fields in this form are read only, like created/modified user and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search result Action Reason Map" Tab.
+* **Delete:**-- Delete this entry and switch back to the "Search result Action Reason Map" Tab.
+
+
+
+.. _workflow-action-reason-new:
+
+Create New Action Reason Map
+-------------------------------
+
+Select the "Create New Action Reason Map" Tab to create a new entry.
+
+.. image:: _images/action-reason-new.png
+   :alt: Action Reason Map create new screen
+
+================= ====================================================================================
+Field Name        Description
+================= ====================================================================================
+Id	              Action Reason Map unique record identifier.
+Action Code/Name  The Action Code and Name.	
+Reason Code/Name  The Reason Code and Name.
+Display Order     The order it will be displayed.
+CreatedByDate	  Date and Time when the entry is created. It is a read only field.
+CreatedByUser	  User who create this entry. It is a read only field.
+ModifiedByDate	  Last modified date and time; It is a read only field.
+ModifiedByUser	  Last modified user; It is a read only field.
+================= ====================================================================================
+
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Create:** --  Click the Create button to create a new Action Reason Map and switch to the "Search result Action Reason Map" Tab. 
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel the operation and switch back to the "Search result Action Reason Map" Tab.
+   

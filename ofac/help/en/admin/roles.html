@@ -1,0 +1,349 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Roles &mdash; SimpleOFAC Suite 2.4.2 documentation</title>
+    
+    <link rel="stylesheet" href="../_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '2.4.2',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleOFAC Suite 2.4.2 documentation" href="../index.html" />
+    <link rel="up" title="Administration" href="index.html" />
+    <link rel="next" title="Permissions" href="permissions.html" />
+    <link rel="prev" title="Users" href="users.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="../index.html">SimpleOFAC Suite</a>
+        <span class="navbar-text pull-left"><b>2.4.2</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="../index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../overview.html">SimpleOFAC Suite Solution overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../loginout.html">Login and logout of the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#login-to-the-system">Login to the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#logout-of-the-system">Logout of the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../list/index.html">List Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../list/listentry.html">Sanction List Entry</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/alt.html">Alternative Name (Alt. Name or Alias)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/gg.html">Exception(Good Guy)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listhistory.html">Sanction List History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listanalysis.html">Sanction List Analysis</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listupload.html">Upload Sanction List</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../list/listuploadhistory.html">Sanction List Upload History</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../screen/index.html">Screening Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../screen/screeninstance.html">Screening Instance (Engine)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/instancehistory.html">Screening Engine History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/freetextlookup.html">Free Text Lookup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/filescan.html">File Scan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/customerdbscan.html">Customer DBScan</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/integration.html">Integration with Screening Engine</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../screen/batches.html">Batches</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../case/index.html">Case Management</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../case/wla.html">WatchList Alert</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Administration</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="users.html">Users</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="../resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Roles</a><ul>
+<li><a class="reference internal" href="#search-roles">Search Roles</a><ul>
+<li><a class="reference internal" href="#functional-buttons">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#search-result-roles">Search Result Roles</a></li>
+<li><a class="reference internal" href="#update-delete-roles">Update/Delete Roles</a><ul>
+<li><a class="reference internal" href="#id1">Functional buttons</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#create-new-roles">Create New Roles</a><ul>
+<li><a class="reference internal" href="#id2">Functional buttons</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="users.html"
+         title="previous chapter">&laquo; Users</a></li>
+  <li><a href="permissions.html"
+         title="next chapter">Permissions &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li> <a href="http://www.simplecompli.com/ept/help/en">Employee Personal Trade</a> </li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="roles">
+<span id="admin-roles"></span><h1>Roles<a class="headerlink" href="#roles" title="Permalink to this headline">¶</a></h1>
+<p>Roles are collections of one or more permissions. A role determines the functionality a user can access in the system.
+The administrator may grant several roles to users or to user groups. An administrator defines and maintains the security
+roles within the system and the permissions associated with each role. A role may be thought of as a job function that
+one of the users of the system may use. For example, Alert Investigator, Supervisor, List administrator, and so on.
+When role is assigned to users or groups, it must also specify an Organizational Unit. A user can have a role A
+in Organization Unit X and role B in Organization Unit Y.</p>
+<p>Click the <strong>Roles</strong> in the left navigation menu under Administration, a new <strong>Roles</strong> Tab folder will be created in the right panel.
+There are 3 sub-Tab folders:  <a class="reference internal" href="#admin-role-search"><em>Search Roles</em></a>, <a class="reference internal" href="#admin-role-search-result"><em>Search Result Roles</em></a> and <a class="reference internal" href="#admin-role-new"><em>Create New Roles</em></a>.</p>
+<img alt="Role search screen" src="../_images/role-search.png" />
+<div class="section" id="search-roles">
+<span id="admin-role-search"></span><h2>Search Roles<a class="headerlink" href="#search-roles" title="Permalink to this headline">¶</a></h2>
+<p><strong>Search Criteria</strong></p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="14%" />
+<col width="86%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Role ID</td>
+<td>Unique record identifier.</td>
+</tr>
+<tr class="row-odd"><td>Role Name</td>
+<td>Name of this role.</td>
+</tr>
+<tr class="row-even"><td>Description</td>
+<td>Description of this role.</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this entry was created.</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who created this entry.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user.</td>
+</tr>
+<tr class="row-odd"><td>AND</td>
+<td>Select AND radio box if you want those criteria add together.</td>
+</tr>
+<tr class="row-even"><td>OR</td>
+<td>Select OR radio box if you want to get the result if either of the criteria is met.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="functional-buttons">
+<h3>Functional buttons<a class="headerlink" href="#functional-buttons" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Find:</strong> &#8211;  click the Find button to search.</li>
+<li><strong>Clear:</strong>&#8211;  click the Clear button to clear all the criteria.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="search-result-roles">
+<span id="admin-role-search-result"></span><h2>Search Result Roles<a class="headerlink" href="#search-result-roles" title="Permalink to this headline">¶</a></h2>
+<img alt="Role search result screen" src="../_images/role-search-result.png" />
+<p>The top part is the table which shows the list of the roles that meet the search criteria.
+The bottom part is the details and permissions of the selected entry.</p>
+<p>Each entry can have 0 to many permissions. (see <a class="reference internal" href="permissions.html#admin-permissions"><em>Permissions</em></a> for details on Permissions)</p>
+</div>
+<div class="section" id="update-delete-roles">
+<span id="admin-role-update"></span><h2>Update/Delete Roles<a class="headerlink" href="#update-delete-roles" title="Permalink to this headline">¶</a></h2>
+<p><strong>Double Click</strong> the selected record in the table to modify this entry.
+A new tab folder &#8220;Update/Delete Roles&#8221; will be added, as shown below.</p>
+<img alt="Roles update/delete screen" src="../_images/role-update.png" />
+<div class="section" id="id1">
+<h3>Functional buttons<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Update:</strong> &#8211;  Make changes on the roles and save and switch back to &#8220;Search result roles&#8221; Tab.
+Some of the fields in this form are read only, like role Id, created/modified user, and date.</li>
+<li><strong>Reset:</strong>&#8211;  Reset the data to its initial value, discard all the changes.</li>
+<li><strong>Cancel:</strong>&#8211; Cancel this change and switch back to &#8220;Search result roles&#8221; Tab.</li>
+<li><strong>Permissions:</strong>&#8211; Assign permissions to the role. Clicking this button will open a pop window, as follows;</li>
+</ul>
+<img alt="Role permission update/delete screen" src="../_images/role-update-permission.png" />
+<p>Grant or revoke the permission to the role
+by checking or unchecking the checkbox besides each permission.</p>
+<blockquote>
+<div><ul class="simple">
+<li><strong>Update</strong> &#8211; Click the Update button to update the changes and close the popup window.</li>
+<li><strong>Reset</strong> &#8211; Reset the data to its initial value, discard all the changes.</li>
+<li><strong>Cancel</strong> &#8211;Cancel this change and close the popup window.</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li><strong>Delete:</strong>&#8211; Delete this entry and switch back to &#8220;Search result roles&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="create-new-roles">
+<span id="admin-role-new"></span><h2>Create New Roles<a class="headerlink" href="#create-new-roles" title="Permalink to this headline">¶</a></h2>
+<p>Select the &#8220;Create New Roles&#8221; Tab to create a new entry.</p>
+<img alt="Roles create new screen" src="../_images/role-new.png" />
+<table border="1" class="docutils">
+<colgroup>
+<col width="17%" />
+<col width="83%" />
+</colgroup>
+<thead valign="bottom">
+<tr class="row-odd"><th class="head">Field Name</th>
+<th class="head">Description</th>
+</tr>
+</thead>
+<tbody valign="top">
+<tr class="row-even"><td>Role ID</td>
+<td>Unique record identifier.</td>
+</tr>
+<tr class="row-odd"><td>Role Name</td>
+<td>Name of this role</td>
+</tr>
+<tr class="row-even"><td>Description</td>
+<td>Description of this role</td>
+</tr>
+<tr class="row-odd"><td>CreatedByDate</td>
+<td>Date and Time when this roles entry was created. It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>CreatedByUser</td>
+<td>User who created this this roles entry. It is a read only field.</td>
+</tr>
+<tr class="row-odd"><td>ModifiedByDate</td>
+<td>Last modified date and time; It is a read only field.</td>
+</tr>
+<tr class="row-even"><td>ModifiedByUser</td>
+<td>Last modified user; It is a read only field.</td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="id2">
+<h3>Functional buttons<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><strong>Create:</strong> &#8211;  Click the Create button to create a new roles entry and switch to &#8220;Search result Roles&#8221; Tab.</li>
+<li><strong>Clear:</strong>&#8211;  Click the Clear button to clear all the fields</li>
+<li><strong>Cancel:</strong>&#8211; Click the Cancel button to cancel operation and switch back to &#8220;Search result roles&#8221; Tab.</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2014, SimpleOFAC Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

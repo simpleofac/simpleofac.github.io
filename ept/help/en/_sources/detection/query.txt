@@ -1,0 +1,118 @@
+.. _detection-query:
+
+Query Builder
+============================================
+
+The Query Builder screens, manages, and maintains query, which will be used by Rule builder.
+The compliance officer can use all the elements in the transaction and see what kind of transactions need to be monitored;
+eg. pre-clearance transaction, broker confirm transaction, transaction with certain activity type, 
+like Short, Sell/Close, etc. 
+
+Click the **Query Builder** in the left navigation menu 
+under Detection Builder and a new Query Builder tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`detection-query-search`, :ref:`detection-query-search-result` 
+and :ref:`detection-query-new`.
+
+.. image:: _images/query-search.png
+   :alt: Query Builder search screen
+   
+.. _detection-query-search:
+
+Search Query Builder
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+Query Name       The unique name with the system.
+Definition       The definition of the query, using script syntax. 
+Description      Short description on what is the purpose of this query. 
+Active           Check box, if checked, it will only show active query.
+Is Valid         Check box, if checked, it will only show valid query.
+Org Unit Code    The org unit this Query Builder belongs to.
+CreatedByDate	 Date and Time when this entry was created.
+CreatedByUser	 User who created this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _detection-query-search-result:
+
+Search Result Query Builder
+----------------------------
+
+.. image:: _images/query-search-result.png
+   :alt: Query Builder search result screen
+
+The top part is the table which shows the list of the Query Builder that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _detection-query-update:
+
+Update/Delete Query Builder
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder "Update/Delete Query Builder" will be added, as shown below.
+
+.. image:: _images/query-update.png
+   :alt: Query Builder update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Query Builder and save and switch back to the "Search result Query Builder" Tab. 
+  Some of the fields in this form are read only, like query name, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search result Query Builder" Tab.
+* **Delete:**-- Delete this entry and then switch back to the "Search result Query Builder" Tab. 
+
+.. _detection-query-new:
+
+Create New Query Builder
+----------------------------
+
+Select the "Create New Query Builder" Tab to create a new entry.
+
+.. image:: _images/query-new.png
+   :alt: Query Builder create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+Query Name       The unique name with the system.
+Definition       The definition of the query, using script syntax. 
+Description      Short description on what is the purpose of this query. 
+Active           Check box, if checked, it will be active.
+Org Unit Code    The org unit this Query Builder belongs to.
+CreatedByDate	 Date and Time when this entry was created.
+CreatedByUser	 User who created this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Query Builder entry and switch to the "Search result Query Builder" Tab. 
+  Portfolio Code , symbol, number of share and order date, and transaction type are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result Query Builder" Tab.
+
+
+   

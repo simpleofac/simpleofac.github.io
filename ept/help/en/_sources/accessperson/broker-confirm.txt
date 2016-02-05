@@ -1,0 +1,173 @@
+.. _accessperson-brokerconfirm:
+
+Broker Confirm
+============================================
+
+The Broker Confirm screen allows compliance officers to input broker confirm, broker action transaction,
+and map the broker confirm transaction to pre-clearance request. Each transaction will validate against the firm rules and 
+generate transaction status. Compliance officers also are able to check the validation status, add comments, and
+attached supporting documents; All of these are logged for audit. 
+ 
+Click the **Broker Confirm** in the left navigation menu 
+under Access Person and a new Broker Confirm Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`accessperson-brokerconfirm-search`, :ref:`accessperson-brokerconfirm-search-result` 
+and :ref:`accessperson-brokerconfirm-new`.
+
+.. image:: _images/brokerconfirm-search.png
+   :alt: Broker Confirm search screen
+
+   
+.. _accessperson-brokerconfirm-search:
+
+Search Broker Confirm
+------------------------
+
+**Search Criteria**
+
+Tranaction ID
+Event Type
+Access Person
+Broker Account
+Symbol
+Security Name
+Entry Date
+Transaction Type
+Option Flag
+Option Symbol
+Option Type
+Sec Offer Flag
+Ipo Flag
+Private Offer Flag
+Activity Type
+Order Type
+Currency
+Request Shares
+Principal Amt
+Assigned To
+Assigned To Group
+Action Reason
+Org Unit Code
+
+
+Tranaction ID
+Access Person
+Broker Account
+Entry Date
+Symbol
+Security Name
+Event Type
+Status Code
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+Tranaction ID    Transaction unique record identifier.
+Access Person    The access person that request the transaction.
+Broker Account   The broker account number. 
+Trade Date       The date when the transaction occurred. 
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Event Type       Transaction event type. eg broker confirm, broker action.
+Status Code      The status of this transaction; eg passed. failed, etc.
+Org Unit Code    The org unit this transaction belongs to.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met.
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _accessperson-brokerconfirm-search-result:
+
+Search Result Broker Confirm
+----------------------------
+
+.. image:: _images/brokerconfirm-search-result.png
+   :alt: List search result screen
+
+The top part is the table which shows the list of the Broker Confirm that meet the search criteria. 
+The bottom part is the details, Rule Validation, Document, Email, and Action Logs of the selected entry. 
+
+
+
+.. _accessperson-brokerconfirm-update:
+
+Update/Delete Broker Confirm
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Broker Confirm" will be added, as shown below.
+
+.. image:: _images/brokerconfirm-update.png
+   :alt: Broker Confirm update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Action Dropdown list:** --  Depends on the current transaction status and user’s permission. 
+  It will show a list of actions the user is allowed to perform. Select one of the actions from the dropdown list.  
+  Typically, users can add a comment, add document, etc. Those actions are configured via the workflow. 
+  Please see :ref:`workflow-index` section for details.
+* **Action Reason Dropdown list :**--  Select one of the action reason from the dropdown list.
+* **Comments:**-- A free text box to allow user to input the comments of this action. Comments will show in the action logs. 
+* **Submit:**-- A popup will show success or failure after submitting. 
+  Depending on the action performed, it may change the action status. 
+  It will stay in this page to allow users to perform another actions.   
+* **Reset:**--  reset the data to its initial value and discard all the changes.
+* **Close:**--  Cancel this change(if any) and close this page and switch back to "Search result Broker Confirm" Tab.
+
+
+.. _accessperson-brokerconfirm-new:
+
+Create New Broker Confirm
+----------------------------
+
+Select the "Create New Broker Confirm" Tab to create a new entry.
+
+.. image:: _images/brokerconfirm-new.png
+   :alt: Broker Confirm create new screen
+
+================ ========================================================================================================
+Field Name       Description
+================ ========================================================================================================
+
+Tranaction ID    Transaction unique record identifier.
+Event Type       Transaction event type. eg broker confirm, broker action.
+Access Person    The access person that had the transaction.
+Broker Account   The broker account number. 
+Symbol           The Symbol of the security. It will automatically lookup the security name.
+Security Name    The name of the security.
+Trade Date       The trade date.
+Settle Date      The settlement date.  
+Transaction Type The Transaction Type: buy or sell.
+Number of Shares Number of shares trade in the transaction. 
+Activity Type    Type of activity, can be used in the rule builder.
+Currency         Currency used in this transaction.
+Price            The price of the security.
+Commission       Commission paid.
+Interest         Interest paid.
+Sec Fee          Sec fee paid.
+Other Fee        Other fee paid.
+Principal Amt    Principal amount.
+Net Amt          The total amount of the transaction. 
+Assigned To      Assign to person for approval, if needed. email will be sent. 
+Assigned ToGroup Assign to group for approval, if needed. email will be sent.
+Action Reason    Select a reason from the dropdown.
+Org Unit Code    The org unit this transaction belongs to.
+Comments         Allow users to input any comments. 
+================ ========================================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Create:** --  Click the Create button to create a new Broker Confirm entry and switch to the "Search result Broker Confirm" Tab.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel the operation and switch back to the "Search result Broker Confirm" Tab.
+
+Each new transaction will validate against the firm employee trade rules and generate transaction status. 
+Please see  :ref:`detection-index` section for details.
+    

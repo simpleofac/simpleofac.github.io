@@ -1,0 +1,118 @@
+.. _firm-trade:
+
+Firm Trade
+============================================
+
+The Firm Trade screen manages and maintains the Firm's trade transaction.
+Click the **Firm Trade** in the left navigation menu 
+under Firm Transaction and a new Firm Trade Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`firm-trade-search`, :ref:`firm-trade-search-result` 
+and :ref:`firm-trade-new`.
+
+.. image:: _images/trade-search.png
+   :alt: Firm Trade search screen
+   
+.. _firm-trade-search:
+
+Search Firm Trade
+------------------------
+
+**Search Criteria**
+
+================ ===================================================================================
+Field Name       Description
+================ ===================================================================================
+TxnId            The unique system generated number
+Source Ref Id    The reference Id from other system.
+Org Unit Code    The org unit this Firm Trade belongs to.
+Portfolio Code   The portfolio this trade belongs to. 
+Symbol           The Symbol of the security
+Security Name    The name of the security
+Transaction Type The Transaction Type; Buy or sell
+Trade Date       The trade date.
+Status Code      The status of the transaction; eg active, cancel, etc.
+AND    	         Select AND radio box if you want those criteria added together. 
+OR               Select OR radio box if you want to get the result if either of the criteria is met.
+================ ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _firm-trade-search-result:
+
+Search Result Firm Trade
+----------------------------
+
+.. image:: _images/trade-search-result.png
+   :alt: Firm Trade search result screen
+
+The top part is the table  which shows the list of the Firm Trade that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _firm-trade-update:
+
+Update/Delete Firm Trade
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder "Update/Delete Firm Trade" will be added, as shown below.
+
+.. image:: _images/trade-update.png
+   :alt: Firm Trade update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Firm Trade and save and switch back to "Search result Firm Trade" Tab. 
+  Some of the fields in this form are read only, like Txn Id, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Firm Trade" Tab.
+* **Delete:**-- Delete this entry and then switch back to "Search result Firm Trade" Tab. 
+
+.. _firm-trade-new:
+
+Create New Firm Trade
+----------------------------
+
+Select the "Create New Firm Trade" Tab to create a new entry.
+
+.. image:: _images/trade-new.png
+   :alt: Firm Trade create new screen
+
+================ ====================================================================================
+Field Name       Description
+================ ====================================================================================
+TxnId            The unique system generated number.
+Org Unit Code    The org unit this Firm Trade belongs to.
+Portfolio Code   The portfolio this trade belongs to. 
+Symbol           The symbol of the security.
+Security Name    The name of the security.
+Source Ref Id    The reference Id from other system.
+Trade Date       The trade date.
+Settle Date      The settlement date.
+Number of shares The number of shares traded.
+Price            The price of the security.
+Transaction Type The Transaction Type: Buy or sell.
+================ ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Firm Trade entry and switch to "Search result Firm Trade" Tab. 
+  Portfolio Code , symbol, number of share, trade date, and transaction type are mandatory fields; if any of them is empty, 
+  an error message will show.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Firm Trade" Tab.
+
+.. note:: 
+
+   The status code for newly created firm trade transaction is active. 
+
+   

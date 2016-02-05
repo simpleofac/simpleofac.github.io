@@ -1,0 +1,138 @@
+.. _admin-groups:
+
+Groups
+======
+
+Groups are collections of users. Users that carry out common functions are grouped together in order that roles 
+(and therefore permissions) can be granted to the group as a whole instead of to each individual user. This is possible 
+as all members of the group inherit the security permissions that are assigned to users through group roles. 
+You can add as many users as you want to a particular group.
+
+Click the **Groups** in the left navigation menu under Administration, a new **Groups** Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders:  :ref:`admin-group-search`, :ref:`admin-group-search-result` and :ref:`admin-group-new`.
+
+.. image:: _images/group-search.png
+   :alt: Group search screen
+
+   
+.. _admin-group-search:
+
+Search Groups
+------------------------
+
+**Search Criteria**
+
+=============== ===================================================================================
+Field Name      Description
+=============== ===================================================================================
+Group ID        Unique record identifier. 
+Group Name      Name of this group.
+Description     Description of this group.
+CreatedByDate	Date and Time when this entry was created
+CreatedByUser	User who created this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either of the criteria is met.
+=============== ===================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _admin-group-search-result:
+
+Search Result Groups
+----------------------------
+
+.. image:: _images/group-search-result.png
+   :alt: Group search result screen
+
+The top part is the table which shows the list of the groups that meet the search criteria. 
+The bottom part is the details, Roles, Users and combined permissions of the selected entry. 
+
+Each entry can have 0 to many roles, users and permissions. (see :ref:`admin-roles`, :ref:`admin-users`, 
+and :ref:`admin-permissions` for details on Roles, Users and Permissions)
+
+
+.. _admin-group-update:
+
+Update/Delete Groups
+----------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new tab folder "Update/Delete Groups" will be added, as shown below.
+
+.. image:: _images/group-update.png
+   :alt: Groups update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the groups and save and switch back to "Search result groups" Tab. 
+  Some of the fields in this form are read only, like Group Id, created/modified user and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result groups" Tab.
+* **Roles:**-- Assign roles to the group. Clicking this button will open a popup window, as follows;
+
+.. image:: _images/group-update-role.png
+   :alt: Group Roles Grant/revoke screen
+   
+When a role is assigned to users or groups, it must also specify an Organizational Unit. A Group can have a role A
+in Organization Unit X, and a role B in Organization Unit Y.
+     
+   First select an Orgunit from the orgunit dropdown list, then grant or revoke the roles to the group 
+   by checking or unchecking the checkbox besides each role.
+
+   * **Update** -- Click the Update button to update the changes and close the popup window.
+   * **Reset** -- Reset the data to its initial value and discard all the changes.
+   * **Cancel** --Cancel this change and close the popup window.
+
+* **Users:**-- Assign users to the group. Clicking this button will open a popup window, as follows;
+
+.. image:: _images/group-update-user.png
+   :alt: Groups User update/delete screen
+     
+Add or remove users to the group by checking or unchecking the checkbox besides each user.
+
+   * **Update** -- Click the Update button to update the changes and close the popup window.
+   * **Reset** -- Reset the data to its initial value and discard all the changes.
+   * **Cancel** --Cancel this change and close the popup window.
+
+* **Delete:**-- Delete this entry and switch back to the "Search result Groups" Tab.
+
+
+.. _admin-group-new:
+
+Create New Groups
+----------------------------
+
+Select the "Create New Groups" Tab to create a new entry.
+
+.. image:: _images/group-new.png
+   :alt: Groups create new screen
+
+================= ====================================================================================
+Field Name        Description
+================= ====================================================================================
+Group ID          Unique record identifier. 
+Group Name        Name of this group.
+Description       Description of this group.
+CreatedByDate	  Date and Time when this entry was created. It is a read only field.
+CreatedByUser	  User who created this this entry. It is a read only field.
+ModifiedByDate	  Last modified date and time; It is a read only field.
+ModifiedByUser	  Last modified user; It is a read only field.
+================= ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new group entry and switch to "Search result Groups" Tab. 
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Groups" Tab.
+   

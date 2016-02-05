@@ -1,0 +1,36 @@
+.. _screening-index:
+
+Screening Management
+============================================
+
+The Screening Engine is the central piece of SimpleOFAC Suite. The screening engine is a service that 
+screens customer name or payment transaction against the sanction list and gives an alert or no alert result.
+
+The Screening Engine utilizes the sanction list to scan the text or messages. The user can create many different Screening Engines 
+using a different set of sanction lists. For example, if Line of Business A needs to scan customer data, it only needs to 
+scan the sanction list with origin equal to OFAC. Then the user can create a new Screening Engine named LOB A, for example, 
+with a sanction list whose origin is equal to OFAC. This not only makes scans much more efficient, 
+but also makes tests much easier to run.
+
+The SimpleOFAC Screening Engine uses innovative indexing and search technology, providing high performance and quality. 
+When the sanction list is indexed, we transform and normalize the data; for example, removing blank spaces (including new lines), 
+stemming, removing a particular character, and replacing it with another. Those are called pre-processors. 
+They are configurable and a new one can easily be added. There are many algorithms used; for example, 
+Levenshtein distance algorithm, n-gram models and patterns, etc. Those algorithms also manage how the score (ranking) is calculated. 
+There are lots of factors that contribute to the score. Each word has a weight, according to a few factors, such as its length, 
+position, frequency, etc.
+
+When a Screening Engine is created, the user has an option to exclude all the weak AKA. This would reduce many false positive alerts. 
+See the Alt name section :ref:`list-alt-search-result` for details.
+
+.. toctree::
+   :maxdepth: 1
+
+   screeninstance.rst
+   instancehistory.rst
+   freetextlookup.rst   
+   filescan.rst
+   customerdbscan.rst
+   integration.rst
+   batches.rst
+   

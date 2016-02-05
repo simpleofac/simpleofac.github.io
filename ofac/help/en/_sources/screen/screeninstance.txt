@@ -1,0 +1,146 @@
+.. _screen-instance:
+
+Screening Instance (Engine)
+============================================
+
+Screening Instance, also called Screening engine is a service that scans text/message(s) against the Screening Instance which 
+gives alert or no alert result. Screening Instance manages those Screening instances/engines. 
+Currently we only support one physical index and one Screening engine at a time which also means that at any time, 
+there is only one Screening engine running, 
+using the index that was last built (see Build-Index below). The last built index will override the previous one.
+
+Clicking the **Screening Instance** in the left navigation menu under Screening management will make 
+a new **Screening Instance** Tab folder be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`screen-instance-search`, :ref:`screen-instance-search-result` and :ref:`screen-instance-new`.
+
+.. image:: _images/instance-search.png
+   :alt: Screening Instance search screen
+   
+.. _screen-instance-search:
+
+Search Screening Instance
+----------------------------
+
+**Search Criteria**
+
+============= ================================================================================
+Field Name    Description
+============= ================================================================================
+InstanceId	  This is the unique number for the Screening Instance entry in the system .
+Instance Name Name of the Screening Instance.
+AND    	      Select AND radio box if you want those criteria add together. 
+OR            Select OR radio box if you want to get the result if either criteria meet
+============= ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click the Find button to search.
+  
+* **Clear:**--  click the Clear button to clear all the criteria.
+
+
+.. _screen-instance-search-result:
+
+Search Result Screening Instance
+----------------------------------
+
+.. image:: _images/instance-search-result.png
+   :alt: Screening Instance search result screen
+
+The top part is the table which shows the list of the screening instances that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _screen-instance-update:
+
+Update/Delete Screening Instance
+---------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder **Update/Delete Screening Instance** will be added, as shown below.
+
+.. image:: _images/instance-update.png
+   :alt: Screening Instance update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  make changes on the screening instance, and save and switch back to the "Search result Screening Instance" Tab. 
+  Some of the fields in this form are read only,  like Instance Id, created/modified user and date. 
+  The configuration Data field is also read only, so it can be modified via using the Re-Configure button.
+* **Reset:**--  reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search Result Screening Instance" Tab.
+* **Delete:**-- Delete this entry. Then switch back to the "Search Result Screening Instance" Tab.
+* **Re-Configure** -- Click this button to open a configure wizard to set up the configuration data, as shown below:
+  
+  .. image:: _images/instance-config-w1.png
+     :alt: Screening Instance configuration wizard step one
+  
+  Click the Next Button to go to wizard step 2
+  
+  .. image:: _images/instance-config-w2.png
+     :alt: Screening Instance configuration wizard step two - search
+  
+  This is a Sanction List search :ref:`list-listentry-search` panel, allowing the user to select the sanction list entries to be included 
+  in this screening instance. It is pre-populated with the data in the Configuration Data field.
+
+  Set search criteria; then clicking the Find Button will get a list of sanction list entries that meet the search criteria. 
+  Those sanction list entries will be indexed and used by this screening instance to scan customer data and/or payment transaction.
+
+  .. image:: _images/instance-config-w2-2.png
+     :alt: Screening Instance configuration wizard step two - search result
+  
+  Click the Next button to go to wizard step 3: Save the configuration
+
+  .. image:: _images/instance-config-w3.png
+     :alt: Screening Instance configuration wizard step Three
+  
+  * Clicking the **Finish** button will save the configuration into the Configuration Data field.
+  * Click the **Cancel** button to discard those changes.
+
+* **Build Index** -- Click this button to build search index using the sanction list set in the previous step.
+    
+    .. note:: 
+    
+       Search index must be re-built in order to affect the configuration data changes. 
+       This is a very important step. Screening Instance uses search index to scan against customer data or transaction messages.
+
+
+.. _screen-instance-new:
+
+Create New Screening Instance
+-----------------------------------
+
+Select the "Create New Screening Instance" Tab to create a new entry.
+
+.. image:: _images/instance-new.png
+   :alt: Screening Instance create new screen
+
+=============== ====================================================================================
+Field Name      Description
+=============== ====================================================================================
+InstanceId	    This is the unique number for the screening Instance entry in the system.
+Instance Name	Name of the filter screening. This is a mandatory field.
+Description	    Description	of this entry.
+Data	        Configuration data to define what sanction list entries should be included in the search index. 
+                User has to set the data value via Configure button.
+CreatedByDate	Date and Time when this Screening Instance entry is created. It is a read only field.
+CreatedByUser	User who create this Screening Instance entry. It is a read only field.
+ModifiedByDate	Last modified date and time; It is a read only field.
+ModifiedByUser	Last modified user; It is a read only field.
+=============== ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Screening Instance entry and switch to "Search result Screening Instance" Tab. 
+  Instance Name is a mandatory field; if it is empty, an error message will show. 
+  The Data field must be set via using the Configure Button. 
+  If the Data field is empty, all the sanction list entries will be included when index is built.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to the "Search result Screening Instance" Tab.
+* **Configure** --Click the Configure button to open a configure wizard to set up the configuration data. 
+  (see Re-Configure in Update/Delete Screening Instance section :ref:`screen-instance-update`).
+   

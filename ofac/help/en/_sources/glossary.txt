@@ -1,0 +1,18 @@
+.. _glossary:
+
+
+Glossary 
+================
+
+
+Sanction List
+   Also called Compliance List or Black list, is comprised of individuals and companies with the highest risk rating.
+    
+Filter instance
+   Also called Filter engine or Screening engine, is the program that screens customers and/or payment transactions 
+   against the sanction list and gives an alert or no alert result.
+
+Customer list
+   Also called client list, is the customer or supplier/vendor that you plan to or have business relationship.  
+
+

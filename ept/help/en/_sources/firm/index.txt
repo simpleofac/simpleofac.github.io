@@ -1,0 +1,26 @@
+.. _firm-index:
+
+Firm Transaction
+============================================
+
+The Firm Module manages and maintenances firm's trade, order, holding, and analyst recommendation. 
+
+.. note:: 
+
+   All the data in the SimpleEPT are assigned to an Organization Unit. Users are authorized by combining the Organization
+   Unit code with permission and roles. Users may be able to have full access to transaction in Organization Unit A, but have no access 
+   or limited access to the transaction in Organization Unit B. (Please see User security section :ref:`admin-index` for details). 
+
+   
+.. toctree::
+   :maxdepth: 1
+
+   trade.rst
+   order.rst
+   holding.rst
+   recommendation.rst
+   
+  
+   
+   
+   

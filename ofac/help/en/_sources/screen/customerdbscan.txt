@@ -1,0 +1,125 @@
+.. _screen-customer-dbscan:
+
+Customer DBScan
+==================
+
+Customer DBScan allows the user to scan customer data in the customer table. The customer table can reside in the same database 
+as SimpleOFAC database or any other database of your choice. If the customer table resides outside the SimpleOFAC database, The
+datasource of the customer database need to be created during the installation.  
+  
+Click the **Customer DBScan** in the left navigation menu under Screening management, 
+a new **Customer DBScan** Tab folder will be created in the right panel. 
+
+There are 3 sub-Tab folders: :ref:`screen-customer-dbscan-search`, :ref:`screen-customer-dbscan-search-result` and :ref:`screen-customer-dbscan-new`.
+
+
+.. image:: _images/screen-customer-dbscan-search.png
+   :alt: Customer dbscan search screen
+
+   
+.. _screen-customer-dbscan-search:
+
+Search Customer DBScan
+------------------------
+
+**Search Criteria**
+
+===============  ========================================================================================
+Field Name       Description
+===============  ========================================================================================
+Id               unique record identifier
+Name             Name of this entry
+File Format      The format of the file; Select a value from the dropdown list. 
+\                Please see :ref:`res-fileformat` for details. 
+OrgUnit Code     select a value from the orgunit dropdown list. 
+Description      Description of this entry
+DataSource       The database where the customer tables reside.  
+CreatedByDate	 Date and Time when this entry is created
+CreatedByUser	 User who create this entry.
+ModifiedByDate	 Last modified date and time.
+ModifiedByUser	 Last modified user.
+AND    	         Select AND radio box if you want those criteria add together. 
+OR               Select OR radio box if you want to get the result if either criteria meet
+===============  ========================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _screen-customer-dbscan-search-result:
+
+Search Result Customer DBScan
+------------------------------
+
+.. image:: _images/screen-customer-dbscan-search-result.png
+   :alt: Customer DBScan search result screen
+
+The top part is the table which shows the list of the customer DBScan that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _screen-customer-dbscan-update:
+
+Update/Delete Customer DBScan
+--------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder "Update/Delete Customer DBScan" will be added, as show below:
+
+.. image:: _images/screen-customer-dbscan-update.png
+   :alt: Customer DBScan update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  make changes on the entry, and save and switch back to "Search result customer dbscan" Tab. 
+  Some of the fields in this form are read only, like Id, Name, created/modified user and date.
+* **Reset:**--  reset the data to its initial value, discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result customer dbscan" Tab.
+* **Delete:**-- Delete this entry and switch back to "Search result customer dbscan" Tab.
+* **Scan Customer** -- Click this button to scan the customers using the SQL Query from the datasource. 
+  If there are any alerts, it will be saved in the Watch list alert tables under Case Management.  
+    
+
+.. _screen-customer-dbscan-new:
+
+Create New Customer DBScan
+----------------------------
+
+Select the "Create New Customer DBScan" Tab to create a new entry.
+
+.. image:: _images/screen-customer-dbscan-new.png
+   :alt: Customer DBScan create new screen
+
+=============== ====================================================================================
+Field Name      Description
+=============== ====================================================================================
+Id              unique record identifier
+Name            Name of this entry
+File Format     The format of the file; Select a value from the dropdown list. 
+                This is a mandatory field. Please see :ref:`res-fileformat` for details. 
+OrgUnit Code    The Orgunit the watch list alert will be saved to. 
+                select a value from the orgunit dropdown list. This is a mandatory field.
+Description     Description of this entry
+DataSourc       The database where the customer tables reside.
+SQL Query       The sql script to query customer data.        
+CreatedByDate	Date and Time when this entry is created. It is a read only field.
+CreatedByUser	User who create this this entry. It is a read only field.
+ModifiedByDate	Last modified date and time; It is a read only field.
+ModifiedByUser	Last modified user; It is a read only field.
+=============== ====================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Create:** --  Click the Create button to create a new customer dbscan entry and switch to "Search result Customer DBScan" Tab. 
+  Name, File Format, OrgUnit Code, Datasource and SQL Query are mandatory fields; 
+  if any of them is empty, an error message will be shown.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Screening Instance" Tab.
+   
+   

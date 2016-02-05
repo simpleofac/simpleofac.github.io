@@ -1,0 +1,121 @@
+.. _policy-restrictedsecurity:
+
+Restricted Security 
+============================================
+
+The compliance officer or system admin can create lists of Restricted or Non Monitored Securities to enforce the firm trade policy. 
+Those restricted or non-monitored securities can use rule builder to monitor employee trade transactions. 
+
+Click the **Restricted Security** in the left navigation menu 
+under Firm Policy and a new Restricted Security Tab folder will be created in the right panel. 
+There are 3 sub-Tab folders: :ref:`policy-restrictedsecurity-search`, :ref:`policy-restrictedsecurity-search-result` 
+and :ref:`policy-restrictedsecurity-new`.
+
+.. image:: _images/restrictedsecurity-search.png
+   :alt: Restricted Security search screen
+
+   
+.. _policy-restrictedsecurity-search:
+
+Search Restricted Security
+-------------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+RS Id	        This is the unique number for the Restricted Security entry in the system.
+Symbol	        The symbol of the security.
+Security Name   The name  of the security.
+Start Date	    The date when this restrict will take affect.
+End Date	    The date then this restrict will end.
+RS Type         The type of the Restriction; eg. Restricted or non-monitor.
+Org Unit Code   The org unit this restricted apply to.
+CreatedByDate	Date and Time when this entry is created.
+CreatedByUser	User who created this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+AND    	        Select AND radio box if you want those criteria added together. 
+OR              Select OR radio box if you want to get the result if either of criteria is met
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _policy-restrictedsecurity-search-result:
+
+Search Result Restricted Security
+-----------------------------------
+
+.. image:: _images/restrictedsecurity-search-result.png
+   :alt: Restricted Security search result screen
+
+The top part is the table which shows the list of the Restricted Security that meet the search criteria. 
+The bottom part is the details of the selected entry. 
+
+
+.. _policy-restrictedsecurity-update:
+
+Update/Delete Restricted Security
+------------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder "Update/Delete Restricted Security" will be added, as shown below.
+
+.. image:: _images/restrictedsecurity-update.png
+   :alt: Restricted Security update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  Make changes on the Restricted Security and save and switch back to the "Search result Restricted Security" Tab. 
+  Some of the fields in this form are read only, like RS Id, created/modified user, and date.
+* **Reset:**--  Reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to the "Search result Restricted Security" Tab.
+* **Delete:**-- Delete this entry and then switch back to the "Search result Restricted Security" Tab.  
+
+
+.. _policy-restrictedsecurity-new:
+
+Create New Restricted Security
+---------------------------------
+
+Select the "Create New Restricted Security" Tab to create a new entry.
+
+.. image:: _images/restrictedsecurity-new.png
+   :alt: Restricted Security create new screen
+
+=============== ======================================================================================================================
+Field Name      Description
+=============== ======================================================================================================================
+RS Id	        This is the unique system generated number. 
+Org Unit Code   The org unit this Restricted Security is applied to.
+Symbol	        The symbol of the security.
+Security Name   The name  of the security; read only and it will populate after the symbol is inputted.
+Start Date	    The date when this restrict will take affect.
+End Date	    The date then this restrict will end. If it is empty, it will take affect forever. 
+RS Type         The type of the Restriction; eg. Restricted or non-monitor.
+Comments        Comments on this entry.
+Option1	        reserved field; not used now.
+Option2	        reserved field; not used now. 
+CreatedByDate	Date and Time when this Restricted Security entry was created. It is a read only field.
+CreatedByUser	User who created this this Restricted Security entry. It is a read only field.
+ModifiedByDate	Last modified date and time; It is a read only field.
+ModifiedByUser	Last modified user; It is a read only field.
+=============== ======================================================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+
+* **Create:** --  Click the Create button to create a new Restricted Security entry and switch to "Search result Restricted Security" Tab. 
+  Symbol, Start date,  RS type, and org unit code are mandatory fields; if any of them is empty, an error message will be shown.
+* **Clear:**--  Click the Clear button to clear all the fields.
+* **Cancel:**-- Click the Cancel button to cancel operation and switch back to "Search result Restricted Security" Tab.
+   

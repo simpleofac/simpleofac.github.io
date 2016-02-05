@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Employee Personal Trade Monitoring overview &mdash; SimpleEPT  1.0.1 documentation</title>
+    
+    <link rel="stylesheet" href="_static/basic.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-2.3.1/css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-sphinx.css" type="text/css" />
+    <link rel="stylesheet" href="_static/bootstrap-2.3.1/css/bootstrap-responsive.min.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '1.0.1',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="_static/js/jquery-fix.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-2.3.1/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="_static/bootstrap-sphinx.js"></script>
+    <link rel="top" title="SimpleEPT  1.0.1 documentation" href="index.html" />
+    <link rel="next" title="Installation" href="install.html" />
+    <link rel="prev" title="SimpleEPT System Admin Guide" href="index.html" />
+<meta charset='utf-8'>
+<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1'>
+<meta name="apple-mobile-web-app-capable" content="yes">
+
+  </head>
+  <body>
+
+  <div id="navbar" class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <!-- .btn-navbar is used as the toggle for collapsed navbar content -->
+        <button class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="brand" href="index.html">SimpleEPT </a>
+        <span class="navbar-text pull-left"><b>1.0.1</b></span>
+
+        <div class="nav-collapse">
+          <ul class="nav">
+            <li class="divider-vertical"></li>
+            
+              <li class="dropdown globaltoc-container">
+  <a href="index.html"
+     class="dropdown-toggle"
+     data-toggle="dropdown">Contents <b class="caret"></b></a>
+  <ul class="dropdown-menu globaltoc"
+    ><ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="">Employee Personal Trade Monitoring overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="install.html#requirement">Requirement</a></li>
+<li class="toctree-l2"><a class="reference internal" href="install.html#id1">Installation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="loginout.html">Login an logout the system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="loginout.html#login-the-system">Login the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loginout.html#logout-the-system">Logout the system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="loginout.html#general-tips">General Tips</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="policy/index.html">Firm Policy</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="policy/certification.html">Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policy/document.html">Document</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policy/ap-certification.html">AP Certification</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policy/security.html">Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="policy/restricted-security.html">Restricted Security</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accessperson/index.html">Access Person</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accessperson/broker-account.html">Broker Account</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessperson/pre-clearance.html">PreClearance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessperson/broker-confirm.html">Broker Confirm</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessperson/initial-holding.html">Initial Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessperson/holdings-position.html">Holdings &amp; Position</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accessperson/broker-position.html">Broker Position</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="firm/index.html">Firm Transaction</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="firm/trade.html">Firm Trade</a></li>
+<li class="toctree-l2"><a class="reference internal" href="firm/order.html">Firm Order</a></li>
+<li class="toctree-l2"><a class="reference internal" href="firm/holding.html">Firm Holding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="firm/recommendation.html">Firm Recommendation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="detection/index.html">Detection Builder</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="detection/query.html">Query Builder</a></li>
+<li class="toctree-l2"><a class="reference internal" href="detection/rule.html">Rule Builder</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="workflow/index.html">Workflow</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="workflow/actionrule.html">Action Rules</a></li>
+<li class="toctree-l2"><a class="reference internal" href="workflow/actionreason.html">Action Reason Map</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="report/index.html">Report</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="report/report.html">Report</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="admin/index.html">Administration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="admin/users.html">Users</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/roles.html">Roles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/permissions.html">Permissions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/groups.html">Groups</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/orgunits.html">Organization Units</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/adminhistory.html">Administration History</a></li>
+<li class="toctree-l2"><a class="reference internal" href="admin/recordlocks.html">Record Locks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="resource/index.html">Resources</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="resource/fileformat.html">File Format</a></li>
+<li class="toctree-l2"><a class="reference internal" href="resource/dropdown.html">Drop-downs</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">Glossary</a></li>
+</ul>
+</ul>
+</li>
+              <li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown">Page <b class="caret"></b></a>
+  <ul class="dropdown-menu localtoc"><ul>
+<li><a class="reference internal" href="#">Employee Personal Trade Monitoring overview</a></li>
+</ul>
+</ul>
+</li>
+            
+            
+              
+  <li><a href="index.html"
+         title="previous chapter">&laquo; SimpleEPT System Admin Guide</a></li>
+  <li><a href="install.html"
+         title="next chapter">Installation &raquo;</a></li>
+            
+            
+          </ul>
+
+          
+            
+<ul class="nav pull-right" id="main-menu-right">
+	<li class="dropdown">
+							<a class="dropdown-toggle" data-toggle="dropdown" href="#">Other Docs<b class="caret"></b></a>
+							<ul class="dropdown-menu" id="swatch-menu">
+								 <li><a href="http://www.simplecompli.com/aml/help/en">AML &amp; Fraud Detection</a></li>
+					          <li><a href="http://www.simplecompli.com/sarctr/help/en">CTR SAR &amp; E-Filing</a></li>
+							   <li><a href="http://www.simplecompli.com/ofac/help/en">SimpleOFAC Suite</a></li>
+							</ul>
+						</li>
+						<li><a rel="tooltip"  href="http://www.simplecompli.com" title="back to SimpleCompli website" >HomePage</a></li>
+</ul>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div class="container">
+  
+  <div class="section" id="employee-personal-trade-monitoring-overview">
+<span id="overview"></span><h1>Employee Personal Trade Monitoring overview<a class="headerlink" href="#employee-personal-trade-monitoring-overview" title="Permalink to this headline">¶</a></h1>
+<p>SimpleEPT is a browser-based Java enterprise application that automates employee personal trade monitoring.
+It uses the advanced rule engine and the latest Web 2.0 (AJAX), providing user friendly interface, high performance and quality.</p>
+<p>SimpleEPT spans all areas of employee personal trading, from pre-clearance request authorization
+to post-trade reconciliation, certification and reporting; ensures comprehensive, documented
+compliance for any firms subject to personal trading regulations and mandates.
+It greatly improves visibility into access employee personal trading;
+simplifies compliance process and reduces paperwork; streamlines workflow and comprehensive monitoring to
+avoid SEC-imposed fines.</p>
+<p>SimpleEPT Suite™ consists of the following major modules:</p>
+<ol class="arabic">
+<li><p class="first"><a class="reference internal" href="policy/index.html#policy-index"><em>Firm Policy</em></a>.</p>
+<p>Compliance manager can set up firm policy document, firm certification, master security and firm restricted security.
+Access person can read firm policy document, submit certification and search on master security.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="accessperson/index.html#accessperson-index"><em>Access Person</em></a>.</p>
+<p>Access person can disclose broker accounts, submit pre-trade request, and view his/her own holdings.
+Compliance manager can also input broker confirmation transaction and broker position.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="firm/index.html#firm-index"><em>Firm Transaction</em></a>.</p>
+<p>Compliance manager or system admin can input or load firm trade, firm order, firm holding and firm Recommendation.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="detection/index.html#detection-index"><em>Detection Builder</em></a>.</p>
+<p>Compliance manager or system admin can build rules on pre-clearance and/or post-trade  to comply SEC rules,
+ICI recommendations, and firm’s code of ethics.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="workflow/index.html#workflow-index"><em>Workflow</em></a>.</p>
+<p>It has build-in configurable workflow for pre-clearance/post trade transaction. firm certification etc.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="report/index.html#report-index"><em>Report</em></a>.</p>
+<p>It has various build-in reports. Adding a new report is easy by simply adding a new jasperreport template.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="admin/index.html#admin-index"><em>Administration</em></a>.</p>
+<p>Compliance manager or system admin can manager users(access person) with role, group and org unit code.</p>
+</li>
+<li><p class="first"><a class="reference internal" href="resource/index.html#resource-index"><em>Resources</em></a>.</p>
+<p>Resource is the center place to manage some entities that used within the system. Those are File Format and Drop-downs.</p>
+</li>
+</ol>
+<p>The <a class="reference internal" href="glossary.html#glossary"><em>Glossary</em></a> contains common terms used in this document.</p>
+</div>
+
+
+</div>
+<hr>
+  
+<footer class="footer">
+  <div class="container">
+    <p class="pull-right">
+      <a href="#">Back to top</a>
+      
+    </p>
+    <p>
+        &copy; Copyright 2013, SimpleEPT Team.<br/>
+    </p>
+  </div>
+</footer>
+  </body>
+</html>

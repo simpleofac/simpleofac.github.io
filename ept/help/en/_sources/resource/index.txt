@@ -1,0 +1,15 @@
+.. _resource-index:
+
+Resources
+============================================
+
+
+Resource is the center place to manage some entities that are used within the system. Those are
+:ref:`res-fileformat` and :ref:`res-dropdown`. 
+
+.. toctree::
+   :maxdepth: 1
+
+   fileformat.rst
+   dropdown.rst
+   

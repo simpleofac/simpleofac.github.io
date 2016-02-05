@@ -1,0 +1,130 @@
+.. _list-gg:
+
+Exception(Good Guy)
+============================================
+
+The Screening Engine scans the customer data or payment transaction against the sanction list and produces alert or no alert results. 
+Some alerts are true alerts while others are false alerts. 
+
+There are some entries in the sanction list which produces large volume of false alerts. 
+Exceptions, also called Good Guys, are used to eliminate those false alerts. 
+
+Each Sanction List entry can have 0 to many exceptions. If the customer name matches the sanction list name at the same time that 
+the customer name also matches the exception name, the filter engine will ignore the alert and produce a no alert result.
+
+For example, "John" is the name of a sanction list entry. So "John Smith" and "ED John" will get alerts on this entry. 
+If we add "John Smith" and "Ed John" as exceptions to this list, the filter will ignore the alerts on "John Smith" and "ED John" and produce no alert result. 
+Please note that the customer name must completely match the exception name in order to ignore the alert on this entry.
+
+Like Alt. Name, Exceptions must link to a sanction list entry.This function is used to manage those Exceptions, or Good Guys. 
+Click the **Exception** in the left navigation menu under List management and a new **Exception** Tab folder will be created 
+in the right panel.
+ 
+
+There are 3 sub-Tab folders: :ref:`list-gg-search`, :ref:`list-gg-search-result` and :ref:`list-gg-new`.
+
+.. note:: 
+
+   Exceptions must link to a Sanction List list entry.
+
+
+.. image:: _images/gg-search.png
+   :alt: Exception(Good Guy) search screen
+
+   
+.. _list-gg-search:
+
+Search Exception(Good Guy)
+-------------------------------
+
+**Search Criteria**
+
+=============== ================================================================================
+Field Name      Description
+=============== ================================================================================
+entNum	        Link to sanction list entry unique record identifier.
+GGNum	        Exception unique record identifier.
+Name	        Name of Exceptions.
+GG Type	        Type of Exceptions.
+CreatedByDate	Date and Time when this entry is created
+CreatedByUser	User who create this entry.
+ModifiedByDate	Last modified date and time.
+ModifiedByUser	Last modified user.
+AND    	        Select AND radio box if you want those criteria add together. 
+OR              Select OR radio box if you want to get the result if either criteria meet
+=============== ================================================================================
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Find:** --  click Find button to search.
+  
+* **Clear:**--  click Clear button to clear all the criteria.
+
+
+.. _list-gg-search-result:
+
+Search Result Exception(Good Guy)
+------------------------------------
+
+.. image:: _images/gg-search-result.png
+   :alt: Exception(Good Guy) search result screen
+
+The top part is the table which shows the list of the Exceptions(Good Guys) that meet the search criteria. 
+The bottom part is the details of the selected entry.
+
+
+.. _list-gg_update:
+
+Update/Delete Exceptions(Good Guys)
+--------------------------------------
+
+**Double Click** the selected record in the table to modify this entry. 
+A new Tab folder **Update/Delete Alt. Name** will be added, as show below.
+
+.. image:: _images/gg-update.png
+   :alt: Exceptions(Good Guys) update/delete screen
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Update:** --  make changes on the Exceptions(Good Guys) and then save and switch back to "Search result Exception(GG)" Tab. 
+  Some of the fields in this form are read only, like GGnum, created/modified user and date.
+* **Reset:**--  reset the data to its initial value and discard all the changes.
+* **Cancel:**-- Cancel this change and switch back to "Search result Exception(GG)" Tab.
+* **Delete:**-- Delete this entry and then switch back to "Search result Exception(GG)" Tab.
+
+
+
+.. _list-gg-new:
+
+Create New Exceptions(Good Guys)
+----------------------------------
+
+Select the "Create New Exception(GG)" Tab to create a new entry.
+
+.. image:: _images/gg-new.png
+   :alt: Exception(Good Guy) create new screen
+
+=============== ====================================================================================
+Field Name      Description
+=============== ====================================================================================
+entNum	        Link to sanction list entry unique record identifier. 
+GGNum	        Exception unique record identifier; This is a read only field.
+Name	        Name of Exceptions; This is a mandatory field.
+GG Type	        Type of Exceptions.
+CreatedByDate	Date and Time when the entry is created. It is a read only field.
+CreatedByUser	User who create this entry. It is a read only field.
+ModifiedByDate	Last modified date and time; It is a read only field.
+ModifiedByUser	Last modified user; It is a read only field.
+=============== ====================================================================================
+
+
+Functional buttons
+^^^^^^^^^^^^^^^^^^^
+
+* **Create:** --  Click the Create button to create a new Exception and switch to "Search result Exception(GG)" Tab. 
+  Name is a mandatory field; if it is empty, an error will be shown.
+* **Clear:**--  Click the Clear button to clear all the fields
+* **Cancel:**-- Click the Cancel button to cancel the operation and switch back to the "Search result Exception(GG)" Tab.
+   

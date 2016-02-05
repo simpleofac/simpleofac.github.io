@@ -1,0 +1,114 @@
+TABLE {
+	FONT-SIZE: small; FONT-FAMILY: Arial, sans-serif
+}
+PRE {
+	FONT-SIZE: medium
+}
+H2.api {
+	BACKGROUND-COLOR: #f5f5f5
+}
+H3.api {
+	MARGIN-BOTTOM: 0.5em
+}
+H4.api {
+	MARGIN-BOTTOM: 0.5em
+}
+LI {
+	MARGIN-BOTTOM: 0.5em
+}
+#nextprev {
+	PADDING-RIGHT: 6px; FLOAT: right
+}
+#nextprev NOBR {
+	MARGIN: 0px 0.2em
+}
+DD {
+	MARGIN-BOTTOM: 1em
+}
+DIV.tipContainer {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 0em; PADDING-BOTTOM: 1em; MARGIN: 1em 0px; PADDING-TOP: 0.8em; POSITION: relative; BACKGROUND-COLOR: #e5ecf9
+}
+DIV.tipCallout {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; FONT-WEIGHT: bold; LEFT: 0.8em; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; POSITION: absolute; TOP: 0.8em
+}
+DIV.tipBody {
+	PADDING-LEFT: 3.2em
+}
+DIV.topicHeader {
+	MARGIN: 0px 1em 1em; BORDER-BOTTOM: blue 2px solid
+}
+DIV.topicHeader A {
+	TEXT-DECORATION: none
+}
+DIV.topicHeader A:hover {
+	TEXT-DECORATION: underline
+}
+DIV.topicHeader NOBR A {
+	TEXT-DECORATION: none
+}
+DIV.topicHeader NOBR A:hover {
+	TEXT-DECORATION: underline
+}
+DIV.topicBody {
+	MARGIN: 1em
+}
+DIV.topicChildren {
+	MARGIN-LEFT: 1em
+}
+DIV.topicSeeAlso {
+	MARGIN-LEFT: 2em
+}
+DIV.topicSeeAlso H2 {
+	MARGIN-LEFT: -1em
+}
+DIV.memberOf {
+	FONT-SIZE: small; MARGIN-BOTTOM: 1em
+}
+DIV.apiSection {
+	MARGIN-LEFT: 2em
+}
+TABLE.members {
+	FONT-SIZE: 100%
+}
+TABLE.members TR {
+	VERTICAL-ALIGN: top
+}
+TABLE.members TR TH {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; FONT-WEIGHT: bold; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BACKGROUND-COLOR: #cccccc; TEXT-ALIGN: left
+}
+TABLE.members TR TD {
+	PADDING-RIGHT: 6px; PADDING-LEFT: 6px; PADDING-BOTTOM: 4px; MARGIN: 1px; PADDING-TOP: 4px; BACKGROUND-COLOR: white; TEXT-ALIGN: left
+}
+DIV.memberSig {
+	FONT-SIZE: 100%; MARGIN-BOTTOM: 1em; OVERFLOW: auto; FONT-FAMILY: "bogus font here", monospace
+}
+DIV.classSig {
+	PADDING-RIGHT: 0.5em; PADDING-LEFT: 0.5em; FONT-SIZE: 100%; MARGIN-BOTTOM: 1em; PADDING-BOTTOM: 0.5em; OVERFLOW: auto; COLOR: #007000; PADDING-TOP: 0.5em; FONT-FAMILY: "bogus font here", monospace; BACKGROUND-COLOR: #f5f5f5
+}
+UL.css LI {
+	FONT-STYLE: normal; FONT-FAMILY: Courier New; LIST-STYLE-TYPE: none
+}
+DL.fixed DT {
+	FONT-STYLE: normal; FONT-FAMILY: Courier New
+}
+DL.memberDetail {
+	MARGIN-TOP: 0em
+}
+DL.memberDetail DT {
+	FONT-FAMILY: "bogus font here", monospace
+}
+DL.memberDetail DD {
+	MARGIN-BOTTOM: 1em
+}
+TD {
+	PADDING-RIGHT: 0.2em; PADDING-LEFT: 0.2em; PADDING-BOTTOM: 0.2em; PADDING-TOP: 0.2em
+}
+TR.gallery-link TD {
+	VERTICAL-ALIGN: bottom; PADDING-TOP: 1em; TEXT-ALIGN: center
+}
+TR.gallery TD {
+	PADDING-RIGHT: 1em; PADDING-LEFT: 1em; PADDING-BOTTOM: 1em; VERTICAL-ALIGN: top; PADDING-TOP: 0.25em; TEXT-ALIGN: center
+}
+IMG.gallery {
+	BORDER-RIGHT: #95bbfc 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #95bbfc 1px solid; PADDING-LEFT: 4px; PADDING-BOTTOM: 4px; BORDER-LEFT: #95bbfc 1px solid; PADDING-TOP: 4px; BORDER-BOTTOM: #95bbfc 1px solid
+}

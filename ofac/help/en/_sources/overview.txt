@@ -1,0 +1,57 @@
+.. _overview:
+
+SimpleOFAC Suite Solution overview
+===================================
+
+Simple OFAC Suite™ is built on the idea that OFAC compliance tools can be more intuitive, efficient, and useful. 
+It uses the latest Web 2.0 (AJAX) and innovative indexing and search technology, providing user friendly interface, 
+high performance, and quality. It is an open and extensible platform and it supports various API and web services interface. 
+It can be easily integrated with your existing system or customized to match to your business processes.
+
+
+SimpleOFAC Suite™ Compliance Software consists of the following major components:
+
+#. :ref:`list-index`.
+
+   Manage sanction list. It supports the list upload. The following lists are supported, and a new plugin can be added easily 
+   to support a new list: 
+   BIS-DPL, BIS-UNVENRIFIED, CIA WORLD LEADER, EU, HUD-LDP, NS-PLC, OCC UNAUTHORIZED BANK LIST, OFAC SDN, OFSI ENTITY, 
+   OFSI INDIVIDUAL, STATE-DEBAR, and UK-HM.
+    
+#. :ref:`screening-index`.
+
+   Manage screening engines. The screening engine scans texts/messages against the sanction lists and gives alert or no alert results.
+   
+#. :ref:`case-index`.
+
+   The alert results can be loaded into Case Management for review. It has a build-in algorithm to detect duplicated texts/messages.
+   
+#. :ref:`workflow-index`.
+
+   It has a build-in configurable workflow for watch list alerts and cases.   
+
+#. :ref:`report-index`.
+
+   It has various build-in reports. Adding a new report is easy by simply adding a new Jasperreport template.   
+   
+#. :ref:`admin-index`.
+
+   The compliance manager or system admin can manage users(access person) with role, group, and org unit code. 
+
+#. :ref:`resource-index`.
+
+   Resource is the center place to manage some entities that are used within the system. Those are File Format and Drop-downs.
+
+
+#. Analysis tools
+   
+   * Free Text Lookup:  It is a very useful browse-based tool used to scan any text or message using the screening engine service. 
+   * SimpleOFAC Client: It is a Java utility and runs on the user’s desktop. It takes a customer file as input and scans the file
+     against the screening engine service and generates statistics, such as the number of alerts, hits, and their match term that
+     each sanction list entry receives. 
+    
+   Both of them can be used as a test tool to test screening engine service and the sanction lists. This helps users to do 
+   the tuning of the sanction list itself (create Exception (good guy), or exclude AKA)
+   and/or on the parameter settings on screening engine service (setting threshold, scan mode, etc.).
+
+The :ref:`glossary` contains common terms used in this document.

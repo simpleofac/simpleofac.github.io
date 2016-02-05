@@ -1,0 +1,22 @@
+.. _glossary:
+
+
+Glossary 
+================
+
+Access persons
+    Access persons are defined in Rule 204A-1 as supervised persons who have access to nonpublic
+    information regarding clients’ purchase or sale of securities, are involved in making securities
+    recommendations to clients, or who have access to recommendations that are nonpublic.
+    A supervised
+
+Restricted Lists. 
+    The lists of issuers about which the access person  has inside information, 
+    and prohibitions on personal trading in securities of any issuers on the restricted list.
+
+Blackout Periods. 
+    Blackout periods during which Access Persons are not permitted to engage in personal trading because client 
+    securities trades are being placed or recommendations are being made to clients. 
+    Many advisers use blackout periods to prevent Access Persons from trading ahead of clients or from 
+    trading on the same day client trades are placed.
+

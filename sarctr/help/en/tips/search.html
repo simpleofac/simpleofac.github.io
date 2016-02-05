@@ -1,0 +1,168 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<meta name="copyright" content="(C) Copyright SimpleOFAC.com . 2004-2009" />
+<meta content="public" name="security" />
+<meta content="index,follow" name="Robots" />
+<link href="../css/base.css" type="text/css" rel="stylesheet" />
+<link href="../css/doc.css" type="text/css" rel="stylesheet" />
+<link href="../css/print.css" type="text/css" rel="stylesheet" media=print />
+<STYLE type=text/css>#footer .text {
+	PADDING-TOP: 5px
+}
+.documentation {
+	MARGIN-LEFT: 0.25in
+}
+.documentation H1 {
+	MARGIN-LEFT: -0.25in
+}
+.documentation H2 {
+	MARGIN-TOP: 1.5em; MARGIN-LEFT: -0.25in
+}
+.documentation H3 {
+	MARGIN-LEFT: -0.125in
+}
+.documentation UL.toc {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.demo {
+	PADDING-RIGHT: 3px; BACKGROUND-POSITION: left center; PADDING-LEFT: 20px; BACKGROUND-IMAGE: url(./images/newwindow.gif); PADDING-BOTTOM: 3px; PADDING-TOP: 3px; BACKGROUND-REPEAT: no-repeat
+}
+</STYLE>
+
+<STYLE type=text/css>OL.instructions {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px 0px 0px 2em; PADDING-TOP: 0px
+}
+.instructions .header {
+	FONT-WEIGHT: bold
+}
+.instructions LI {
+	MARGIN-BOTTOM: 1em
+}
+DIV .screenshot {
+	MARGIN: 1em; TEXT-ALIGN: left
+}
+</STYLE>
+
+
+<title>General Navigation Tips</title>
+</head>
+
+<body>
+<DIV id=preline>&nbsp;</DIV>
+<DIV id=header>
+<DIV id=logo><A href="http://www.simpleofac.com/"><IMG alt="SimpleOFAC Enterprise Compliance Suite" 
+src="../images/cpLogo_54.png"></A> </DIV>
+
+<DIV id=title>SimpleOFAC Suite&trade; Tips of the Day</DIV>
+
+<DIV id=breadcrumbs>
+
+<DIV id=nextprev><!-- 
+<NOBR><A 
+href="installation.html">&laquo; 
+prev</A></NOBR>  -->
+<NOBR><A 
+href="alertgene.html">next 
+&raquo;</A></NOBR> </DIV>
+<SPAN class=item><A 
+href="index.html">Tips Of The day</A></SPAN> &gt; 
+<SPAN class="item selected"><A 
+href="search.html" 
+xmlns="">How the search works</A></SPAN> </DIV>
+
+
+</DIV>
+
+
+<DIV id=side>
+<DIV id=menu>
+<DIV class="header item"><A href="./index.html">SimpleOFAC Suite&trade; Tips of the Day</A> </DIV>
+<DIV class=group>
+<DIV class="item"><A 
+href="./index.html">Navigation Tips</A> 
+</DIV>
+
+<DIV class=item><A 
+href="./alertgene.html">How the alerts are generated
+</A> </DIV>
+
+
+<DIV class="item selected"><A 
+href="./search.html">How the search works
+</A> </DIV>
+
+	 
+
+</DIV>
+</DIV>
+</DIV>
+
+<DIV id=body>
+<DIV class=documentation>
+<H1>How the search works</H1>
+
+<p>
+For every functionality in the left menu, there are search Tab and search result Tab. Below is the SDN List Tabs.  
+</p>
+<DIV class=screenshot><IMG alt="Screenshot" src="../images/searchform.png"></DIV>
+
+<p>
+</p>
+<DIV class=screenshot><IMG alt="Screenshot" src="../images/searchresult.png"></DIV>
+
+<p>
+</p>
+<OL class=instructions>
+  <LI>
+If you do not input any data in the search criteria, it will get the first 50 records from the database
+  </LI>
+  <LI>
+For criteria in each field,it will create a where clause,  for example, if you type "Joe" in sdn name field,
+ It will create a where clause like this lower(snd_name) like '%joe%"
+<p>
+If you type "Joe smith" in sdn name field,
+ It will create a where clause like this lower(snd_name) like '%joe smith%"
+</p> 
+  
+<p>
+If you type "Joe, smith" in sdn name field,
+ It will create a where clause like this lower(snd_name) like '%Joe, smith%"
+</p>   
+
+<p> This is standard SQL Query. The best practice is only type ONE word, for example "Joe", 
+so all the name with "Joe" will be in the result list, which will include "Joe smith", "smith, Joe", "Joe x smith" etc. 
+</p>
+  </LI>
+  <LI>
+Criteria in each field will join together using "OR" or "AND", depends on the option "OR" or "AND" selected
+  </LI>
+</OL>
+<hr>
+<p>
+For Free text lookup or file scan, It uses innovative indexing and search technology. 
+Those names/messages are pre-processed and tokenized. It will search against name and name synonym. 
+The space between the words will be ignored, the order of the words will affect its score, 
+but NOT as important as its in the standard SQL Query.
+</p>
+<DIV class=screenshot><IMG alt="Screenshot" src="../images/lookup_form.png"></DIV>
+
+<p>
+</p>
+<DIV class=screenshot><IMG alt="Screenshot" src="../images/lookup_result.png"></DIV>
+
+<p>
+
+
+
+
+</DIV>
+</DIV>
+
+
+<DIV id=footer>Copyright &copy;
+         2004-2009 <a href="http://www.simpleofac.com/">SimpleOFAC</a> ALL RIGHT RESERVED
+</DIV>
+
+</BODY></HTML>
