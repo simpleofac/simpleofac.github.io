@@ -123,67 +123,60 @@
   <div class="container">
     <div class="row">
   <div class="span8">
-    <h3 id='free_ofac_sdn_search_tools'>Free OFAC SDN search tools</h3>
+    <h3 id="free-ofac-sdn-search-tools">Free OFAC SDN search tools</h3>
 
-<p>For those we are looking for free online ofac search tools, the following&#8217;s are the lists</p>
+<p>For those we are looking for free online ofac search tools, the following’s are the lists</p>
 
 <ol>
-<li><a href='https://www.simpleofac.com/free-ofac-search.jsp'>https://www.simpleofac.com/free-ofac-search.jsp</a></li>
-
-<li><a href='www.instantofac.com'>http://www.instantofac.com</a></li>
-
-<li><a href='http://apps.finra.org/rulesregulation/ofac/1/default.aspx'>http://apps.finra.org/rulesregulation/ofac/1/default.aspx</a></li>
-
-<li><a href='http://sdnsearch.ofac.treas.gov/'>http://sdnsearch.ofac.treas.gov</a></li>
+  <li><a href="https://www.simpleofac.com/free-ofac-search.jsp">https://www.simpleofac.com/free-ofac-search.jsp</a></li>
+  <li><a href="www.instantofac.com">http://www.instantofac.com</a></li>
+  <li><a href="http://apps.finra.org/rulesregulation/ofac/1/default.aspx">http://apps.finra.org/rulesregulation/ofac/1/default.aspx</a></li>
+  <li><a href="http://sdnsearch.ofac.treas.gov/">http://sdnsearch.ofac.treas.gov</a></li>
 </ol>
 
 <p>Please try them out!.</p>
 
-<h3 id='sdn_search_questions_from_ofac_webiste'>SDN Search Questions from OFAC webiste</h3>
+<h3 id="sdn-search-questions-from-ofac-webiste">SDN Search Questions from OFAC webiste</h3>
 
 <ol>
-<li>
-<p><strong>How does SDN Search work?</strong></p>
+  <li>
+    <p><strong>How does SDN Search work?</strong></p>
 
-<p>In addition to returning results that are exact matches (when the match threshold slider bar is set to 100%), SDN Search can also provide a broader set of results using fuzzy logic. This logic uses character and string matching as well as phonetic matching. Only the name field of SDN Search invokes fuzzy logic when the tool is run. The other fields on the tool use character matching logic. Please click here for more information on what a true SDN match is.</p>
-</li>
+    <p>In addition to returning results that are exact matches (when the match threshold slider bar is set to 100%), SDN Search can also provide a broader set of results using fuzzy logic. This logic uses character and string matching as well as phonetic matching. Only the name field of SDN Search invokes fuzzy logic when the tool is run. The other fields on the tool use character matching logic.  Please click here for more information on what a true SDN match is.</p>
+  </li>
+  <li>
+    <p><strong>What does the SDN Search Score mean?</strong></p>
 
-<li>
-<p><strong>What does the SDN Search Score mean?</strong></p>
+    <p>The score field indicates the similarity between the name entered and resulting matches on the SDN List. It is calculated using two matching logic algorithms: one based upon phonetics, and a second based upon the similarity of the characters in the two strings. A score of 100 indicates an exact match, while lower scores indicate potential matches.</p>
+  </li>
+  <li>
+    <p><strong>How do I use the Minimum Name Score field and score slider bar?</strong></p>
 
-<p>The score field indicates the similarity between the name entered and resulting matches on the SDN List. It is calculated using two matching logic algorithms: one based upon phonetics, and a second based upon the similarity of the characters in the two strings. A score of 100 indicates an exact match, while lower scores indicate potential matches.</p>
-</li>
+    <p>The minimum name score field limits the number of names returned by the search. A value of 100 will return only names that exactly match the characters entered into the name field. A value of 50 will return all names that are deemed to be 50% similar based upon the matching logic of the search tool. By lowering the match threshold the system will return a broader result set.</p>
+  </li>
+  <li>
+    <p><strong>How is the Score calculated?</strong></p>
 
-<li>
-<p><strong>How do I use the Minimum Name Score field and score slider bar?</strong></p>
+    <p>SDN search uses two matching logic algorithms, and two matching logic techniques to calculate the score. The two algorithms are Jaro-Winkler, a string difference algorithm, and Soundex, a phonetic algorithm. The first technique involves using the Jaro-Winkler algorithm to compare the entire name string entered against full name strings of SDN entries. The second technique involves splitting the name string entered into multiple name parts (for example, John Doe would be split into two name parts). Each name part is then compared to name parts on the SDN list using the Jaro-Winkler and Soundex algorithms. The search calculates a score for each name part entered, and a composite score for all name parts entered. SDN Search uses both techniques each time the search is run, and returns the higher of the two scores in the Score column.</p>
+  </li>
+  <li>
+    <p><strong>Does OFAC recommend a specific match threshold score?</strong></p>
 
-<p>The minimum name score field limits the number of names returned by the search. A value of 100 will return only names that exactly match the characters entered into the name field. A value of 50 will return all names that are deemed to be 50% similar based upon the matching logic of the search tool. By lowering the match threshold the system will return a broader result set.</p>
-</li>
+    <p>OFAC cannot make such a recommendation because each search has its own unique set of facts surrounding it. Users of SDN Search must make their own match threshold determinations based upon their own internal risk assessments and established compliance practices.</p>
+  </li>
+  <li>
+    <p><strong>What fields influence the score?</strong></p>
 
-<li>
-<p><strong>How is the Score calculated?</strong></p>
+    <p>Only the name field influences the score.</p>
+  </li>
+  <li>
+    <p><strong>What fields use fuzzy logic?</strong></p>
 
-<p>SDN search uses two matching logic algorithms, and two matching logic techniques to calculate the score. The two algorithms are Jaro-Winkler, a string difference algorithm, and Soundex, a phonetic algorithm. The first technique involves using the Jaro-Winkler algorithm to compare the entire name string entered against full name strings of SDN entries. The second technique involves splitting the name string entered into multiple name parts (for example, John Doe would be split into two name parts). Each name part is then compared to name parts on the SDN list using the Jaro-Winkler and Soundex algorithms. The search calculates a score for each name part entered, and a composite score for all name parts entered. SDN Search uses both techniques each time the search is run, and returns the higher of the two scores in the Score column.</p>
-</li>
-
-<li>
-<p><strong>Does OFAC recommend a specific match threshold score?</strong></p>
-
-<p>OFAC cannot make such a recommendation because each search has its own unique set of facts surrounding it. Users of SDN Search must make their own match threshold determinations based upon their own internal risk assessments and established compliance practices.</p>
-</li>
-
-<li>
-<p><strong>What fields influence the score?</strong></p>
-
-<p>Only the name field influences the score.</p>
-</li>
-
-<li>
-<p><strong>What fields use fuzzy logic?</strong></p>
-
-<p>Only the name field uses the fuzzy searching logic.</p>
-</li>
+    <p>Only the name field uses the fuzzy searching logic.</p>
+  </li>
 </ol>
+
+
   </div>
   <div class="span1"></div>
   <div class="span3">
@@ -202,12 +195,12 @@
 			</li>
 			
 			<li>
-				<a href="/categories.html#regulatory">
+				<a href="/categories.html#free tools">
 				
-					regulatory
+				<b>free tools</b>
 				
 				</a>
-				<sup>[5]</sup>
+				<sup>[2]</sup>
 			</li>
 			
 			<li>
@@ -220,12 +213,12 @@
 			</li>
 			
 			<li>
-				<a href="/categories.html#free tools">
+				<a href="/categories.html#regulatory">
 				
-				<b>free tools</b>
+					regulatory
 				
 				</a>
-				<sup>[2]</sup>
+				<sup>[5]</sup>
 			</li>
 			
 		</ul>
@@ -254,9 +247,9 @@
 			</li>
 			
 			<li>
-				<a href="/tags.html#SAR CTR">
+				<a href="/tags.html#SDN">
 				
-					SAR CTR
+					SDN
 				
 				</a>
 				<sup>[1]</sup>
@@ -264,9 +257,9 @@
 			</li>
 			
 			<li>
-				<a href="/tags.html#SDN">
+				<a href="/tags.html#SAR CTR">
 				
-					SDN
+					SAR CTR
 				
 				</a>
 				<sup>[1]</sup>
@@ -313,18 +306,7 @@
 </div>
 
       
-      <!-- this is the position -->
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-3560012422880779";
-/* half */
-google_ad_slot = "6006644040";
-google_ad_width = 234;
-google_ad_height = 60;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
+     
       
   </div>
 </div>
@@ -350,31 +332,10 @@ src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
   </div>
   
 </footer>
-
- <div class="container">
-     <div class="row">
-     
-     <div class="span6 offset4">
- <!--  this is the position -->
-<script type="text/javascript"><!--
-google_ad_client = "ca-pub-3560012422880779";
-/* ofac */
-google_ad_slot = "7902179642";
-google_ad_width = 336;
-google_ad_height = 280;
-//-->
-</script>
-<script type="text/javascript"
-src="http://pagead2.googlesyndication.com/pagead/show_ads.js">
-</script>
- </div>
- 
- </div>
- </div>
- 
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="/js/jquery.smooth-scroll.min.js"></script>
 	<script src="/js/bootstrap.min.js"></script>
     <script src="/js/bootswatch.js"></script>
+
 </body>
 </html>

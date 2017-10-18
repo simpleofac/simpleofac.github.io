@@ -4,7 +4,7 @@
  <title>SimpleOFAC Compliance Solutions</title>
  <link href="http://www.simpleofac.com/"/>
  <link type="application/atom+xml" href="http://www.simpleofac.com/atom.xml" rel="self"/>
- <updated>2014-01-17T16:13:19-05:00</updated>
+ <updated>2017-10-18T10:10:36-04:00</updated>
  <id>http://www.simpleofac.com/</id>
  <author>
    <name>SimpleOFAC Team</name>
@@ -17,11 +17,12 @@
    <link href="http:////regulatory/2013/11/26/ofac-sdn-update.html"/>
    <updated>2013-11-26T00:00:00-05:00</updated>
    <id>http:////regulatory/2013/11/26/ofac-sdn-update</id>
-   <content type="html">&lt;h3 id='counter_narcotics_trafficking_sanctions_update__november_26_2013'&gt;Counter Narcotics Trafficking Sanctions Update - November 26, 2013&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;counter-narcotics-trafficking-sanctions-update---november-26-2013&quot;&gt;Counter Narcotics Trafficking Sanctions Update - November 26, 2013&lt;/h3&gt;
 
 &lt;p&gt;Specially Designated Nationals List was updated on November 26, 2013.&lt;/p&gt;
 
-&lt;p&gt;More information can be found at &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20131126.aspx'&gt;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20131126.aspx&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;More information can be found at &lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20131126.aspx&quot;&gt;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20131126.aspx&lt;/a&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -29,11 +30,12 @@
    <link href="http:////regulatory/2013/09/06/ofac-sdn-update.html"/>
    <updated>2013-09-06T00:00:00-04:00</updated>
    <id>http:////regulatory/2013/09/06/ofac-sdn-update</id>
-   <content type="html">&lt;h3 id='government_of_iran_listings__september_6_2013'&gt;Government of Iran Listings - September 6, 2013&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;government-of-iran-listings---september-6-2013&quot;&gt;Government of Iran Listings - September 6, 2013&lt;/h3&gt;
 
 &lt;p&gt;Specially Designated Nationals List was updated on September 6, 2013.&lt;/p&gt;
 
-&lt;p&gt;More information can be found at &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130906.aspx'&gt;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130906.aspx&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;More information can be found at &lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130906.aspx&quot;&gt;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130906.aspx&lt;/a&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -41,11 +43,12 @@
    <link href="http:////regulatory/2013/09/05/ofac-enforcement.html"/>
    <updated>2013-09-05T00:00:00-04:00</updated>
    <id>http:////regulatory/2013/09/05/ofac-enforcement</id>
-   <content type="html">&lt;h3 id='release_of_ofac_enforcement_information__september_5_2013'&gt;Release of OFAC Enforcement Information - September 5, 2013&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;release-of-ofac-enforcement-information---september-5-2013&quot;&gt;Release of OFAC Enforcement Information - September 5, 2013&lt;/h3&gt;
 
 &lt;p&gt;New OFAC enforcement information was released on September 5, 2013&lt;/p&gt;
 
-&lt;p&gt;Content can be found at &lt;a href='/resources/20130905_DBTCA.pdf'&gt;Here&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;Content can be found at &lt;a href=&quot;/resources/20130905_DBTCA.pdf&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -53,57 +56,40 @@
    <link href="http:////free%20tools/2013/09/04/useful-websites.html"/>
    <updated>2013-09-04T00:00:00-04:00</updated>
    <id>http:////free%20tools/2013/09/04/useful-websites</id>
-   <content type="html">&lt;h3 id='useful_ofac_sdn_aml_related_websites'&gt;Useful OFAC SDN AML related websites&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;useful-ofac-sdn-aml-related-websites&quot;&gt;Useful OFAC SDN AML related websites&lt;/h3&gt;
 
-&lt;h4 id='regulatory_websites'&gt;Regulatory websites&lt;/h4&gt;
-
+&lt;h4 id=&quot;regulatory-websites&quot;&gt;Regulatory websites&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href='http://www.treas.gov/offices/enforcement/ofac/'&gt;OFAC: Office of Foreign Assets Control&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx'&gt;OFAC SDN List&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.fincen.gov/'&gt;FinCEN: Financial Crimes Enforcement Network&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.fdic.gov/'&gt;FDIC: Federal Deposit Insurance Corporation&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.occ.treas.gov/'&gt;OCC: Office of the Comptroller of the Currency&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.federalreserve.gov/'&gt;FRB: Federal Reserve Board&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.ffiec.gov/'&gt;NCUA: National Credit Union Administration&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.ots.gov/'&gt;OTS: Office of Thrift Supervision&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.sec.gov/divisions/enforce.shtml'&gt;SEC: U.S. Security &amp;#38; Exchange Commission&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.sec.gov/foia/docs/invafoia.htm'&gt;SEC Investment Adviser Information Reports&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.treas.gov/offices/enforcement/ofac/&quot;&gt;OFAC: Office of Foreign Assets Control&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx&quot;&gt;OFAC SDN List&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fincen.gov/&quot;&gt;FinCEN: Financial Crimes Enforcement Network&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fdic.gov/&quot;&gt;FDIC: Federal Deposit Insurance Corporation&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.occ.treas.gov/&quot;&gt;OCC: Office of the Comptroller of the Currency&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.federalreserve.gov/&quot;&gt;FRB: Federal Reserve Board&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ffiec.gov/&quot;&gt;NCUA: National Credit Union Administration&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.ots.gov/&quot;&gt;OTS: Office of Thrift Supervision&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sec.gov/divisions/enforce.shtml&quot;&gt;SEC: U.S. Security &amp;amp; Exchange Commission&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.sec.gov/foia/docs/invafoia.htm&quot;&gt;SEC Investment Adviser Information Reports&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id='associations'&gt;Associations&lt;/h4&gt;
+&lt;h4 id=&quot;associations&quot;&gt;Associations&lt;/h4&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href='http://www.cuna.org/'&gt;Credit Union National Association&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.aba.com'&gt;American Bankers Association&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.acams.org/'&gt;Association of Anti-Money Laundering Specialists&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.floridabankers.com/'&gt;Florida Bankers Association&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.nmta.us/'&gt;The National Money Transmitters Association&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.acfe.com'&gt;Association of Certified Fraud Examiners (ACFE)&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cuna.org/&quot;&gt;Credit Union National Association&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.aba.com&quot;&gt;American Bankers Association&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.acams.org/&quot;&gt;Association of Anti-Money Laundering Specialists&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.floridabankers.com/&quot;&gt;Florida Bankers Association&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.nmta.us/&quot;&gt;The National Money Transmitters Association&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.acfe.com&quot;&gt;Association of Certified Fraud Examiners (ACFE)&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h4 id='other_links'&gt;Other Links&lt;/h4&gt;
-
+&lt;h4 id=&quot;other-links&quot;&gt;Other Links&lt;/h4&gt;
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=''&gt;BSA AML InfoBase &amp;amp; Manual&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.cujournal.com/'&gt;Credit Union Journal&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://www.bankersonline.com/'&gt;Bankers Online&lt;/a&gt;&lt;/li&gt;
-&lt;/ol&gt;</content>
+  &lt;li&gt;&lt;a href=&quot;&quot;&gt;BSA AML InfoBase &amp;amp; Manual&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.cujournal.com/&quot;&gt;Credit Union Journal&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.bankersonline.com/&quot;&gt;Bankers Online&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</content>
  </entry>
  
  <entry>
@@ -111,43 +97,35 @@
    <link href="http:////regulatory/2013/08/22/ofac-action.html"/>
    <updated>2013-08-22T00:00:00-04:00</updated>
    <id>http:////regulatory/2013/08/22/ofac-action</id>
-   <content type="html">&lt;h3 id='ofac_recent_actions'&gt;OFAC Recent Actions&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;ofac-recent-actions&quot;&gt;OFAC Recent Actions&lt;/h3&gt;
 
-&lt;h4 id='september'&gt;September&lt;/h4&gt;
-
+&lt;h4 id=&quot;september&quot;&gt;September&lt;/h4&gt;
 &lt;ul&gt;
-&lt;li&gt;09/06/2013​ &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130906.aspx'&gt;Government of Iran Listings&lt;/a&gt;​&lt;/li&gt;
-
-&lt;li&gt;09/05/2013​ &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130905.aspx'&gt;Release of OFAC Enforcement Information&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;09/06/2013​	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130906.aspx&quot;&gt;Government of Iran Listings&lt;/a&gt;​&lt;/li&gt;
+  &lt;li&gt;09/05/2013​	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130905.aspx&quot;&gt;Release of OFAC Enforcement Information&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='august'&gt;August&lt;/h4&gt;
+&lt;h4 id=&quot;august&quot;&gt;August&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;08/22/2013​ &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130822.aspx'&gt;Counter Terrorism Designations; Kingpin Act Designations&lt;/a&gt;​&lt;/li&gt;
-
-&lt;li&gt;08/21/2013​​ &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130821.aspx'&gt;Counter Terrorism Designations; Kingpin Act Designations&lt;/a&gt;​​&lt;/li&gt;
-
-&lt;li&gt;08/20/2013​ &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130820.aspx'&gt;Counter Terrorism Designations; Kingpin Act Designations&lt;/a&gt;​&lt;/li&gt;
-
-&lt;li&gt;08/13/2013​ ​&lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130813.aspx'&gt;Release of OFAC Enforcement Information&lt;/a&gt;​&lt;/li&gt;
-
-&lt;li&gt;08/08/2013​ ​&lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130808.aspx'&gt;Notice to users of OFAC&amp;#8217;s legacy delimited and fixed-width files&lt;/a&gt; ​&lt;/li&gt;
-
-&lt;li&gt;08/07/2013​ ​&lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130807.aspx'&gt;Issuance of New Burma Executive Order&lt;/a&gt;​&lt;/li&gt;
-
-&lt;li&gt;08/06/2013​ ​&lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130806.aspx'&gt;Counter Terrorism Designations&lt;/a&gt;​&lt;/li&gt;
-
-&lt;li&gt;08/01/2013 &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130801.aspx'&gt;Kingpin Act Designations&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;08/22/2013​	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130822.aspx&quot;&gt;Counter Terrorism Designations; Kingpin Act Designations&lt;/a&gt;​&lt;/li&gt;
+  &lt;li&gt;08/21/2013​​	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130821.aspx&quot;&gt;Counter Terrorism Designations; Kingpin Act Designations&lt;/a&gt;​​&lt;/li&gt;
+  &lt;li&gt;08/20/2013​	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130820.aspx&quot;&gt;Counter Terrorism Designations; Kingpin Act Designations&lt;/a&gt;​&lt;/li&gt;
+  &lt;li&gt;08/13/2013​	​&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130813.aspx&quot;&gt;Release of OFAC Enforcement Information&lt;/a&gt;​&lt;/li&gt;
+  &lt;li&gt;08/08/2013​	​&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130808.aspx&quot;&gt;Notice to users of OFAC’s legacy delimited and fixed-width files&lt;/a&gt; ​&lt;/li&gt;
+  &lt;li&gt;08/07/2013​	​&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130807.aspx&quot;&gt;Issuance of New Burma Executive Order&lt;/a&gt;​&lt;/li&gt;
+  &lt;li&gt;08/06/2013​	​&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130806.aspx&quot;&gt;Counter Terrorism Designations&lt;/a&gt;​&lt;/li&gt;
+  &lt;li&gt;08/01/2013	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130801.aspx&quot;&gt;Kingpin Act Designations&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h4 id='july'&gt;July&lt;/h4&gt;
+&lt;h4 id=&quot;july&quot;&gt;July&lt;/h4&gt;
 
 &lt;ul&gt;
-&lt;li&gt;07/30/2013​ &lt;a href='http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130730.aspx'&gt;Kingpin Act Designations​; Counter Narcotics Removals​​​; Cuba Removals&lt;/a&gt;​​​&lt;/li&gt;
+  &lt;li&gt;07/30/2013​	&lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/OFAC-Enforcement/Pages/20130730.aspx&quot;&gt;Kingpin Act Designations​; Counter Narcotics Removals​​​; Cuba Removals&lt;/a&gt;​​​&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;OFAC SDN List can be download at &lt;a href='http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx'&gt;http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;OFAC SDN List can be download at &lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx&quot;&gt;http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx&lt;/a&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -155,43 +133,46 @@
    <link href="http:////regulatory/2013/05/30/fincen--ctr-faq.html"/>
    <updated>2013-05-30T00:00:00-04:00</updated>
    <id>http:////regulatory/2013/05/30/fincen--ctr-faq</id>
-   <content type="html">&lt;h3 id='the_newest_sar_and_ctr_faqs_from_fincen'&gt;The Newest SAR and CTR FAQs from FINCEN&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;the-newest-sar-and-ctr-faqs-from-fincen&quot;&gt;The Newest SAR and CTR FAQs from FINCEN&lt;/h3&gt;
 
-&lt;p&gt;On May 24, 2013, the Financial Crimes Enforcement Network (FinCEN) released two sets of frequently asked questions(FAQs): &lt;a href='http://fincen.gov/whatsnew/html/sar_faqs.html'&gt;FAQs Regarding SARs&lt;/a&gt; and &lt;a href='http://fincen.gov/whatsnew/html/ctr_faqs.html'&gt;FAQs Regarding CTRs&lt;/a&gt;. The purpose of these questions is to assist financial institutions with the use of FinCEN’s new SAR and CTR forms, which, as of April 1, 2013, are the only acceptable forms for reporting suspicious activity and applicable currency transactions.&lt;/p&gt;
+&lt;p&gt;On May 24, 2013, the Financial Crimes Enforcement Network (FinCEN) released two sets of frequently asked questions(FAQs): 
+&lt;a href=&quot;http://fincen.gov/whatsnew/html/sar_faqs.html&quot;&gt;FAQs Regarding SARs&lt;/a&gt; and &lt;a href=&quot;http://fincen.gov/whatsnew/html/ctr_faqs.html&quot;&gt;FAQs Regarding CTRs&lt;/a&gt;.
+The purpose of these questions is to assist financial institutions with the use of FinCEN’s new SAR and CTR forms, which, as of April 1, 2013, are the only acceptable forms for reporting suspicious activity and applicable currency transactions.&lt;/p&gt;
 
-&lt;p&gt;The FAQs are very detailed, and if you have any dealings with SARs or CTRs at your institution, I’d suggest you read through them. Here are some of information from the FAQs Regarding SARs:&lt;/p&gt;
+&lt;p&gt;The FAQs are very detailed, and if you have any dealings with SARs or CTRs at your institution, 
+I’d suggest you read through them. Here are some of information from the FAQs Regarding SARs:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What are the expectations for completing the Items with an asterisk (“critical”) and without an asterisk (“non-critical”) found on the FinCEN SAR or any other FinCEN report?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are the expectations for completing the Items with an asterisk (“critical”) and without an asterisk (“non-critical”) found on the FinCEN SAR or any other FinCEN report?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;As explained in FinCEN’s March 2012 guidance (FIN-2012-G002), for both critical and non-critical elements, financial institutions should complete those Items for which they have relevant information, regardless of whether or not the individual Items are deemed critical for technical filing purposes.&lt;/p&gt;
+    &lt;p&gt;As explained in FinCEN’s March 2012 guidance (FIN-2012-G002), for both critical and non-critical elements, financial institutions should complete those Items for which they have relevant information, regardless of whether or not the individual Items are deemed critical for technical filing purposes.&lt;/p&gt;
 
-&lt;p&gt;For critical Items, financial institutions must either provide the requested information or affirmatively check the “Unknown” (Unk.) box that is provided on the FinCEN SAR and FinCEN Currency Transaction Report (CTR) (or any other FinCEN Report).&lt;/p&gt;
+    &lt;p&gt;For critical Items, financial institutions must either provide the requested information or affirmatively check the “Unknown” (Unk.) box that is provided on the FinCEN SAR and FinCEN Currency Transaction Report (CTR) (or any other FinCEN Report).&lt;/p&gt;
 
-&lt;p&gt;For non-critical Items, FinCEN expects financial institutions will provide the most complete filing information available within each report consistent with existing regulatory expectations. Based upon feedback from law enforcement officials, such information is important for query purposes. However, the new FinCEN SAR and FinCEN CTR do not create any new obligations to collect data, either manually or through an enterprise-wide IT management system, where such collection is not already required by current statutes and regulations, especially when such collection would be in conflict with the financial institution’s obligations under any other applicable law. Therefore, a financial institution may leave non-critical fields without an asterisk blank when information is not readily available.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;For non-critical Items, FinCEN expects financial institutions will provide the most complete filing information available within each report consistent with existing regulatory expectations. Based upon feedback from law enforcement officials, such information is important for query purposes. However, the new FinCEN SAR and FinCEN CTR do not create any new obligations to collect data, either manually or through an enterprise-wide IT management system, where such collection is not already required by current statutes and regulations, especially when such collection would be in conflict with the financial institution’s obligations under any other applicable law. Therefore, a financial institution may leave non-critical fields without an asterisk blank when information is not readily available.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How do I meet my underlying obligation to submit a complete and accurate report if my filing software does not allow me to include known information for a field without an asterisk?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How do I meet my underlying obligation to submit a complete and accurate report if my filing software does not allow me to include known information for a field without an asterisk?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;FinCEN expects financial institutions to have the capability to submit information for any of the data fields in the FinCEN SAR or CTR (or any other FinCEN report). In general, if your financial institution’s filing software does not permit the institution to include information in a field without an asterisk where information has been collected and is pertinent to the report, the financial institution should instead complete a discrete filing for those transactions until the software is updated. If a filing has been submitted in which such information was not included because of such a limitation in the filing software, an amended filing should be completed using either the discrete filing method or an amended batch filing, once the software is updated. Such software updates should be implemented within a reasonable period of time.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What is the timeframe for filing the FinCEN CTR? I have seen both 15 and 25 days referenced.&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;FinCEN expects financial institutions to have the capability to submit information for any of the data fields in the FinCEN SAR or CTR (or any other FinCEN report). In general, if your financial institution’s filing software does not permit the institution to include information in a field without an asterisk where information has been collected and is pertinent to the report, the financial institution should instead complete a discrete filing for those transactions until the software is updated. If a filing has been submitted in which such information was not included because of such a limitation in the filing software, an amended filing should be completed using either the discrete filing method or an amended batch filing, once the software is updated. Such software updates should be implemented within a reasonable period of time.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;FinCEN regulations have consistently maintained a regulatory requirement that CTRs be filed within 15 days. The 25-day period was implemented, in connection with receipt of magnetic media files (ended December 2008), to account for physically transporting (shipping) the magnetic media to the processing center in Detroit, Michigan. FinCEN understands that this business practice had continued with respect to batch e-filing, particularly considering previous public guidance referencing the 25-day period.&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What is the timeframe for filing the FinCEN CTR? I have seen both 15 and 25 days referenced.&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;In light of the comments received and acknowledging that some financial institutions may have needed to change their business processes to become compliant with the rules, FinCEN determined that it would temporarily maintain the 25-day compliance period referenced in its earlier specifications until March 31, 2013, for those filers that needed to update their systems in order to be in compliance with the established regulatory requirements. This temporary extension to the filing requirements was to allow sufficient time for filers to adjust submission schedules to meet established regulatory requirements.&lt;/p&gt;
 
-&lt;p&gt;FinCEN regulations have consistently maintained a regulatory requirement that CTRs be filed within 15 days. The 25-day period was implemented, in connection with receipt of magnetic media files (ended December 2008), to account for physically transporting (shipping) the magnetic media to the processing center in Detroit, Michigan. FinCEN understands that this business practice had continued with respect to batch e-filing, particularly considering previous public guidance referencing the 25-day period.&lt;/p&gt;
-
-&lt;p&gt;In light of the comments received and acknowledging that some financial institutions may have needed to change their business processes to become compliant with the rules, FinCEN determined that it would temporarily maintain the 25-day compliance period referenced in its earlier specifications until March 31, 2013, for those filers that needed to update their systems in order to be in compliance with the established regulatory requirements. This temporary extension to the filing requirements was to allow sufficient time for filers to adjust submission schedules to meet established regulatory requirements.&lt;/p&gt;
-
-&lt;p&gt;As of April 1, 2013, all FinCEN CTRs must be filed within 15 calendar days of the reported transaction(s).&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;As of April 1, 2013, all FinCEN CTRs must be filed within 15 calendar days of the reported transaction(s).&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Please refer to &lt;a href='http://fincen.gov/whatsnew/html/sar_faqs.html'&gt;FINCEN&amp;#8217;s website&lt;/a&gt; for more information.&lt;/p&gt;
+&lt;p&gt;Please refer to &lt;a href=&quot;http://fincen.gov/whatsnew/html/sar_faqs.html&quot;&gt;FINCEN’s website&lt;/a&gt; for more information.&lt;/p&gt;
 
-&lt;p&gt;If your institution has questions regarding the applicability of this general guidance, please contact the FinCEN Regulatory Helpline at (800) 949-2732 for further information.&lt;/p&gt;</content>
+&lt;p&gt;If your institution has questions regarding the applicability of this general guidance, please contact the FinCEN Regulatory Helpline at (800) 949-2732 for further information.&lt;/p&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -199,39 +180,28 @@
    <link href="http:////knowledge%20base/2012/04/09/aml-method-trend.html"/>
    <updated>2012-04-09T00:00:00-04:00</updated>
    <id>http:////knowledge%20base/2012/04/09/aml-method-trend</id>
-   <content type="html">&lt;h3 id='money_laundering_methods_trends_and_typologies'&gt;Money Laundering Methods, Trends and Typologies&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;money-laundering-methods-trends-and-typologies&quot;&gt;Money Laundering Methods, Trends and Typologies&lt;/h3&gt;
 
 &lt;p&gt;Organized crime and narcotics-traffickers have used the following methods for decades to launder their illegal proceeds. These methods continue to be used frequently.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Financial activity inconsistent with the stated purpose of the business;&lt;/li&gt;
-
-&lt;li&gt;Financial activity not commensurate with stated occupation;&lt;/li&gt;
-
-&lt;li&gt;Use of multiple accounts at a single bank for no apparent legitimate purpose;&lt;/li&gt;
-
-&lt;li&gt;Importation of high dollar currency and traveler&amp;#8217;s checks not commensurate with stated occupation;&lt;/li&gt;
-
-&lt;li&gt;Significant and even dollar deposits to personal accounts over a short period;&lt;/li&gt;
-
-&lt;li&gt;Structuring of deposits at multiple bank branches to avoid Bank Secrecy Act requirements;&lt;/li&gt;
-
-&lt;li&gt;Refusal by any party conducting transactions to provide identification;&lt;/li&gt;
-
-&lt;li&gt;Apparent use of personal account for business purposes;&lt;/li&gt;
-
-&lt;li&gt;Abrupt change in account activity;&lt;/li&gt;
-
-&lt;li&gt;Use of multiple personal and business accounts to collect and then funnel funds to a small number of foreign beneficiaries;&lt;/li&gt;
-
-&lt;li&gt;Deposits followed within a short period of time by wire transfers of funds;&lt;/li&gt;
-
-&lt;li&gt;Deposits of a combination of monetary instruments atypical of legitimate business activity.&lt;/li&gt;
-
-&lt;li&gt;Movement of funds through countries that are on the FATF list of NCCTs.&lt;/li&gt;
+  &lt;li&gt;Financial activity inconsistent with the stated purpose of the business;&lt;/li&gt;
+  &lt;li&gt;Financial activity not commensurate with stated occupation;&lt;/li&gt;
+  &lt;li&gt;Use of multiple accounts at a single bank for no apparent legitimate purpose;&lt;/li&gt;
+  &lt;li&gt;Importation of high dollar currency and traveler’s checks not commensurate with stated occupation;&lt;/li&gt;
+  &lt;li&gt;Significant and even dollar deposits to personal accounts over a short period;&lt;/li&gt;
+  &lt;li&gt;Structuring of deposits at multiple bank branches to avoid Bank Secrecy Act requirements;&lt;/li&gt;
+  &lt;li&gt;Refusal by any party conducting transactions to provide identification;&lt;/li&gt;
+  &lt;li&gt;Apparent use of personal account for business purposes;&lt;/li&gt;
+  &lt;li&gt;Abrupt change in account activity;&lt;/li&gt;
+  &lt;li&gt;Use of multiple personal and business accounts to collect and then funnel funds to a small number of foreign beneficiaries;&lt;/li&gt;
+  &lt;li&gt;Deposits followed within a short period of time by wire transfers of funds;&lt;/li&gt;
+  &lt;li&gt;Deposits of a combination of monetary instruments atypical of legitimate business activity.&lt;/li&gt;
+  &lt;li&gt;Movement of funds through countries that are on the FATF list of NCCTs.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Money launderers have demonstrated great creativity in combining traditional money laundering techniques into complex money laundering schemes designed to thwart the ability of authorities to prevent, detect and prosecute money laundering.&lt;/p&gt;</content>
+&lt;p&gt;Money launderers have demonstrated great creativity in combining traditional money laundering techniques into complex money laundering schemes designed to thwart the ability of authorities to prevent, detect and prosecute money laundering.&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -239,69 +209,64 @@
    <link href="http:////faq/2012/03/09/sdn-faq.html"/>
    <updated>2012-03-09T00:00:00-05:00</updated>
    <id>http:////faq/2012/03/09/sdn-faq</id>
-   <content type="html">&lt;h3 id='questions_about_specially_designated_nationals_sdns'&gt;Questions about Specially Designated Nationals (SDNs)&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;questions-about-specially-designated-nationals-sdns&quot;&gt;Questions about Specially Designated Nationals (SDNs)&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What is an SDN?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What is an SDN?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;As part of its enforcement efforts, OFAC publishes a list of individuals and companies owned or controlled by, or acting for or on behalf of, targeted countries. It also lists individuals, groups, and entities, such as terrorists and narcotics traffickers designated under programs that are not country-specific. Collectively, such individuals and companies are called &amp;#8220;Specially Designated Nationals&amp;#8221; or &amp;#8220;SDNs.&amp;#8221; Their assets are blocked and U.S. persons are generally prohibited from dealing with them.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;As part of its enforcement efforts, OFAC publishes a list of individuals and companies owned or controlled by, or acting for or on behalf of, targeted countries. It also lists individuals, groups, and entities, such as terrorists and narcotics traffickers designated under programs that are not country-specific. Collectively, such individuals and companies are called “Specially Designated Nationals” or “SDNs.” Their assets are blocked and U.S. persons are generally prohibited from dealing with them.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How do I get a copy of this list?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How do I get a copy of this list?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;The best way to get the list is from &lt;a href=&quot;http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx&quot;&gt;OFAC’s website&lt;/a&gt;. The list is disseminated in a number of different formats, 
+ including fixed field/delimited files that can be integrated into databases.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How often is the SDN list updated?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The best way to get the list is from &lt;a href='http://www.treasury.gov/resource-center/sanctions/SDN-List/Pages/default.aspx'&gt;OFAC&amp;#8217;s website&lt;/a&gt;. The list is disseminated in a number of different formats, including fixed field/delimited files that can be integrated into databases.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;The SDN list is frequently updated. There is no predetermined timetable, but rather names are added or removed as necessary and appropriate.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What do I do if I have a match to the SDN list?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How often is the SDN list updated?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;If you have checked a name manually or by using software and find a match, you should do a little more research. 
+ Is it an exact name match, or very close? Is your customer located in the same general area as the SDN? If not, 
+ it may be a “false hit.” If there are many similarities, contact OFAC’s “hotline” at 1-800-540-6322 for verification. If your “hit” concerns an in-process wire transfer, you may prefer to e-mail your question to OFAC. Unless a transaction involves an exact match, it is recommended that you contact OFAC Compliance before actually blocking assets.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are weak aliases (AKAs)?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The SDN list is frequently updated. There is no predetermined timetable, but rather names are added or removed as necessary and appropriate.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;A “weak AKA” is a term for a relatively broad or generic alias that may generate a large volume of false hits.  Weak AKAs include nicknames, noms-de-guerre, and unusually common acronyms.  OFAC includes these AKAs because, based on information available to it, the sanctions targets refer to themselves, or are referred to, by these names.  As a result, these AKAs may be useful for identification purposes, particularly in confirming a possible “hit” or “match” triggered by other identifier information.  Realizing, however, the large number of false hits that these names may generate, OFAC qualitatively distinguishes them from other AKAs by designating them as weak.  OFAC has instituted procedures that attempt to make this qualitative review of aliases as objective as possible.  Before issuing this updated guidance, OFAC conducted a review of all aliases on the SDN list.  Each SDN alias was run through a computer program that evaluated the potential of an alias to produce false positives in an automated screening environment.  Names were evaluated using the following criteria:&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What do I do if I have a match to the SDN list?&lt;/strong&gt;&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Character length (shorter strings were assumed to be less effective in a screening environment than longer strings);&lt;/li&gt;
+      &lt;li&gt;The presence of numbers in an alias (digits 0-9);&lt;/li&gt;
+      &lt;li&gt;The presence of common words that are generally considered to constitute a nickname (example: Ahmed the Tall);&lt;/li&gt;
+      &lt;li&gt;References in the alias to geographic locations (example: Ahmed the Sudanese);&lt;/li&gt;
+      &lt;li&gt;The presence of very common prefixes in a name where the prefix was one of only two strings in a name (example: Mr. Smith).&lt;/li&gt;
+    &lt;/ul&gt;
 
-&lt;p&gt;If you have checked a name manually or by using software and find a match, you should do a little more research. Is it an exact name match, or very close? Is your customer located in the same general area as the SDN? If not, it may be a &amp;#8220;false hit.&amp;#8221; If there are many similarities, contact OFAC&amp;#8217;s &amp;#8220;hotline&amp;#8221; at 1-800-540-6322 for verification. If your &amp;#8220;hit&amp;#8221; concerns an in-process wire transfer, you may prefer to e-mail your question to OFAC. Unless a transaction involves an exact match, it is recommended that you contact OFAC Compliance before actually blocking assets.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;Aliases that met one or more of the above criteria were flagged for human review.  OFAC subject matter experts then reviewed each of the automated recommendations and made final decisions on the flagging of each alias.&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What are weak aliases (AKAs)?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;OFAC intends to use these procedures to evaluate all new aliases introduced to the SDN list.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Am I required to screen for weak aliases (AKAs)?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;A “weak AKA” is a term for a relatively broad or generic alias that may generate a large volume of false hits. Weak AKAs include nicknames, noms-de-guerre, and unusually common acronyms. OFAC includes these AKAs because, based on information available to it, the sanctions targets refer to themselves, or are referred to, by these names. As a result, these AKAs may be useful for identification purposes, particularly in confirming a possible “hit” or “match” triggered by other identifier information. Realizing, however, the large number of false hits that these names may generate, OFAC qualitatively distinguishes them from other AKAs by designating them as weak. OFAC has instituted procedures that attempt to make this qualitative review of aliases as objective as possible. Before issuing this updated guidance, OFAC conducted a review of all aliases on the SDN list. Each SDN alias was run through a computer program that evaluated the potential of an alias to produce false positives in an automated screening environment. Names were evaluated using the following criteria:&lt;/p&gt;
+    &lt;p&gt;OFAC’s regulations do not explicitly require any specific screening regime.  Financial institutions and others must make screening choices based on their circumstances and compliance approach.  As a general matter, though, OFAC does not expect that persons will screen for weak AKAs, but expects that such AKAs may be used to help determine whether a “hit” arising from other information is accurate.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Will I be penalized for processing an unauthorized transaction involving a weak alias (AKA)?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;Character length (shorter strings were assumed to be less effective in a screening environment than longer strings);&lt;/li&gt;
-
-&lt;li&gt;The presence of numbers in an alias (digits 0-9);&lt;/li&gt;
-
-&lt;li&gt;The presence of common words that are generally considered to constitute a nickname (example: Ahmed the Tall);&lt;/li&gt;
-
-&lt;li&gt;References in the alias to geographic locations (example: Ahmed the Sudanese);&lt;/li&gt;
-
-&lt;li&gt;The presence of very common prefixes in a name where the prefix was one of only two strings in a name (example: Mr. Smith).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Aliases that met one or more of the above criteria were flagged for human review. OFAC subject matter experts then reviewed each of the automated recommendations and made final decisions on the flagging of each alias.&lt;/p&gt;
-
-&lt;p&gt;OFAC intends to use these procedures to evaluate all new aliases introduced to the SDN list.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Am I required to screen for weak aliases (AKAs)?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;OFAC’s regulations do not explicitly require any specific screening regime. Financial institutions and others must make screening choices based on their circumstances and compliance approach. As a general matter, though, OFAC does not expect that persons will screen for weak AKAs, but expects that such AKAs may be used to help determine whether a “hit” arising from other information is accurate.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Will I be penalized for processing an unauthorized transaction involving a weak alias (AKA)?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;A person who processes an unauthorized transaction involving an SDN has violated U.S. law and may be subject to an enforcement action. Generally speaking, however, if (i) the only sanctions reference in the transaction is a weak AKA, (ii) the person involved in the processing had no other reason to know that the transaction involved an SDN or was otherwise in violation of U.S. law, and (iii) the person maintains a rigorous risk-based compliance program, OFAC will not issue a civil penalty against an individual or entity for processing such a transaction.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;A person who processes an unauthorized transaction involving an SDN has violated U.S. law and may be subject to an enforcement action.  Generally speaking, however, if (i) the only sanctions reference in the transaction is a weak AKA, (ii) the person involved in the processing had no other reason to know that the transaction involved an SDN or was otherwise in violation of U.S. law, and (iii) the person maintains a rigorous risk-based compliance program, OFAC will not issue a civil penalty against an individual or entity for processing such a transaction.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For more information, please check &lt;a href='http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#sdn'&gt;OFAC&amp;#8217;s Website&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information, please check &lt;a href=&quot;http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#sdn&quot;&gt;OFAC’s Website&lt;/a&gt;&lt;/p&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -309,67 +274,60 @@
    <link href="http:////free%20tools/2012/03/09/ofac-search.html"/>
    <updated>2012-03-09T00:00:00-05:00</updated>
    <id>http:////free%20tools/2012/03/09/ofac-search</id>
-   <content type="html">&lt;h3 id='free_ofac_sdn_search_tools'&gt;Free OFAC SDN search tools&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;free-ofac-sdn-search-tools&quot;&gt;Free OFAC SDN search tools&lt;/h3&gt;
 
-&lt;p&gt;For those we are looking for free online ofac search tools, the following&amp;#8217;s are the lists&lt;/p&gt;
+&lt;p&gt;For those we are looking for free online ofac search tools, the following’s are the lists&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href='https://www.simpleofac.com/free-ofac-search.jsp'&gt;https://www.simpleofac.com/free-ofac-search.jsp&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='www.instantofac.com'&gt;http://www.instantofac.com&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://apps.finra.org/rulesregulation/ofac/1/default.aspx'&gt;http://apps.finra.org/rulesregulation/ofac/1/default.aspx&lt;/a&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;a href='http://sdnsearch.ofac.treas.gov/'&gt;http://sdnsearch.ofac.treas.gov&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.simpleofac.com/free-ofac-search.jsp&quot;&gt;https://www.simpleofac.com/free-ofac-search.jsp&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;www.instantofac.com&quot;&gt;http://www.instantofac.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://apps.finra.org/rulesregulation/ofac/1/default.aspx&quot;&gt;http://apps.finra.org/rulesregulation/ofac/1/default.aspx&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sdnsearch.ofac.treas.gov/&quot;&gt;http://sdnsearch.ofac.treas.gov&lt;/a&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Please try them out!.&lt;/p&gt;
 
-&lt;h3 id='sdn_search_questions_from_ofac_webiste'&gt;SDN Search Questions from OFAC webiste&lt;/h3&gt;
+&lt;h3 id=&quot;sdn-search-questions-from-ofac-webiste&quot;&gt;SDN Search Questions from OFAC webiste&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How does SDN Search work?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How does SDN Search work?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;In addition to returning results that are exact matches (when the match threshold slider bar is set to 100%), SDN Search can also provide a broader set of results using fuzzy logic. This logic uses character and string matching as well as phonetic matching. Only the name field of SDN Search invokes fuzzy logic when the tool is run. The other fields on the tool use character matching logic. Please click here for more information on what a true SDN match is.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;In addition to returning results that are exact matches (when the match threshold slider bar is set to 100%), SDN Search can also provide a broader set of results using fuzzy logic. This logic uses character and string matching as well as phonetic matching. Only the name field of SDN Search invokes fuzzy logic when the tool is run. The other fields on the tool use character matching logic.  Please click here for more information on what a true SDN match is.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What does the SDN Search Score mean?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What does the SDN Search Score mean?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;The score field indicates the similarity between the name entered and resulting matches on the SDN List. It is calculated using two matching logic algorithms: one based upon phonetics, and a second based upon the similarity of the characters in the two strings. A score of 100 indicates an exact match, while lower scores indicate potential matches.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How do I use the Minimum Name Score field and score slider bar?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The score field indicates the similarity between the name entered and resulting matches on the SDN List. It is calculated using two matching logic algorithms: one based upon phonetics, and a second based upon the similarity of the characters in the two strings. A score of 100 indicates an exact match, while lower scores indicate potential matches.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;The minimum name score field limits the number of names returned by the search. A value of 100 will return only names that exactly match the characters entered into the name field. A value of 50 will return all names that are deemed to be 50% similar based upon the matching logic of the search tool. By lowering the match threshold the system will return a broader result set.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How is the Score calculated?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How do I use the Minimum Name Score field and score slider bar?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;SDN search uses two matching logic algorithms, and two matching logic techniques to calculate the score. The two algorithms are Jaro-Winkler, a string difference algorithm, and Soundex, a phonetic algorithm. The first technique involves using the Jaro-Winkler algorithm to compare the entire name string entered against full name strings of SDN entries. The second technique involves splitting the name string entered into multiple name parts (for example, John Doe would be split into two name parts). Each name part is then compared to name parts on the SDN list using the Jaro-Winkler and Soundex algorithms. The search calculates a score for each name part entered, and a composite score for all name parts entered. SDN Search uses both techniques each time the search is run, and returns the higher of the two scores in the Score column.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Does OFAC recommend a specific match threshold score?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The minimum name score field limits the number of names returned by the search. A value of 100 will return only names that exactly match the characters entered into the name field. A value of 50 will return all names that are deemed to be 50% similar based upon the matching logic of the search tool. By lowering the match threshold the system will return a broader result set.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;OFAC cannot make such a recommendation because each search has its own unique set of facts surrounding it. Users of SDN Search must make their own match threshold determinations based upon their own internal risk assessments and established compliance practices.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What fields influence the score?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How is the Score calculated?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;Only the name field influences the score.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What fields use fuzzy logic?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;SDN search uses two matching logic algorithms, and two matching logic techniques to calculate the score. The two algorithms are Jaro-Winkler, a string difference algorithm, and Soundex, a phonetic algorithm. The first technique involves using the Jaro-Winkler algorithm to compare the entire name string entered against full name strings of SDN entries. The second technique involves splitting the name string entered into multiple name parts (for example, John Doe would be split into two name parts). Each name part is then compared to name parts on the SDN list using the Jaro-Winkler and Soundex algorithms. The search calculates a score for each name part entered, and a composite score for all name parts entered. SDN Search uses both techniques each time the search is run, and returns the higher of the two scores in the Score column.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;Only the name field uses the fuzzy searching logic.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Does OFAC recommend a specific match threshold score?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;OFAC cannot make such a recommendation because each search has its own unique set of facts surrounding it. Users of SDN Search must make their own match threshold determinations based upon their own internal risk assessments and established compliance practices.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What fields influence the score?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Only the name field influences the score.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What fields use fuzzy logic?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Only the name field uses the fuzzy searching logic.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;</content>
+</content>
  </entry>
  
  <entry>
@@ -377,53 +335,49 @@
    <link href="http:////faq/2012/03/09/ofac-insurance-faq.html"/>
    <updated>2012-03-09T00:00:00-05:00</updated>
    <id>http:////faq/2012/03/09/ofac-insurance-faq</id>
-   <content type="html">&lt;h3 id='general_ofac_questions_for_insurance_industry'&gt;General OFAC Questions for Insurance Industry&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;general-ofac-questions-for--insurance-industry&quot;&gt;General OFAC Questions for  Insurance Industry&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;At what point must an insurer check to determine whether an applicant for a policy is an SDN?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;At what point must an insurer check to determine whether an applicant for a policy is an SDN?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If you receive an application from an SDN for a policy, you are under an obligation not to issue the policy. Remember that when you are insuring someone, you are providing a service to that person. You are not allowed to provide any services to an SDN. If the SDN sends a deposit along with the application, you must block the payment.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;If you receive an application from an SDN for a policy, you are under an obligation not to issue the policy. Remember that when you are insuring someone, you are providing a service to that person. You are not allowed to provide any services to an SDN. If the SDN sends a deposit along with the application, you must block the payment.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What should an insurer do if it discovers that a policyholder is or becomes an SDN–cancel the policy, void the policy ab initio, non-renew the policy, refuse to pay claims under the policy? Should the claim be paid under a policy issued to an SDN if the payment is to an innocent third-party (for example, the injured party in an automobile accident)?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What should an insurer do if it discovers that a policyholder is or becomes an SDN&amp;#8211;cancel the policy, void the policy ab initio, non-renew the policy, refuse to pay claims under the policy? Should the claim be paid under a policy issued to an SDN if the payment is to an innocent third-party (for example, the injured party in an automobile accident)?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;The first thing an insurance company should do upon discovery of such a policy is to contact OFAC Compliance. OFAC will work with you on the specifics of the case. It is possible a license could be issued to allow the receipt of premium payments to keep the policy in force. Although it is unlikely that a payment would be licensed to an SDN, it is possible that a payment would be allowed to an innocent third party. The important thing to remember is that the policy itself is a blocked contract and all dealings with it must involve OFAC.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;A workers’ compensation policy is with the employer, not the employee. Is it permissible for an insurer to maintain a workers compensation policy that would cover a person on the SDN List, since the insurer is not transacting business with the SDN, but only with his/her employer?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The first thing an insurance company should do upon discovery of such a policy is to contact OFAC Compliance. OFAC will work with you on the specifics of the case. It is possible a license could be issued to allow the receipt of premium payments to keep the policy in force. Although it is unlikely that a payment would be licensed to an SDN, it is possible that a payment would be allowed to an innocent third party. The important thing to remember is that the policy itself is a blocked contract and all dealings with it must involve OFAC.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;If an insurer knows that a person covered under the group policy is an SDN, that person’s coverage is blocked, and if he or she makes a claim under the policy, the claim cannot be paid. If an insurer does not know the names of those covered under a group policy, it would have no reason to know it needed to block anything unless and until an SDN files a claim under that policy. At that point its blocking requirement would kick in.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How frequently is an insurer expected to scrub its databases for OFAC compliance?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;A workers&amp;#8217; compensation policy is with the employer, not the employee. Is it permissible for an insurer to maintain a workers compensation policy that would cover a person on the SDN List, since the insurer is not transacting business with the SDN, but only with his/her employer?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;That is up to your firm and your regulator. Remember that a critical aspect of the designation of an SDN is that the SDN’s assets must be frozen immediately, before they can be removed from U.S. jurisdiction. If a firm only scrubs its database quarterly, it could be 3 months too late in freezing targeted assets. The SDN list may be updated as frequently as a few times a week or as rarely as once in six months.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Is it sufficient if my company screens life insurance policies only prior to policy issuance?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;If an insurer knows that a person covered under the group policy is an SDN, that person’s coverage is blocked, and if he or she makes a claim under the policy, the claim cannot be paid. If an insurer does not know the names of those covered under a group policy, it would have no reason to know it needed to block anything unless and until an SDN files a claim under that policy. At that point its blocking requirement would kick in.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;That’s up to your firm and your regulators. Conducting screening only before policy issuance is critical but would not likely achieve your desired level of compliance. After the policy issuance, the U.S. Government may designate an existing policyholder or a named beneficiary as a Specially Designated National or Blocked Person (“SDN”), or it may expand sanctions with respect to a particular country, or impose sanctions against a new country. If an existing policyholder or a named beneficiary became an SDN or otherwise subject to U.S. sanctions, the insurer may be required to “block” the policy, report such blocking to OFAC within 10 days of the SDN designation, place any future premiums into a blocked, interest-bearing account at a U.S. financial institution, and seek an OFAC license before making any payments under the policy. Consequently, routine screening of all policies in force against OFAC’s SDN list, as frequently updated, would enable the insurer to comply with the applicable OFAC regulatory requirements. It also is important to screen the policyholder and beneficiary prior to paying a claim.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;If my policyholder, who is a U.S. person, requests a change of beneficiaries and designates a cousin living in Cuba as a beneficiary under the life insurance policy, what shall I do?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How frequently is an insurer expected to scrub its databases for OFAC compliance?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;In general, an insurance policy is considered “property” and a beneficiary’s interest in the policy is considered an “interest in property” that may require blocking under the applicable regulations. The Cuban Assets Control Regulations, however, contain a general license that deals with transactions involving blocked life insurance policies. 31 C.F.R. § 515.526. In this case, the only blocked interest is that of a beneficiary, so the general license would authorize the insurer to accept premium payments and interest on policy loans as well as to pay loans to the insured or process the insured’s request for a change of beneficiary. Also, the insurer would be authorized under the general license to deduct premiums from cash surrender value, if any, or accumulate dividends or otherwise increase cash surrender value on the books of the insurer, pursuant to the terms of the policy. However, the insurer usually cannot pay an entire claim (the face amount of the policy) to the beneficiary without a specific license from OFAC. Recent amendments to the Cuba regulations authorize by general license remittances to a Cuban beneficiary of up to $300 per quarter from a blocked account at a U.S. banking institution if the funds in that account were deposited there as a result of a payment from a life insurance policy triggered by the death of the policy holder. If you have a blocked policy, you should seek legal advice or contact OFAC for further guidance regarding the handling of that particular account.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;If my screening efforts uncover a policyholder who became an SDN after policy issuance, can I notify the policyholder that the policy is “blocked”?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;That is up to your firm and your regulator. Remember that a critical aspect of the designation of an SDN is that the SDN&amp;#8217;s assets must be frozen immediately, before they can be removed from U.S. jurisdiction. If a firm only scrubs its database quarterly, it could be 3 months too late in freezing targeted assets. The SDN list may be updated as frequently as a few times a week or as rarely as once in six months.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Is it sufficient if my company screens life insurance policies only prior to policy issuance?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;That’s up to your firm and your regulators. Conducting screening only before policy issuance is critical but would not likely achieve your desired level of compliance. After the policy issuance, the U.S. Government may designate an existing policyholder or a named beneficiary as a Specially Designated National or Blocked Person (“SDN”), or it may expand sanctions with respect to a particular country, or impose sanctions against a new country. If an existing policyholder or a named beneficiary became an SDN or otherwise subject to U.S. sanctions, the insurer may be required to “block” the policy, report such blocking to OFAC within 10 days of the SDN designation, place any future premiums into a blocked, interest-bearing account at a U.S. financial institution, and seek an OFAC license before making any payments under the policy. Consequently, routine screening of all policies in force against OFAC’s SDN list, as frequently updated, would enable the insurer to comply with the applicable OFAC regulatory requirements. It also is important to screen the policyholder and beneficiary prior to paying a claim.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;If my policyholder, who is a U.S. person, requests a change of beneficiaries and designates a cousin living in Cuba as a beneficiary under the life insurance policy, what shall I do?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;In general, an insurance policy is considered “property” and a beneficiary’s interest in the policy is considered an “interest in property” that may require blocking under the applicable regulations. The Cuban Assets Control Regulations, however, contain a general license that deals with transactions involving blocked life insurance policies. 31 C.F.R. § 515.526. In this case, the only blocked interest is that of a beneficiary, so the general license would authorize the insurer to accept premium payments and interest on policy loans as well as to pay loans to the insured or process the insured’s request for a change of beneficiary. Also, the insurer would be authorized under the general license to deduct premiums from cash surrender value, if any, or accumulate dividends or otherwise increase cash surrender value on the books of the insurer, pursuant to the terms of the policy. However, the insurer usually cannot pay an entire claim (the face amount of the policy) to the beneficiary without a specific license from OFAC. Recent amendments to the Cuba regulations authorize by general license remittances to a Cuban beneficiary of up to $300 per quarter from a blocked account at a U.S. banking institution if the funds in that account were deposited there as a result of a payment from a life insurance policy triggered by the death of the policy holder. If you have a blocked policy, you should seek legal advice or contact OFAC for further guidance regarding the handling of that particular account.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;If my screening efforts uncover a policyholder who became an SDN after policy issuance, can I notify the policyholder that the policy is “blocked”?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Yes, the insurer may notify the policyholder that the policy is blocked, without obtaining a specific license from OFAC.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;Yes, the insurer may notify the policyholder that the policy is blocked, without obtaining a specific license from OFAC.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For more information, please check &lt;a href='http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#insurance'&gt;OFAC&amp;#8217;s Website&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information, please check &lt;a href=&quot;http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#insurance&quot;&gt;OFAC’s Website&lt;/a&gt;&lt;/p&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -431,29 +385,29 @@
    <link href="http:////faq/2012/03/09/ofac-fi-faq.html"/>
    <updated>2012-03-09T00:00:00-05:00</updated>
    <id>http:////faq/2012/03/09/ofac-fi-faq</id>
-   <content type="html">&lt;h3 id='general_ofac_questions_for_financial_institution'&gt;General OFAC Questions for Financial Institution&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;general-ofac-questions-for-financial-institution&quot;&gt;General OFAC Questions for Financial Institution&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How often do I need to scan my customer database for SDNs?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How often do I need to scan my customer database for SDNs?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The frequency of running an OFAC scan must be guided by your internal bank policy and procedures. Keep in mind, however, that if your bank fails to identify and block a target account (of a terrorist, for example), there could be &amp;#8220;real world&amp;#8221; consequences such as a transfer of funds or other valuable property to an SDN, an enforcement action against your bank, and negative publicity.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;The frequency of running an OFAC scan must be guided by your internal bank policy and procedures. Keep in mind, however, that if your bank fails to identify and block a target account (of a terrorist, for example), there could be “real world” consequences such as a transfer of funds or other valuable property to an SDN, an enforcement action against your bank, and negative publicity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What are the features and benefits that banks should be looking for when selecting an OFAC compliance software package?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What are the features and benefits that banks should be looking for when selecting an OFAC compliance software package?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;There are a wide variety of software packages available to the financial community. The size and needs of each institution help to determine what to look for in a package. Some packages are used to interdict sanctioned countries and SDN names in wire transfers, while others are used to check the names of new customers; other packages also filter the names of all account holders. One suggestion for finding the right software for your bank is to research what your peer banks are using and determine if the software package is working for them. Your bank also could talk to a variety of software vendors who can easily be located by doing an Internet search.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Does a financial institution need to scan names against OFAC’s list of targets upon account opening or can it wait for 24 hours to receive a report from its software vendor on whether or not there is a hit?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;There are a wide variety of software packages available to the financial community. The size and needs of each institution help to determine what to look for in a package. Some packages are used to interdict sanctioned countries and SDN names in wire transfers, while others are used to check the names of new customers; other packages also filter the names of all account holders. One suggestion for finding the right software for your bank is to research what your peer banks are using and determine if the software package is working for them. Your bank also could talk to a variety of software vendors who can easily be located by doing an Internet search.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Does a financial institution need to scan names against OFAC&amp;#8217;s list of targets upon account opening or can it wait for 24 hours to receive a report from its software vendor on whether or not there is a hit?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;There is no legal or regulatory requirement to use software or to scan. There is a requirement, however, not to violate the law by doing business with a target or failing to block property. OFAC realizes that financial institutions use software that does not always provide an instantaneous response and may require some analysis to determine if a customer is indeed an SDN. The important thing is not to conclude transactions before the analysis is completed.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;There is no legal or regulatory requirement to use software or to scan. There is a requirement, however, not to violate the law by doing business with a target or failing to block property. OFAC realizes that financial institutions use software that does not always provide an instantaneous response and may require some analysis to determine if a customer is indeed an SDN. The important thing is not to conclude transactions before the analysis is completed.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For more information, please check &lt;a href='http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#finance'&gt;OFAC&amp;#8217;s Website&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information, please check &lt;a href=&quot;http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#finance&quot;&gt;OFAC’s Website&lt;/a&gt;&lt;/p&gt;
+
+</content>
  </entry>
  
  <entry>
@@ -461,37 +415,35 @@
    <link href="http:////faq/2012/03/09/ofac-faq.html"/>
    <updated>2012-03-09T00:00:00-05:00</updated>
    <id>http:////faq/2012/03/09/ofac-faq</id>
-   <content type="html">&lt;h3 id='general_ofac_questions'&gt;General OFAC Questions&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;general-ofac-questions&quot;&gt;General OFAC Questions&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What is OFAC and what does it do?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What is OFAC and what does it do?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;The Office of Foreign Assets Control administers and enforces economic sanctions programs primarily against countries and groups of individuals, such as terrorists and narcotics traffickers. The sanctions can be either comprehensive or selective, using the blocking of assets and trade restrictions to accomplish foreign policy and national security goals.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;The Office of Foreign Assets Control administers and enforces economic sanctions programs primarily against countries and groups of individuals, such as terrorists and narcotics traffickers. The sanctions can be either comprehensive or selective, using the blocking of assets and trade restrictions to accomplish foreign policy and national security goals.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What does one mean by the term “prohibited transactions”?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What does one mean by the term &amp;#8220;prohibited transactions&amp;#8221;?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;Prohibited transactions are trade or financial transactions and other dealings in which&lt;/p&gt;
 
-&lt;p&gt;Prohibited transactions are trade or financial transactions and other dealings in which&lt;/p&gt;
+    &lt;p&gt;U.S. persons may not engage unless authorized by OFAC or expressly exempted by statute. Because each program is based on different foreign policy and national security goals, prohibitions may vary between programs.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Who must comply with OFAC regulations?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;U.S. persons may not engage unless authorized by OFAC or expressly exempted by statute. Because each program is based on different foreign policy and national security goals, prohibitions may vary between programs.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;All U.S. persons must comply with OFAC regulations, including all U.S. citizens and permanent resident aliens regardless of where they are located, all persons and entities within the United States, all U.S. incorporated entities and their foreign branches. In the cases of certain programs, such as those regarding Cuba and North Korea, all foreign subsidiaries owned or controlled by U.S. companies also must comply. Certain programs also require foreign persons in possession of U.S. origin goods to comply.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How much are the fines for violating these regulations?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Who must comply with OFAC regulations?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;All U.S. persons must comply with OFAC regulations, including all U.S. citizens and permanent resident aliens regardless of where they are located, all persons and entities within the United States, all U.S. incorporated entities and their foreign branches. In the cases of certain programs, such as those regarding Cuba and North Korea, all foreign subsidiaries owned or controlled by U.S. companies also must comply. Certain programs also require foreign persons in possession of U.S. origin goods to comply.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How much are the fines for violating these regulations?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The fines for violations can be substantial. Depending on the program, criminal penalties can include fines ranging from $50,000 to $10,000,000 and imprisonment ranging from 10 to 30 years for willful violations. Depending on the program, civil penalties range from $250,000 or twice the amount of each underlying transaction to $1,075,000 for each violation.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;The fines for violations can be substantial. Depending on the program, criminal penalties can include fines ranging from $50,000 to $10,000,000 and imprisonment ranging from 10 to 30 years for willful violations. Depending on the program, civil penalties range from $250,000 or twice the amount of each underlying transaction to $1,075,000 for each violation.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For more information, please check &lt;a href='http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#gen_ques'&gt;OFAC&amp;#8217;s Website&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information, please check &lt;a href=&quot;http://www.treasury.gov/resource-center/faqs/Sanctions/Pages/ques_index.aspx#gen_ques&quot;&gt;OFAC’s Website&lt;/a&gt;&lt;/p&gt;
+</content>
  </entry>
  
  <entry>
@@ -499,63 +451,64 @@
    <link href="http:////faq/2012/03/09/aml-faq.html"/>
    <updated>2012-03-09T00:00:00-05:00</updated>
    <id>http:////faq/2012/03/09/aml-faq</id>
-   <content type="html">&lt;h3 id='questions_about_antimoney_laundering'&gt;Questions about Anti-Money Laundering&lt;/h3&gt;
+   <content type="html">&lt;h3 id=&quot;questions-about-anti-money-laundering&quot;&gt;Questions about Anti-Money Laundering&lt;/h3&gt;
 
 &lt;ol&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What is money laundering?&lt;/strong&gt;&lt;/p&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What is money laundering?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Money laundering is the conversion of the proceeds of criminal activity into apparently clean funds, usually via the financial system. This is done by disguising the sources of the money, changing its form, or moving the funds to a place where they are less likely to attract attention.&lt;/p&gt;
+    &lt;p&gt;Money laundering is the conversion of the proceeds of criminal activity into apparently clean funds, usually via the financial system. This is done by disguising the sources of the money, changing its form, or moving the funds to a place where they are less likely to attract attention.&lt;/p&gt;
 
-&lt;p&gt;&amp;#8220;Criminal activity&amp;#8221; includes fraud, corruption, drug dealing and other serious crimes.&lt;/p&gt;
-&lt;/li&gt;
+    &lt;p&gt;“Criminal activity” includes fraud, corruption, drug dealing and other serious crimes.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;What is terrorist financing?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;What is terrorist financing?&lt;/strong&gt;&lt;/p&gt;
+    &lt;p&gt;Terrorist financing is the provision or collection of funds, by any means, directly or indirectly, with the intention or in the knowledge that they would be used in order to carry out terrorist offences.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;How the EU directive complies with FATF revised international standards?&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;Terrorist financing is the provision or collection of funds, by any means, directly or indirectly, with the intention or in the knowledge that they would be used in order to carry out terrorist offences.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;How the EU directive complies with FATF revised international standards?&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Consolidating the risk-based approach:&lt;/strong&gt; The new standards put more focus on the risk-based approach. This means that countries need to clearly understand the money laundering and terrorist financing risks which affect them, and adapt their Anti Money laundering/Counter Financing of Terrorism (AML/CFT) system to the nature of these risks – with enhanced measures where the risks are higher and the option of simplified measures where the risks are lower. Thus, countries will be able to target their resources more effectively and apply preventative measures that correspond to the risks of particular sectors or activities. A well-implemented risk-based approach means that the AML/CFT system will be more effective and less costly.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Improving Transparency measures:&lt;/strong&gt; There is a lack of transparency at the moment around the ownership of companies, making them potentially vulnerable to misuse by criminals and terrorists. The new Recommendations have strengthened transparency requirements. Reliable information available about the ownership and control of companies, trusts, and other legal persons or legal arrangements is required as well as more rigorous requirements on the information which must accompany electronic funds transfers. Measures to improve transparency, implemented on a global basis, will make it harder for criminals and terrorists to conceal their activities.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Towards more effective International Cooperation:&lt;/strong&gt; With the increasing globalisation of money laundering and terrorist financing threats, the FATF has also enhanced the scope of international cooperation between government agencies, and between financial groups (e.g. simplified extradition mechanisms). The revised Recommendations will allow more effective exchanges of information, tracing, freezing, confiscation and repatriation of illegal assets.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Identification of clear Operational Standards:&lt;/strong&gt; The FATF Recommendations concerned with law enforcement and FIUs have been expanded significantly. The revisions clarify the role and functions of the operational agencies responsible for combating money laundering and terrorist financing; and set out the range of investigative techniques and powers which should be available to them.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;New threats &amp;amp; new priorities to be covered:&lt;/strong&gt; The FATF has also addressed new and aggravated threats and responded to the priorities set out by the international community, e.g. through the G20, in particular:&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Corruption &amp;amp; Politically Exposed Persons:&lt;/strong&gt; The FATF Recommendations tighten the requirements on &amp;#8220;politically exposed persons&amp;#8221;; i.e. people who may represent a higher risk of corruption by virtue of the positions they hold. The requirement to apply enhanced due diligence to foreign politically exposed persons has been expanded with the new Recommendations also applying to domestic politically exposed persons and international organisations, and to the family and close associates of all politically exposed persons – reflecting the methods used by corrupt officials and kleptocrats to launder the proceeds of corruption.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Tax Crimes&lt;/strong&gt; The list of predicate offences for money laundering has been expanded to include tax crimes which are brought within the scope of the powers and authorities used to combat money laundering. This will contribute to better coordination between AML and Tax authorities, and remove potential obstacles to international cooperation regarding tax crimes.&lt;/p&gt;
-&lt;/li&gt;
-
-&lt;li&gt;
-&lt;p&gt;&lt;strong&gt;Terrorist Financing&lt;/strong&gt; The financing of terrorism remains a serious concern for the international community, and a major focus of the FATF. The Recommendations reflect both the fact that terrorist financing is a long-standing concern, and the close connections between anti-money laundering measures and measures to counter the financing of terrorism.&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Consolidating the risk-based approach:&lt;/strong&gt;
+  The new standards put more focus on the risk-based approach. This means that countries need to clearly understand the money laundering and terrorist financing risks which affect them, and adapt their Anti Money laundering/Counter Financing of Terrorism (AML/CFT) system to the nature of these risks – with enhanced measures where the risks are higher and the option of simplified measures where the risks are lower. Thus, countries will be able to target their resources more effectively and apply preventative measures that correspond to the risks of particular sectors or activities. A well-implemented risk-based approach means that the AML/CFT system will be more effective and less costly.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Improving Transparency measures:&lt;/strong&gt;
+  There is a lack of transparency at the moment around the ownership of companies, making them potentially vulnerable to misuse by criminals and terrorists. The new Recommendations have strengthened transparency requirements. Reliable information available about the ownership and control of companies, trusts, and other legal persons or legal arrangements is required as well as more rigorous requirements on the information which must accompany electronic funds transfers. Measures to improve transparency, implemented on a global basis, will make it harder for criminals and terrorists to conceal their activities.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Towards more effective International Cooperation:&lt;/strong&gt;
+  With the increasing globalisation of money laundering and terrorist financing threats, the FATF has also enhanced the scope of international cooperation between government agencies, and between financial groups (e.g. simplified extradition mechanisms). The revised Recommendations will allow more effective exchanges of information, tracing, freezing, confiscation and repatriation of illegal assets.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Identification of clear Operational Standards:&lt;/strong&gt;
+  The FATF Recommendations concerned with law enforcement and FIUs have been expanded significantly. The revisions clarify the role and functions of the operational agencies responsible for combating money laundering and terrorist financing; and set out the range of investigative techniques and powers which should be available to them.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;New threats &amp;amp; new priorities to be covered:&lt;/strong&gt;
+  The FATF has also addressed new and aggravated threats and responded to the priorities set out by the international community, e.g. through the G20, in particular:&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Corruption &amp;amp; Politically Exposed Persons:&lt;/strong&gt; 
+  The FATF Recommendations tighten the requirements on “politically exposed persons”; i.e. people who may represent a higher risk of corruption by virtue of the positions they hold. The requirement to apply enhanced due diligence to foreign politically exposed persons has been expanded with the new Recommendations also applying to domestic politically exposed persons and international organisations, and to the family and close associates of all politically exposed persons – reflecting the methods used by corrupt officials and kleptocrats to launder the proceeds of corruption.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Tax Crimes&lt;/strong&gt;
+  The list of predicate offences for money laundering has been expanded to include tax crimes which are brought within the scope of the powers and authorities used to combat money laundering. This will contribute to better coordination between AML and Tax authorities, and remove potential obstacles to international cooperation regarding tax crimes.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;&lt;strong&gt;Terrorist Financing&lt;/strong&gt;
+  The financing of terrorism remains a serious concern for the international community, and a major focus of the FATF. The Recommendations reflect both the fact that terrorist financing is a long-standing concern, and the close connections between anti-money laundering measures and measures to counter the financing of terrorism.&lt;/p&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;For more information, please check &lt;a href='http://europa.eu/rapid/press-release_MEMO-13-64_en.htm'&gt;EU&amp;#8217;s Website&lt;/a&gt;&lt;/p&gt;</content>
+&lt;p&gt;For more information, please check &lt;a href=&quot;http://europa.eu/rapid/press-release_MEMO-13-64_en.htm&quot;&gt;EU’s Website&lt;/a&gt;&lt;/p&gt;
+
+</content>
  </entry>
  
 
